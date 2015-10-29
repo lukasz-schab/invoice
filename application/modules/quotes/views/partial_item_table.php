@@ -39,7 +39,7 @@
                     <input type="text" name="item_price" class="input-sm form-control amount" value="">
                 </div>
             </td>
-            <td class="td-amount ">
+            <td style="display: none;" class="td-amount ">
                 <div class="input-group">
                     <span class="input-group-addon"><?php echo lang('item_discount'); ?></span>
                     <input type="text" name="item_discount_amount" class="input-sm form-control amount"
@@ -52,12 +52,7 @@
                     <span class="input-group-addon"><?php echo lang('tax_rate'); ?></span>
                     <select name="item_tax_rate_id" name="item_tax_rate_id"
                             class="form-control input-sm">
-                        <option value="0"><?php echo lang('none'); ?></option>
-                        <?php foreach ($tax_rates as $tax_rate) { ?>
-                            <option value="<?php echo $tax_rate->tax_rate_id; ?>">
-                                <?php echo $tax_rate->tax_rate_percent . '% - ' . $tax_rate->tax_rate_name; ?>
-                            </option>
-                        <?php } ?>
+                        <option value="1"><?php echo "20%"; ?></option>
                     </select>
                 </div>
             </td>
@@ -74,7 +69,7 @@
                 <span><?php echo lang('subtotal'); ?></span><br/>
                 <span name="subtotal" class="amount"></span>
             </td>
-            <td class="td-amount td-vert-middle">
+            <td style="display: none;" class="td-amount td-vert-middle">
                 <span><?php echo lang('discount'); ?></span><br/>
                 <span name="item_discount_total" class="amount"></span>
             </td>
@@ -117,7 +112,7 @@
                                value="<?php echo format_amount($item->item_price); ?>">
                     </div>
                 </td>
-                <td class="td-amount ">
+                <td style="display: none;" class="td-amount ">
                     <div class="input-group">
                         <span class="input-group-addon"><?php echo lang('item_discount'); ?></span>
                         <input type="text" name="item_discount_amount" class="input-sm form-control amount"
@@ -131,13 +126,7 @@
                         <span class="input-group-addon"><?php echo lang('tax_rate'); ?></span>
                         <select name="item_tax_rate_id" name="item_tax_rate_id"
                                 class="form-control input-sm">
-                            <option value="0"><?php echo lang('none'); ?></option>
-                            <?php foreach ($tax_rates as $tax_rate) { ?>
-                                <option value="<?php echo $tax_rate->tax_rate_id; ?>"
-                                        <?php if ($item->item_tax_rate_id == $tax_rate->tax_rate_id) { ?>selected="selected"<?php } ?>>
-                                    <?php echo $tax_rate->tax_rate_percent . '% - ' . $tax_rate->tax_rate_name; ?>
-                                </option>
-                            <?php } ?>
+                            <option value="1"><?php echo "20%"; ?></option>
                         </select>
                     </div>
                 </td>
@@ -163,7 +152,7 @@
                         <?php echo format_currency($item->item_subtotal); ?>
                     </span>
                 </td>
-                <td class="td-amount td-vert-middle">
+                <td style="display: none;" class="td-amount td-vert-middle">
                     <span><?php echo lang('discount'); ?></span><br/>
                     <span name="item_discount_total" class="amount">
                         <?php echo format_currency($item->item_discount); ?>
@@ -212,8 +201,8 @@
                 <td><?php echo lang('item_tax'); ?></td>
                 <td class="amount"><?php echo format_currency($quote->quote_item_tax_total); ?></td>
             </tr>
-            <tr>
-                <td><?php echo lang('quote_tax'); ?></td>
+            <tr style="display: none;">
+                <td  ><?php echo lang('quote_tax'); ?></td>
                 <td>
                     <?php if ($quote_tax_rates) {
                         foreach ($quote_tax_rates as $quote_tax_rate) { ?>
@@ -230,9 +219,9 @@
                     } ?>
                 </td>
             </tr>
-            <tr>
-                <td class="td-vert-middle"><?php echo lang('discount'); ?></td>
-                <td class="clearfix">
+            <tr style="display: none;">
+                <td style="display: none;" class="td-vert-middle"><?php echo lang('discount'); ?></td>
+                <td  class="clearfix">
                     <div class="discount-field">
                         <div class="input-group input-group-sm">
                             <input id="quote_discount_amount" name="quote_discount_amount"
