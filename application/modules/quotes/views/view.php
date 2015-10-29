@@ -10,6 +10,99 @@
             $('#new_row').clone().appendTo('#item_table').removeAttr('id').addClass('item').show();
         });
 
+       $('#item_table').change(function() {
+     
+		var item_row = 1;
+		var results = Array();
+		$('#item_table').find('.ui-sortable-handle').each(function() {
+			results[item_row] = [];
+				$( this ).find('input').each(function()
+					{
+						if (this.getAttribute('name') == 'item_quantity' || this.getAttribute('name') == 'item_price'){
+							if (this.value) 
+								{
+
+									results[item_row][this.getAttribute('name')] = this.value;
+									
+								}//if value is non-null 
+							} //if attr name quantity or price
+					}); //input loop
+
+				$( this ).find('span').each(function(){
+						if (this.getAttribute('name') == 'subtotal' 
+							&& results[item_row]['item_quantity'] 
+							&& results[item_row]['item_price'])
+								{
+									subtotal = results[item_row]['item_quantity'] * results[item_row]['item_price'];
+									this.innerHTML = "£" + subtotal;
+								}
+								
+						if (this.getAttribute('name') == 'item_tax_total' 
+							&& results[item_row]['item_quantity'] 
+							&& results[item_row]['item_price'])
+								{
+									tax = (results[item_row]['item_quantity'] * results[item_row]['item_price'])/5;
+									this.innerHTML = "£" + tax;
+								}	
+
+						if (this.getAttribute('name') == 'item_total' 
+							&& results[item_row]['item_quantity'] 
+							&& results[item_row]['item_price'])
+								{
+									item_total = results[item_row]['item_quantity'] * results[item_row]['item_price'] 
+												 + (results[item_row]['item_quantity'] * results[item_row]['item_price'])/5;
+									this.innerHTML = "£" + item_total;
+								}		
+				}); //span loop	
+				item_row+=1;
+			}); //end ui-sortable-handle loop funct
+		
+
+		//Starting the total results
+		subtotal = 0;
+		total = 0;
+		tax = 0;
+		calc = 1;
+
+		for (i=2; i<item_row; i++)
+			{
+				
+				if (!results[i]['item_quantity'] ||  !results[i]['item_price'])
+				calc = false;
+			}
+
+		if (calc)
+			{
+				for (i=2; i<item_row; i++)
+					{
+						subtotal = subtotal + results[i]['item_quantity'] * results[i]['item_price'];
+						tax = tax + (results[i]['item_quantity'] * results[i]['item_price'])/5;
+						total = subtotal + tax;
+					}
+
+				$('.table-condensed').css('background','yellow');	
+				
+				$('.table-condensed.text-right td').each(function()
+						{
+							if (this.innerHTML == "Subtotal") 
+									this.nextElementSibling.innerHTML = "£" + subtotal;
+							if (this.innerHTML == "Item Tax")
+									this.nextElementSibling.innerHTML = "£" + tax;
+							if (this.innerHTML == "<b>Total</b>")
+									this.nextElementSibling.innerHTML = "£" + total;				
+						});
+	
+				
+				//$('#table-condensed').find('.ui-sortable-handle').each(function() {
+
+				//alert(subtotal + " " + tax + " " + total);	
+			} //end calc + modify
+
+		//end of total results
+
+        }); //end on ui-table change
+		
+
         $('#quote_change_client').click(function () {
             $('#modal-placeholder').load("<?php echo site_url('quotes/ajax/modal_change_client'); ?>", {
                 quote_id: <?php echo $quote_id; ?>,
@@ -468,3 +561,10 @@
         });
     });
 </script>
+
+<?php
+#$CI= get_instance();
+#echo $CI->router->fetch_class();
+#echo $CI->router->fetch_method();
+
+?>
