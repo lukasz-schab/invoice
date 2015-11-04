@@ -130,9 +130,9 @@
                                value="<?php echo format_amount($item->item_quantity); ?>">
                     </div>
                 </td>
-
                 <td class="td-amount">
                     <div class="input-group">
+                        <span class="input-group-addon"><?php echo lang('price'); ?></span>
                         <input type="text" name="item_price" class="input-sm form-control amount"
                                value="<?php echo format_amount($item->item_price); ?>">
                     </div>
@@ -140,7 +140,7 @@
                  <td class="td-amount">
                     <div class="input-group">
                         <input type="text" name="item_cost" class="input-sm form-control amount"
-                               value="<?php echo format_amount($item->item_cost); ?>">
+                               value="<?php echo format_amount($item->item_price); ?>">
                     </div>
                 </td>
                  <td style="text-align:center;" class="td-amount td-vert-middle">
@@ -169,6 +169,7 @@
                 </td>
                 <td class="td-amount">
                     <div class="input-group">
+                        <span class="input-group-addon"><?php echo lang('tax_rate'); ?></span>
                         <select name="item_tax_rate_id" name="item_tax_rate_id"
                                 class="form-control input-sm">
                             <option value="1"><?php echo "20%"; ?></option>
@@ -187,7 +188,7 @@
                     </span>
                 </td>
                 <td class="td-amount td-vert-middle">
-                    <span style="display: none;"><?php echo lang('total'); ?></span><br/>
+                    <span><?php echo lang('total'); ?></span><br/>
                     <span name="item_total" class="amount">
                         <?php echo format_currency($item->item_total); ?>
                     </span>

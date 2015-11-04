@@ -15,7 +15,7 @@ if (!defined('BASEPATH'))
  * @link		https://invoiceplane.com
  * 
  */
-
+#echo "FLFF";
 class Ajax extends Admin_Controller
 {
     public $ajax_controller = TRUE;
@@ -33,13 +33,13 @@ class Ajax extends Admin_Controller
 
         if ($this->mdl_quotes->run_validation('validation_rules_save_quote')) {
             $items = json_decode($this->input->post('items'));
-
+           # print_r($items);
             foreach ($items as $item) {
                 if ($item->item_name) {
                     $item->item_quantity = standardize_amount($item->item_quantity);
                     $item->item_price = standardize_amount($item->item_price);
                     $item->item_discount_amount = standardize_amount($item->item_discount_amount);
-
+                   # $item->item_cost = $item_cost;
                     $item_id = ($item->item_id) ?: NULL;
 
                     $save_item_as_lookup = (isset($item->save_item_as_lookup)) ? $item->save_item_as_lookup : 0;

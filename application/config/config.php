@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/invoice';
+$config['base_url']	= 'http://'.gethostbyname($_SERVER['SERVER_NAME']).'/invoice';
 
 /*
 |--------------------------------------------------------------------------

@@ -33,7 +33,7 @@ class Sessions extends Base_Controller
 
             $this->db->where('user_email', $this->input->post('email'));
             $query = $this->db->get('ip_users');
-            print_r($query);
+            #print_r($query);
             $user = $query->row();
 
             // Check if the user exists

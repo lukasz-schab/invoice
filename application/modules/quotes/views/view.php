@@ -92,10 +92,6 @@
 									this.nextElementSibling.innerHTML = "£" + total;				
 						});
 	
-				
-				//$('#table-condensed').find('.ui-sortable-handle').each(function() {
-
-				//alert(subtotal + " " + tax + " " + total);	
 			} //end calc + modify
 
 		//end of total results
@@ -130,6 +126,7 @@
                 item_order++;
                 items.push(row);
             });
+        
             $.post("<?php echo site_url('quotes/ajax/save'); ?>", {
                     quote_id: <?php echo $quote_id; ?>,
                     quote_number: $('#quote_number').val(),
@@ -150,6 +147,7 @@
                     }
                     else {
                         $('.control-group').removeClass('error');
+                        alert('fl');
                         for (var key in response.validation_errors) {
                             $('#' + key).parent().parent().addClass('error');
                         }

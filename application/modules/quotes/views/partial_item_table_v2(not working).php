@@ -39,7 +39,9 @@
                     <input type="text" name="item_price" class="input-sm form-control amount" value="">
                 </div>
             </td>
-            <td style="display: none;" class="td-amount ">
+            <!--
+             //Item Discount of new row
+            <td class="td-amount ">
                 <div class="input-group">
                     <span class="input-group-addon"><?php echo lang('item_discount'); ?></span>
                     <input type="text" name="item_discount_amount" class="input-sm form-control amount"
@@ -47,12 +49,17 @@
                            title="<?php echo $this->mdl_settings->setting('currency_symbol') . ' ' . lang('per_item'); ?>">
                 </div>
             </td>
+        
+            //Item Discount of new row
+            !-->
+
+
             <td class="td-amount">
                 <div class="input-group">
                     <span class="input-group-addon"><?php echo lang('tax_rate'); ?></span>
                     <select name="item_tax_rate_id" name="item_tax_rate_id"
                             class="form-control input-sm">
-                        <option value="1"><?php echo "20%"; ?></option>
+                        <option value="0"><?php echo "20%"; ?></option>
                     </select>
                 </div>
             </td>
@@ -69,10 +76,12 @@
                 <span><?php echo lang('subtotal'); ?></span><br/>
                 <span name="subtotal" class="amount"></span>
             </td>
-            <td style="display: none;" class="td-amount td-vert-middle">
+            <!--
+            <td class="td-amount td-vert-middle">
                 <span><?php echo lang('discount'); ?></span><br/>
                 <span name="item_discount_total" class="amount"></span>
             </td>
+            -->
             <td class="td-amount td-vert-middle">
                 <span><?php echo lang('tax'); ?></span><br/>
                 <span name="item_tax_total" class="amount"></span>
@@ -83,27 +92,9 @@
             </td>
         </tr>
         </tbody>
-        <tbody >
-        
-        <tr>
-            <td rowspan="2" class="td-icon"><i class="fa fa-arrows cursor-move"></i></td>
-            <td class="td-text"><div class="input-group">Item Name</div></td>
-            <td class="td-amount td-quantity"><div style="text-align: left;" class="input-group">Description</div></td>
-            <td><div>Quantity</div></td>
-            <td class="td-input group"><div>Unit Price</div></td>
-            <td><div>Unit Cost</div>
-            <td><div>Subtotal</div>
-            <td><div>Unit Profit</div></td>
-            <td><div>Line Profit</div></td>
-            <td><div>Tax Rate</div></td>
-            <td><div>Tax</div></td>
-            <td><div>Total</div></td>
-            <td><div>&nbsp;</div></td>
-        </tr>    
-        </tbody>
+
         <?php foreach ($items as $item) { ?>
             <tbody class="item">
-           
             <tr>
                 <td rowspan="2" class="td-icon"><i class="fa fa-arrows cursor-move"></i></td>
                 <td class="td-text">
@@ -111,54 +102,28 @@
                     <input type="hidden" name="item_id" value="<?php echo $item->item_id; ?>">
 
                     <div class="input-group">
+                        <span class="input-group-addon"><?php echo lang('item'); ?></span>
                         <input type="text" name="item_name" class="input-sm form-control"
                                value="<?php echo html_escape($item->item_name); ?>">
                     </div>
                 </td>
-
-                 <td >
+                <td class="td-amount td-quantity">
                     <div class="input-group">
-                        <span style="display: none" class="input-group-addon"><?php echo lang('description'); ?></span>
-                        <textarea  name="item_description"
-                                  class="input-sm form-control"><?php echo $item->item_description; ?></textarea>
-                    </div>
-                </td>
-
-                <td style="min-width: 20px;" class="td-amount td-quantity">
-                    <div class="input-group">
+                        <span class="input-group-addon"><?php echo lang('quantity'); ?></span>
                         <input type="text" name="item_quantity" class="input-sm form-control amount"
                                value="<?php echo format_amount($item->item_quantity); ?>">
                     </div>
                 </td>
-
                 <td class="td-amount">
                     <div class="input-group">
+                        <span class="input-group-addon"><?php echo lang('price'); ?></span>
                         <input type="text" name="item_price" class="input-sm form-control amount"
                                value="<?php echo format_amount($item->item_price); ?>">
                     </div>
                 </td>
-                 <td class="td-amount">
-                    <div class="input-group">
-                        <input type="text" name="item_cost" class="input-sm form-control amount"
-                               value="<?php echo format_amount($item->item_cost); ?>">
-                    </div>
-                </td>
-                 <td style="text-align:center;" class="td-amount td-vert-middle">
-                    <span name="subtotal" class="amount">
-                        <?php echo format_currency($item->item_subtotal); ?>
-                    </span>
-                </td>
-                <td style="text-align:center;" class="td-amount td-vert-middle">
-                    <span name="item_price" class="amount">
-                        <?php echo format_currency($item->item_subtotal); ?>
-                    </span>
-                </td>
-                  <td style="text-align:center;" class="td-amount td-vert-middle">
-                    <span name="item_price" class="amount">
-                        <?php echo format_currency($item->item_subtotal); ?>
-                    </span>
-                </td>
-                <td style="display: none;" class="td-amount ">
+                <!--
+                 //Discount from the quote page
+                <td class="td-amount ">
                     <div class="input-group">
                         <span class="input-group-addon"><?php echo lang('item_discount'); ?></span>
                         <input type="text" name="item_discount_amount" class="input-sm form-control amount"
@@ -167,30 +132,17 @@
                                title="<?php echo $this->mdl_settings->setting('currency_symbol') . ' ' . lang('per_item'); ?>">
                     </div>
                 </td>
+                //Discount from the quote page
+                !-->
+
                 <td class="td-amount">
                     <div class="input-group">
+                        <span class="input-group-addon"><?php echo lang('tax_rate'); ?></span>
                         <select name="item_tax_rate_id" name="item_tax_rate_id"
                                 class="form-control input-sm">
-                            <option value="1"><?php echo "20%"; ?></option>
+                            <option value="0"><?php echo "20%" ?></option>
                         </select>
                     </div>
-                </td>
-                <td style="display: none;" class="td-amount td-vert-middle">
-                    <span><?php echo lang('discount'); ?></span><br/>
-                    <span name="item_discount_total" class="amount">
-                        <?php echo format_currency($item->item_discount); ?>
-                    </span>
-                </td>
-                <td style="text-align: center;" class="td-amount td-vert-middle">
-                    <span name="item_tax_total" class="amount">
-                        <?php echo format_currency($item->item_tax_total); ?>
-                    </span>
-                </td>
-                <td class="td-amount td-vert-middle">
-                    <span style="display: none;"><?php echo lang('total'); ?></span><br/>
-                    <span name="item_total" class="amount">
-                        <?php echo format_currency($item->item_total); ?>
-                    </span>
                 </td>
                 <td class="td-icon text-right td-vert-middle">
                     <a href="<?php echo site_url('quotes/delete_item/' . $quote->quote_id . '/' . $item->item_id); ?>"
@@ -198,7 +150,44 @@
                         <i class="fa fa-trash-o text-danger"></i>
                     </a>
                 </td>
-               
+            </tr>
+            <tr>
+                <td class="td-textarea">
+                    <div class="input-group">
+                        <span class="input-group-addon"><?php echo lang('description'); ?></span>
+                        <textarea name="item_description"
+                                  class="input-sm form-control"><?php echo $item->item_description; ?></textarea>
+                    </div>
+                </td>
+
+                <td colspan="2" class="td-amount td-vert-middle">
+                    <span><?php echo lang('subtotal'); ?></span><br/>
+                    <span name="subtotal" class="amount">
+                        <?php echo format_currency($item->item_subtotal); ?>
+                    </span>
+                </td>
+                <!--
+                //Discount calculation
+                <td class="td-amount td-vert-middle">
+                    <span><?php echo lang('discount'); ?></span><br/>
+                    <span name="item_discount_total" class="amount">
+                        <?php echo format_currency($item->item_discount); ?>
+                    </span>
+                </td>
+                //Discount calculation
+                !-->
+                <td class="td-amount td-vert-middle">
+                    <span><?php echo lang('tax'); ?></span><br/>
+                    <span name="item_tax_total" class="amount">
+                        <?php echo format_currency($item->item_tax_total); ?>
+                    </span>
+                </td>
+                <td class="td-amount td-vert-middle">
+                    <span><?php echo lang('total'); ?></span><br/>
+                    <span name="item_total" class="amount">
+                        <?php echo format_currency($item->item_total); ?>
+                    </span>
+                </td>
             </tr>
             </tbody>
         <?php } ?>
@@ -226,52 +215,20 @@
                 <td style="width: 40%;"><?php echo lang('subtotal'); ?></td>
                 <td style="width: 60%;" class="amount"><?php echo format_currency($quote->quote_item_subtotal); ?></td>
             </tr>
+           
             <tr>
                 <td><?php echo lang('item_tax'); ?></td>
                 <td class="amount"><?php echo format_currency($quote->quote_item_tax_total); ?></td>
-            </tr>
-            <tr style="display: none;">
-                <td  ><?php echo lang('quote_tax'); ?></td>
-                <td>
-                    <?php if ($quote_tax_rates) {
-                        foreach ($quote_tax_rates as $quote_tax_rate) { ?>
-                            <span class="text-muted">
-                            <?php echo anchor('quotes/delete_quote_tax/' . $quote->quote_id . '/' . $quote_tax_rate->quote_tax_rate_id, '<i class="fa fa-trash-o"></i>');
-                            echo ' ' . $quote_tax_rate->quote_tax_rate_name . ' ' . $quote_tax_rate->quote_tax_rate_percent; ?>
-                                %</span>&nbsp;
-                            <span class="amount">
-                                <?php echo format_currency($quote_tax_rate->quote_tax_rate_amount); ?>
-                            </span>
-                        <?php }
-                    } else {
-                        echo format_currency('0');
-                    } ?>
-                </td>
-            </tr>
-            <tr style="display: none;">
-                <td style="display: none;" class="td-vert-middle"><?php echo lang('discount'); ?></td>
-                <td  class="clearfix">
-                    <div class="discount-field">
-                        <div class="input-group input-group-sm">
-                            <input id="quote_discount_amount" name="quote_discount_amount"
-                                   class="discount-option form-control input-sm amount"
-                                   value="<?php echo($quote->quote_discount_amount != 0 ? $quote->quote_discount_amount : ''); ?>">
+            </tr> 
+           
+           <!--removing the discount created a js error 
+           $(document).ready(function () {
+            if ($('#quote_discount_percent').val().length > 0) {
+            on line 456;
+            could create general calculation problem when added to db.
 
-                            <div
-                                class="input-group-addon"><?php echo $this->mdl_settings->setting('currency_symbol'); ?></div>
-                        </div>
-                    </div>
-                    <div class="discount-field">
-                        <div class="input-group input-group-sm">
-                            <input id="quote_discount_percent" name="quote_discount_percent"
-                                   value="<?php echo($quote->quote_discount_percent != 0 ? $quote->quote_discount_percent : ''); ?>"
-                                   class="discount-option form-control input-sm amount">
-
-                            <div class="input-group-addon">&percnt;</div>
-                        </div>
-                    </div>
-                </td>
-            </tr>
+            commit on -> 29.10 -m removed quote tax/discount from p_ite_tabl
+            !-->
             <tr>
                 <td><b><?php echo lang('total'); ?></b></td>
                 <td class="amount"><b><?php echo format_currency($quote->quote_total); ?></b></td>
