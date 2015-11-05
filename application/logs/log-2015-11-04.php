@@ -1843,3 +1843,984 @@ DEBUG - 2015-11-04 16:19:01 --> File loaded: application/modules/upload/models/m
 DEBUG - 2015-11-04 16:19:01 --> Model Class Initialized
 DEBUG - 2015-11-04 16:19:01 --> Final output sent to browser
 DEBUG - 2015-11-04 16:19:01 --> Total execution time: 0.0389
+DEBUG - 2015-11-04 18:25:34 --> Config Class Initialized
+DEBUG - 2015-11-04 18:25:34 --> Hooks Class Initialized
+DEBUG - 2015-11-04 18:25:34 --> Utf8 Class Initialized
+DEBUG - 2015-11-04 18:25:34 --> UTF-8 Support Enabled
+DEBUG - 2015-11-04 18:25:34 --> URI Class Initialized
+DEBUG - 2015-11-04 18:25:34 --> Router Class Initialized
+DEBUG - 2015-11-04 18:25:34 --> Output Class Initialized
+DEBUG - 2015-11-04 18:25:34 --> Security Class Initialized
+DEBUG - 2015-11-04 18:25:34 --> Input Class Initialized
+DEBUG - 2015-11-04 18:25:34 --> XSS Filtering completed
+DEBUG - 2015-11-04 18:25:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-04 18:25:34 --> Language Class Initialized
+DEBUG - 2015-11-04 18:25:34 --> Language Class Initialized
+DEBUG - 2015-11-04 18:25:34 --> Config Class Initialized
+DEBUG - 2015-11-04 18:25:34 --> Loader Class Initialized
+DEBUG - 2015-11-04 18:25:34 --> Controller Class Initialized
+DEBUG - 2015-11-04 16:25:34 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-04 16:25:34 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-04 16:25:34 --> Session Class Initialized
+DEBUG - 2015-11-04 16:25:34 --> Helper loaded: string_helper
+DEBUG - 2015-11-04 16:25:34 --> Session routines successfully run
+DEBUG - 2015-11-04 16:25:34 --> Helper loaded: url_helper
+DEBUG - 2015-11-04 16:25:34 --> Database Driver Class Initialized
+ERROR - 2015-11-04 16:25:34 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-04 16:25:34 --> Helper loaded: form_helper
+DEBUG - 2015-11-04 16:25:34 --> Form Validation Class Initialized
+DEBUG - 2015-11-04 16:25:34 --> Helper loaded: number_helper
+DEBUG - 2015-11-04 16:25:34 --> Helper loaded: pager_helper
+DEBUG - 2015-11-04 16:25:34 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-04 16:25:34 --> Helper loaded: date_helper
+DEBUG - 2015-11-04 16:25:34 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-04 16:25:34 --> Model Class Initialized
+DEBUG - 2015-11-04 16:25:34 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-04 16:25:34 --> Model Class Initialized
+DEBUG - 2015-11-04 16:25:34 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-04 16:25:34 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-04 16:25:34 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-04 16:25:34 --> Helper loaded: language_helper
+DEBUG - 2015-11-04 16:25:34 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-04 16:25:34 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-04 16:25:34 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-04 16:25:34 --> Model Class Initialized
+DEBUG - 2015-11-04 16:25:34 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-04 16:25:34 --> Model Class Initialized
+DEBUG - 2015-11-04 16:25:34 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-04 16:25:34 --> Model Class Initialized
+DEBUG - 2015-11-04 16:25:34 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-04 16:25:34 --> Model Class Initialized
+DEBUG - 2015-11-04 16:25:34 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-04 16:25:34 --> Model Class Initialized
+DEBUG - 2015-11-04 16:25:34 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-04 16:25:34 --> Model Class Initialized
+DEBUG - 2015-11-04 16:25:34 --> Encrypt Class Initialized
+DEBUG - 2015-11-04 16:25:34 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-04 16:25:34 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-04 16:25:34 --> File loaded: application/modules/layout/views/alerts.php
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 23
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 23
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 27
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 27
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 35
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 35
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 42
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 42
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 49
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 49
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 55
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 55
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 60
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 60
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 65
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 65
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 70
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 70
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 77
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 77
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 93
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 93
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 98
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 98
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 104
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 104
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 108
+ERROR - 2015-11-04 16:25:34 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 108
+DEBUG - 2015-11-04 16:25:34 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-04 16:25:34 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-04 16:25:34 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-04 16:25:34 --> Final output sent to browser
+DEBUG - 2015-11-04 16:25:34 --> Total execution time: 0.0449
+DEBUG - 2015-11-04 18:25:42 --> Config Class Initialized
+DEBUG - 2015-11-04 18:25:42 --> Hooks Class Initialized
+DEBUG - 2015-11-04 18:25:42 --> Utf8 Class Initialized
+DEBUG - 2015-11-04 18:25:42 --> UTF-8 Support Enabled
+DEBUG - 2015-11-04 18:25:42 --> URI Class Initialized
+DEBUG - 2015-11-04 18:25:42 --> Router Class Initialized
+DEBUG - 2015-11-04 18:25:42 --> Output Class Initialized
+DEBUG - 2015-11-04 18:25:42 --> Security Class Initialized
+DEBUG - 2015-11-04 18:25:42 --> Input Class Initialized
+DEBUG - 2015-11-04 18:25:42 --> XSS Filtering completed
+DEBUG - 2015-11-04 18:25:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-04 18:25:42 --> Language Class Initialized
+DEBUG - 2015-11-04 18:25:42 --> Language Class Initialized
+DEBUG - 2015-11-04 18:25:42 --> Config Class Initialized
+DEBUG - 2015-11-04 18:25:42 --> Loader Class Initialized
+DEBUG - 2015-11-04 18:25:42 --> Controller Class Initialized
+DEBUG - 2015-11-04 16:25:42 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-04 16:25:42 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-04 16:25:42 --> Session Class Initialized
+DEBUG - 2015-11-04 16:25:42 --> Helper loaded: string_helper
+DEBUG - 2015-11-04 16:25:42 --> Session routines successfully run
+DEBUG - 2015-11-04 16:25:42 --> Helper loaded: url_helper
+DEBUG - 2015-11-04 16:25:42 --> Database Driver Class Initialized
+ERROR - 2015-11-04 16:25:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-04 16:25:42 --> Helper loaded: form_helper
+DEBUG - 2015-11-04 16:25:42 --> Form Validation Class Initialized
+DEBUG - 2015-11-04 16:25:42 --> Helper loaded: number_helper
+DEBUG - 2015-11-04 16:25:42 --> Helper loaded: pager_helper
+DEBUG - 2015-11-04 16:25:42 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-04 16:25:42 --> Helper loaded: date_helper
+DEBUG - 2015-11-04 16:25:42 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-04 16:25:42 --> Model Class Initialized
+DEBUG - 2015-11-04 16:25:42 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-04 16:25:42 --> Model Class Initialized
+DEBUG - 2015-11-04 16:25:42 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-04 16:25:42 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-04 16:25:42 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-04 16:25:42 --> Helper loaded: language_helper
+DEBUG - 2015-11-04 16:25:42 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-04 16:25:42 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-04 16:25:42 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-04 16:25:42 --> Model Class Initialized
+DEBUG - 2015-11-04 16:25:42 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-04 16:25:42 --> Model Class Initialized
+DEBUG - 2015-11-04 16:25:42 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-04 16:25:42 --> Model Class Initialized
+DEBUG - 2015-11-04 16:25:42 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-04 16:25:42 --> Model Class Initialized
+DEBUG - 2015-11-04 16:25:42 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-04 16:25:42 --> Model Class Initialized
+DEBUG - 2015-11-04 16:25:42 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-04 16:25:42 --> Model Class Initialized
+DEBUG - 2015-11-04 16:25:42 --> Encrypt Class Initialized
+DEBUG - 2015-11-04 16:25:42 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-04 16:25:42 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-04 16:25:42 --> File loaded: application/modules/layout/views/alerts.php
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 23
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 23
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 27
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 27
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 35
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 35
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 42
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 42
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 49
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 49
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 55
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 55
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 60
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 60
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 65
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 65
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 70
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 70
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 77
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 77
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 93
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 93
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 98
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 98
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 104
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 104
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 108
+ERROR - 2015-11-04 16:25:42 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 108
+DEBUG - 2015-11-04 16:25:42 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-04 16:25:42 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-04 16:25:42 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-04 16:25:42 --> Final output sent to browser
+DEBUG - 2015-11-04 16:25:42 --> Total execution time: 0.0312
+DEBUG - 2015-11-04 18:26:18 --> Config Class Initialized
+DEBUG - 2015-11-04 18:26:18 --> Hooks Class Initialized
+DEBUG - 2015-11-04 18:26:18 --> Utf8 Class Initialized
+DEBUG - 2015-11-04 18:26:18 --> UTF-8 Support Enabled
+DEBUG - 2015-11-04 18:26:18 --> URI Class Initialized
+DEBUG - 2015-11-04 18:26:18 --> Router Class Initialized
+DEBUG - 2015-11-04 18:26:18 --> Output Class Initialized
+DEBUG - 2015-11-04 18:26:18 --> Security Class Initialized
+DEBUG - 2015-11-04 18:26:18 --> Input Class Initialized
+DEBUG - 2015-11-04 18:26:18 --> XSS Filtering completed
+DEBUG - 2015-11-04 18:26:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-04 18:26:18 --> Language Class Initialized
+DEBUG - 2015-11-04 18:26:18 --> Language Class Initialized
+DEBUG - 2015-11-04 18:26:18 --> Config Class Initialized
+DEBUG - 2015-11-04 18:26:18 --> Loader Class Initialized
+DEBUG - 2015-11-04 18:26:18 --> Controller Class Initialized
+DEBUG - 2015-11-04 16:26:18 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-04 16:26:18 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-04 16:26:18 --> Session Class Initialized
+DEBUG - 2015-11-04 16:26:18 --> Helper loaded: string_helper
+DEBUG - 2015-11-04 16:26:18 --> Session routines successfully run
+DEBUG - 2015-11-04 16:26:18 --> Helper loaded: url_helper
+DEBUG - 2015-11-04 16:26:18 --> Database Driver Class Initialized
+ERROR - 2015-11-04 16:26:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-04 16:26:18 --> Helper loaded: form_helper
+DEBUG - 2015-11-04 16:26:18 --> Form Validation Class Initialized
+DEBUG - 2015-11-04 16:26:18 --> Helper loaded: number_helper
+DEBUG - 2015-11-04 16:26:18 --> Helper loaded: pager_helper
+DEBUG - 2015-11-04 16:26:18 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-04 16:26:18 --> Helper loaded: date_helper
+DEBUG - 2015-11-04 16:26:18 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-04 16:26:18 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:18 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-04 16:26:18 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:18 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-04 16:26:18 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-04 16:26:18 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-04 16:26:18 --> Helper loaded: language_helper
+DEBUG - 2015-11-04 16:26:18 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-04 16:26:18 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-04 16:26:18 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-04 16:26:18 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:18 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-04 16:26:18 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:18 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-04 16:26:18 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:18 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-04 16:26:18 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:18 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-04 16:26:18 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:18 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-04 16:26:18 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:18 --> Encrypt Class Initialized
+DEBUG - 2015-11-04 16:26:18 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-04 16:26:18 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-04 16:26:18 --> File loaded: application/modules/layout/views/alerts.php
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 23
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 23
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 27
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 27
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 35
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 35
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 42
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 42
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 49
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 49
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 55
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 55
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 60
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 60
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 65
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 65
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 70
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 70
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 77
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 77
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 93
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 93
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 98
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 98
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 104
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 104
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 108
+ERROR - 2015-11-04 16:26:18 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 108
+DEBUG - 2015-11-04 16:26:18 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-04 16:26:18 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-04 16:26:18 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-04 16:26:18 --> Final output sent to browser
+DEBUG - 2015-11-04 16:26:18 --> Total execution time: 0.0403
+DEBUG - 2015-11-04 18:26:27 --> Config Class Initialized
+DEBUG - 2015-11-04 18:26:27 --> Hooks Class Initialized
+DEBUG - 2015-11-04 18:26:27 --> Utf8 Class Initialized
+DEBUG - 2015-11-04 18:26:27 --> UTF-8 Support Enabled
+DEBUG - 2015-11-04 18:26:27 --> URI Class Initialized
+DEBUG - 2015-11-04 18:26:27 --> Router Class Initialized
+DEBUG - 2015-11-04 18:26:27 --> Output Class Initialized
+DEBUG - 2015-11-04 18:26:27 --> Security Class Initialized
+DEBUG - 2015-11-04 18:26:27 --> Input Class Initialized
+DEBUG - 2015-11-04 18:26:27 --> XSS Filtering completed
+DEBUG - 2015-11-04 18:26:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-04 18:26:27 --> Language Class Initialized
+DEBUG - 2015-11-04 18:26:27 --> Language Class Initialized
+DEBUG - 2015-11-04 18:26:27 --> Config Class Initialized
+DEBUG - 2015-11-04 18:26:27 --> Loader Class Initialized
+DEBUG - 2015-11-04 18:26:27 --> Controller Class Initialized
+DEBUG - 2015-11-04 16:26:27 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-04 16:26:27 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-04 16:26:27 --> Session Class Initialized
+DEBUG - 2015-11-04 16:26:27 --> Helper loaded: string_helper
+DEBUG - 2015-11-04 16:26:27 --> Session routines successfully run
+DEBUG - 2015-11-04 16:26:27 --> Helper loaded: url_helper
+DEBUG - 2015-11-04 16:26:27 --> Database Driver Class Initialized
+ERROR - 2015-11-04 16:26:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-04 16:26:27 --> Helper loaded: form_helper
+DEBUG - 2015-11-04 16:26:27 --> Form Validation Class Initialized
+DEBUG - 2015-11-04 16:26:27 --> Helper loaded: number_helper
+DEBUG - 2015-11-04 16:26:27 --> Helper loaded: pager_helper
+DEBUG - 2015-11-04 16:26:27 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-04 16:26:27 --> Helper loaded: date_helper
+DEBUG - 2015-11-04 16:26:27 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-04 16:26:27 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:27 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-04 16:26:27 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:27 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-04 16:26:27 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-04 16:26:27 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-04 16:26:27 --> Helper loaded: language_helper
+DEBUG - 2015-11-04 16:26:27 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-04 16:26:27 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-04 16:26:27 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-04 16:26:27 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:27 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-04 16:26:27 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:27 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-04 16:26:27 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:27 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-04 16:26:27 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:27 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-04 16:26:27 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:27 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-04 16:26:27 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:27 --> Encrypt Class Initialized
+DEBUG - 2015-11-04 16:26:27 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-04 16:26:27 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-04 16:26:27 --> File loaded: application/modules/layout/views/alerts.php
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 23
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 23
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 27
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 27
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 35
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 35
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 42
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 42
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 49
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 49
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 55
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 55
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 60
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 60
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 65
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 65
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 70
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 70
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 77
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 77
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 93
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 93
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 98
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 98
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 104
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 104
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 108
+ERROR - 2015-11-04 16:26:27 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 108
+DEBUG - 2015-11-04 16:26:27 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-04 16:26:27 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-04 16:26:27 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-04 16:26:27 --> Final output sent to browser
+DEBUG - 2015-11-04 16:26:27 --> Total execution time: 0.0336
+DEBUG - 2015-11-04 18:26:40 --> Config Class Initialized
+DEBUG - 2015-11-04 18:26:40 --> Hooks Class Initialized
+DEBUG - 2015-11-04 18:26:40 --> Utf8 Class Initialized
+DEBUG - 2015-11-04 18:26:40 --> UTF-8 Support Enabled
+DEBUG - 2015-11-04 18:26:40 --> URI Class Initialized
+DEBUG - 2015-11-04 18:26:40 --> Router Class Initialized
+DEBUG - 2015-11-04 18:26:40 --> Output Class Initialized
+DEBUG - 2015-11-04 18:26:40 --> Security Class Initialized
+DEBUG - 2015-11-04 18:26:40 --> Input Class Initialized
+DEBUG - 2015-11-04 18:26:40 --> XSS Filtering completed
+DEBUG - 2015-11-04 18:26:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-04 18:26:40 --> Language Class Initialized
+DEBUG - 2015-11-04 18:26:40 --> Language Class Initialized
+DEBUG - 2015-11-04 18:26:40 --> Config Class Initialized
+DEBUG - 2015-11-04 18:26:40 --> Loader Class Initialized
+DEBUG - 2015-11-04 18:26:40 --> Controller Class Initialized
+DEBUG - 2015-11-04 16:26:40 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-04 16:26:40 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-04 16:26:40 --> Session Class Initialized
+DEBUG - 2015-11-04 16:26:40 --> Helper loaded: string_helper
+DEBUG - 2015-11-04 16:26:40 --> Session routines successfully run
+DEBUG - 2015-11-04 16:26:40 --> Helper loaded: url_helper
+DEBUG - 2015-11-04 16:26:40 --> Database Driver Class Initialized
+ERROR - 2015-11-04 16:26:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-04 16:26:40 --> Helper loaded: form_helper
+DEBUG - 2015-11-04 16:26:40 --> Form Validation Class Initialized
+DEBUG - 2015-11-04 16:26:40 --> Helper loaded: number_helper
+DEBUG - 2015-11-04 16:26:40 --> Helper loaded: pager_helper
+DEBUG - 2015-11-04 16:26:40 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-04 16:26:40 --> Helper loaded: date_helper
+DEBUG - 2015-11-04 16:26:40 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-04 16:26:40 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:40 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-04 16:26:40 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:40 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-04 16:26:40 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-04 16:26:40 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-04 16:26:40 --> Helper loaded: language_helper
+DEBUG - 2015-11-04 16:26:40 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-04 16:26:40 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-04 16:26:40 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-04 16:26:40 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:40 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-04 16:26:40 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:40 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-04 16:26:40 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:40 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-04 16:26:40 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:40 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-04 16:26:40 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:40 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-04 16:26:40 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:40 --> Encrypt Class Initialized
+DEBUG - 2015-11-04 16:26:40 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-04 16:26:40 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-04 16:26:40 --> File loaded: application/modules/layout/views/alerts.php
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 23
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 23
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 27
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 27
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 35
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 35
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 42
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 42
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 49
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 49
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 55
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 55
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 60
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 60
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 65
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 65
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 70
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 70
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 77
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 77
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 93
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 93
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 98
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 98
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 104
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 104
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 108
+ERROR - 2015-11-04 16:26:40 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 108
+DEBUG - 2015-11-04 16:26:40 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-04 16:26:40 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-04 16:26:40 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-04 16:26:40 --> Final output sent to browser
+DEBUG - 2015-11-04 16:26:40 --> Total execution time: 0.0249
+DEBUG - 2015-11-04 18:26:59 --> Config Class Initialized
+DEBUG - 2015-11-04 18:26:59 --> Hooks Class Initialized
+DEBUG - 2015-11-04 18:26:59 --> Utf8 Class Initialized
+DEBUG - 2015-11-04 18:26:59 --> UTF-8 Support Enabled
+DEBUG - 2015-11-04 18:26:59 --> URI Class Initialized
+DEBUG - 2015-11-04 18:26:59 --> Router Class Initialized
+DEBUG - 2015-11-04 18:26:59 --> Output Class Initialized
+DEBUG - 2015-11-04 18:26:59 --> Security Class Initialized
+DEBUG - 2015-11-04 18:26:59 --> Input Class Initialized
+DEBUG - 2015-11-04 18:26:59 --> XSS Filtering completed
+DEBUG - 2015-11-04 18:26:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-04 18:26:59 --> Language Class Initialized
+DEBUG - 2015-11-04 18:26:59 --> Language Class Initialized
+DEBUG - 2015-11-04 18:26:59 --> Config Class Initialized
+DEBUG - 2015-11-04 18:26:59 --> Loader Class Initialized
+DEBUG - 2015-11-04 18:26:59 --> Controller Class Initialized
+DEBUG - 2015-11-04 16:26:59 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-04 16:26:59 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-04 16:26:59 --> Session Class Initialized
+DEBUG - 2015-11-04 16:26:59 --> Helper loaded: string_helper
+DEBUG - 2015-11-04 16:26:59 --> Session routines successfully run
+DEBUG - 2015-11-04 16:26:59 --> Helper loaded: url_helper
+DEBUG - 2015-11-04 16:26:59 --> Database Driver Class Initialized
+ERROR - 2015-11-04 16:26:59 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-04 16:26:59 --> Helper loaded: form_helper
+DEBUG - 2015-11-04 16:26:59 --> Form Validation Class Initialized
+DEBUG - 2015-11-04 16:26:59 --> Helper loaded: number_helper
+DEBUG - 2015-11-04 16:26:59 --> Helper loaded: pager_helper
+DEBUG - 2015-11-04 16:26:59 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-04 16:26:59 --> Helper loaded: date_helper
+DEBUG - 2015-11-04 16:26:59 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-04 16:26:59 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:59 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-04 16:26:59 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:59 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-04 16:26:59 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-04 16:26:59 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-04 16:26:59 --> Helper loaded: language_helper
+DEBUG - 2015-11-04 16:26:59 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-04 16:26:59 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-04 16:26:59 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-04 16:26:59 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:59 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-04 16:26:59 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:59 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-04 16:26:59 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:59 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-04 16:26:59 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:59 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-04 16:26:59 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:59 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-04 16:26:59 --> Model Class Initialized
+DEBUG - 2015-11-04 16:26:59 --> Encrypt Class Initialized
+DEBUG - 2015-11-04 16:26:59 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-04 16:26:59 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-04 16:26:59 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-04 16:26:59 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-04 16:26:59 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-04 16:26:59 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-04 16:26:59 --> Final output sent to browser
+DEBUG - 2015-11-04 16:26:59 --> Total execution time: 0.0254
+DEBUG - 2015-11-04 18:27:00 --> Config Class Initialized
+DEBUG - 2015-11-04 18:27:00 --> Hooks Class Initialized
+DEBUG - 2015-11-04 18:27:00 --> Utf8 Class Initialized
+DEBUG - 2015-11-04 18:27:00 --> UTF-8 Support Enabled
+DEBUG - 2015-11-04 18:27:00 --> URI Class Initialized
+DEBUG - 2015-11-04 18:27:00 --> Router Class Initialized
+DEBUG - 2015-11-04 18:27:00 --> Output Class Initialized
+DEBUG - 2015-11-04 18:27:00 --> Security Class Initialized
+DEBUG - 2015-11-04 18:27:00 --> Input Class Initialized
+DEBUG - 2015-11-04 18:27:00 --> XSS Filtering completed
+DEBUG - 2015-11-04 18:27:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-04 18:27:00 --> Language Class Initialized
+DEBUG - 2015-11-04 18:27:00 --> Language Class Initialized
+DEBUG - 2015-11-04 18:27:00 --> Config Class Initialized
+DEBUG - 2015-11-04 18:27:00 --> Loader Class Initialized
+DEBUG - 2015-11-04 18:27:00 --> Controller Class Initialized
+DEBUG - 2015-11-04 16:27:00 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-04 16:27:00 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-04 16:27:00 --> Session Class Initialized
+DEBUG - 2015-11-04 16:27:00 --> Helper loaded: string_helper
+DEBUG - 2015-11-04 16:27:00 --> Session routines successfully run
+DEBUG - 2015-11-04 16:27:00 --> Helper loaded: url_helper
+DEBUG - 2015-11-04 16:27:00 --> Database Driver Class Initialized
+ERROR - 2015-11-04 16:27:00 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-04 16:27:00 --> Helper loaded: form_helper
+DEBUG - 2015-11-04 16:27:00 --> Form Validation Class Initialized
+DEBUG - 2015-11-04 16:27:00 --> Helper loaded: number_helper
+DEBUG - 2015-11-04 16:27:00 --> Helper loaded: pager_helper
+DEBUG - 2015-11-04 16:27:00 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-04 16:27:00 --> Helper loaded: date_helper
+DEBUG - 2015-11-04 16:27:00 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-04 16:27:00 --> Model Class Initialized
+DEBUG - 2015-11-04 16:27:00 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-04 16:27:00 --> Model Class Initialized
+DEBUG - 2015-11-04 16:27:00 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-04 16:27:00 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-04 16:27:00 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-04 16:27:00 --> Helper loaded: language_helper
+DEBUG - 2015-11-04 16:27:00 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-04 16:27:00 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-04 16:27:00 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-04 16:27:00 --> Model Class Initialized
+DEBUG - 2015-11-04 16:27:00 --> Final output sent to browser
+DEBUG - 2015-11-04 16:27:00 --> Total execution time: 0.0157
+DEBUG - 2015-11-04 18:27:53 --> Config Class Initialized
+DEBUG - 2015-11-04 18:27:53 --> Hooks Class Initialized
+DEBUG - 2015-11-04 18:27:53 --> Utf8 Class Initialized
+DEBUG - 2015-11-04 18:27:53 --> UTF-8 Support Enabled
+DEBUG - 2015-11-04 18:27:53 --> URI Class Initialized
+DEBUG - 2015-11-04 18:27:53 --> Router Class Initialized
+DEBUG - 2015-11-04 18:27:53 --> Output Class Initialized
+DEBUG - 2015-11-04 18:27:53 --> Security Class Initialized
+DEBUG - 2015-11-04 18:27:53 --> Input Class Initialized
+DEBUG - 2015-11-04 18:27:53 --> XSS Filtering completed
+DEBUG - 2015-11-04 18:27:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-04 18:27:53 --> Language Class Initialized
+DEBUG - 2015-11-04 18:27:53 --> Language Class Initialized
+DEBUG - 2015-11-04 18:27:53 --> Config Class Initialized
+DEBUG - 2015-11-04 18:27:53 --> Loader Class Initialized
+DEBUG - 2015-11-04 18:27:53 --> Controller Class Initialized
+DEBUG - 2015-11-04 16:27:53 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-04 16:27:53 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-04 16:27:53 --> Session Class Initialized
+DEBUG - 2015-11-04 16:27:53 --> Helper loaded: string_helper
+DEBUG - 2015-11-04 16:27:53 --> Session routines successfully run
+DEBUG - 2015-11-04 16:27:53 --> Helper loaded: url_helper
+DEBUG - 2015-11-04 16:27:53 --> Database Driver Class Initialized
+ERROR - 2015-11-04 16:27:53 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-04 16:27:53 --> Helper loaded: form_helper
+DEBUG - 2015-11-04 16:27:53 --> Form Validation Class Initialized
+DEBUG - 2015-11-04 16:27:53 --> Helper loaded: number_helper
+DEBUG - 2015-11-04 16:27:53 --> Helper loaded: pager_helper
+DEBUG - 2015-11-04 16:27:53 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-04 16:27:53 --> Helper loaded: date_helper
+DEBUG - 2015-11-04 16:27:53 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-04 16:27:53 --> Model Class Initialized
+DEBUG - 2015-11-04 16:27:53 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-04 16:27:53 --> Model Class Initialized
+DEBUG - 2015-11-04 16:27:53 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-04 16:27:53 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-04 16:27:53 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-04 16:27:53 --> Helper loaded: language_helper
+DEBUG - 2015-11-04 16:27:53 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-04 16:27:53 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-04 16:27:53 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-04 16:27:53 --> Model Class Initialized
+DEBUG - 2015-11-04 16:27:53 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-04 16:27:53 --> Model Class Initialized
+DEBUG - 2015-11-04 16:27:53 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-04 16:27:53 --> Model Class Initialized
+DEBUG - 2015-11-04 16:27:53 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-04 16:27:53 --> Model Class Initialized
+DEBUG - 2015-11-04 16:27:53 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-04 16:27:53 --> Model Class Initialized
+DEBUG - 2015-11-04 16:27:53 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-04 16:27:53 --> Model Class Initialized
+DEBUG - 2015-11-04 16:27:53 --> Encrypt Class Initialized
+DEBUG - 2015-11-04 16:27:53 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-04 16:27:53 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-04 16:27:53 --> File loaded: application/modules/layout/views/alerts.php
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 24
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 24
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 28
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 28
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 36
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 36
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 43
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 43
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 50
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 50
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 56
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 56
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 61
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 61
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 66
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 66
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 71
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 71
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 78
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 78
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 94
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 94
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 99
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 99
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 105
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 105
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Undefined variable: item /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 109
+ERROR - 2015-11-04 16:27:53 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/invoice/application/modules/quotes/views/partial_item_table.php 109
+DEBUG - 2015-11-04 16:27:53 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-04 16:27:53 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-04 16:27:53 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-04 16:27:53 --> Final output sent to browser
+DEBUG - 2015-11-04 16:27:53 --> Total execution time: 0.0360
+DEBUG - 2015-11-04 18:28:17 --> Config Class Initialized
+DEBUG - 2015-11-04 18:28:17 --> Hooks Class Initialized
+DEBUG - 2015-11-04 18:28:17 --> Utf8 Class Initialized
+DEBUG - 2015-11-04 18:28:17 --> UTF-8 Support Enabled
+DEBUG - 2015-11-04 18:28:17 --> URI Class Initialized
+DEBUG - 2015-11-04 18:28:17 --> Router Class Initialized
+DEBUG - 2015-11-04 18:28:17 --> Output Class Initialized
+DEBUG - 2015-11-04 18:28:17 --> Security Class Initialized
+DEBUG - 2015-11-04 18:28:17 --> Input Class Initialized
+DEBUG - 2015-11-04 18:28:17 --> XSS Filtering completed
+DEBUG - 2015-11-04 18:28:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-04 18:28:17 --> Language Class Initialized
+DEBUG - 2015-11-04 18:28:17 --> Language Class Initialized
+DEBUG - 2015-11-04 18:28:17 --> Config Class Initialized
+DEBUG - 2015-11-04 18:28:17 --> Loader Class Initialized
+DEBUG - 2015-11-04 18:28:17 --> Controller Class Initialized
+DEBUG - 2015-11-04 16:28:17 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-04 16:28:17 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-04 16:28:17 --> Session Class Initialized
+DEBUG - 2015-11-04 16:28:17 --> Helper loaded: string_helper
+DEBUG - 2015-11-04 16:28:17 --> Session routines successfully run
+DEBUG - 2015-11-04 16:28:17 --> Helper loaded: url_helper
+DEBUG - 2015-11-04 16:28:17 --> Database Driver Class Initialized
+ERROR - 2015-11-04 16:28:17 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-04 16:28:17 --> Helper loaded: form_helper
+DEBUG - 2015-11-04 16:28:17 --> Form Validation Class Initialized
+DEBUG - 2015-11-04 16:28:17 --> Helper loaded: number_helper
+DEBUG - 2015-11-04 16:28:17 --> Helper loaded: pager_helper
+DEBUG - 2015-11-04 16:28:17 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-04 16:28:17 --> Helper loaded: date_helper
+DEBUG - 2015-11-04 16:28:17 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-04 16:28:17 --> Model Class Initialized
+DEBUG - 2015-11-04 16:28:17 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-04 16:28:17 --> Model Class Initialized
+DEBUG - 2015-11-04 16:28:17 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-04 16:28:17 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-04 16:28:17 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-04 16:28:17 --> Helper loaded: language_helper
+DEBUG - 2015-11-04 16:28:17 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-04 16:28:17 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-04 16:28:17 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-04 16:28:17 --> Model Class Initialized
+DEBUG - 2015-11-04 16:28:17 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-04 16:28:17 --> Model Class Initialized
+DEBUG - 2015-11-04 16:28:17 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-04 16:28:17 --> Model Class Initialized
+DEBUG - 2015-11-04 16:28:17 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-04 16:28:17 --> Model Class Initialized
+DEBUG - 2015-11-04 16:28:17 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-04 16:28:17 --> Model Class Initialized
+DEBUG - 2015-11-04 16:28:17 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-04 16:28:17 --> Model Class Initialized
+DEBUG - 2015-11-04 16:28:17 --> Encrypt Class Initialized
+DEBUG - 2015-11-04 16:28:17 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-04 16:28:17 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-04 16:28:17 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-04 16:28:17 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-04 16:28:17 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-04 16:28:17 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-04 16:28:17 --> Final output sent to browser
+DEBUG - 2015-11-04 16:28:17 --> Total execution time: 0.0289
+DEBUG - 2015-11-04 18:28:18 --> Config Class Initialized
+DEBUG - 2015-11-04 18:28:18 --> Hooks Class Initialized
+DEBUG - 2015-11-04 18:28:18 --> Utf8 Class Initialized
+DEBUG - 2015-11-04 18:28:18 --> UTF-8 Support Enabled
+DEBUG - 2015-11-04 18:28:18 --> URI Class Initialized
+DEBUG - 2015-11-04 18:28:18 --> Router Class Initialized
+DEBUG - 2015-11-04 18:28:18 --> Output Class Initialized
+DEBUG - 2015-11-04 18:28:18 --> Security Class Initialized
+DEBUG - 2015-11-04 18:28:18 --> Input Class Initialized
+DEBUG - 2015-11-04 18:28:18 --> XSS Filtering completed
+DEBUG - 2015-11-04 18:28:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-04 18:28:18 --> Language Class Initialized
+DEBUG - 2015-11-04 18:28:18 --> Language Class Initialized
+DEBUG - 2015-11-04 18:28:18 --> Config Class Initialized
+DEBUG - 2015-11-04 18:28:18 --> Loader Class Initialized
+DEBUG - 2015-11-04 18:28:18 --> Controller Class Initialized
+DEBUG - 2015-11-04 16:28:18 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-04 16:28:18 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-04 16:28:18 --> Session Class Initialized
+DEBUG - 2015-11-04 16:28:18 --> Helper loaded: string_helper
+DEBUG - 2015-11-04 16:28:18 --> Session routines successfully run
+DEBUG - 2015-11-04 16:28:18 --> Helper loaded: url_helper
+DEBUG - 2015-11-04 16:28:18 --> Database Driver Class Initialized
+ERROR - 2015-11-04 16:28:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-04 16:28:18 --> Helper loaded: form_helper
+DEBUG - 2015-11-04 16:28:18 --> Form Validation Class Initialized
+DEBUG - 2015-11-04 16:28:18 --> Helper loaded: number_helper
+DEBUG - 2015-11-04 16:28:18 --> Helper loaded: pager_helper
+DEBUG - 2015-11-04 16:28:18 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-04 16:28:18 --> Helper loaded: date_helper
+DEBUG - 2015-11-04 16:28:18 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-04 16:28:18 --> Model Class Initialized
+DEBUG - 2015-11-04 16:28:18 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-04 16:28:18 --> Model Class Initialized
+DEBUG - 2015-11-04 16:28:18 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-04 16:28:18 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-04 16:28:18 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-04 16:28:18 --> Helper loaded: language_helper
+DEBUG - 2015-11-04 16:28:18 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-04 16:28:18 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-04 16:28:18 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-04 16:28:18 --> Model Class Initialized
+DEBUG - 2015-11-04 16:28:18 --> Final output sent to browser
+DEBUG - 2015-11-04 16:28:18 --> Total execution time: 0.0146
+DEBUG - 2015-11-04 18:42:43 --> Config Class Initialized
+DEBUG - 2015-11-04 18:42:43 --> Hooks Class Initialized
+DEBUG - 2015-11-04 18:42:43 --> Utf8 Class Initialized
+DEBUG - 2015-11-04 18:42:43 --> UTF-8 Support Enabled
+DEBUG - 2015-11-04 18:42:43 --> URI Class Initialized
+DEBUG - 2015-11-04 18:42:43 --> Router Class Initialized
+DEBUG - 2015-11-04 18:42:43 --> Output Class Initialized
+DEBUG - 2015-11-04 18:42:43 --> Security Class Initialized
+DEBUG - 2015-11-04 18:42:43 --> Input Class Initialized
+DEBUG - 2015-11-04 18:42:43 --> XSS Filtering completed
+DEBUG - 2015-11-04 18:42:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-04 18:42:43 --> Language Class Initialized
+DEBUG - 2015-11-04 18:42:43 --> Language Class Initialized
+DEBUG - 2015-11-04 18:42:43 --> Config Class Initialized
+DEBUG - 2015-11-04 18:42:43 --> Loader Class Initialized
+DEBUG - 2015-11-04 18:42:43 --> Controller Class Initialized
+DEBUG - 2015-11-04 16:42:43 --> Dashboard MX_Controller Initialized
+DEBUG - 2015-11-04 16:42:43 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-04 16:42:43 --> Session Class Initialized
+DEBUG - 2015-11-04 16:42:43 --> Helper loaded: string_helper
+DEBUG - 2015-11-04 16:42:43 --> Session routines successfully run
+DEBUG - 2015-11-04 16:42:43 --> Helper loaded: url_helper
+DEBUG - 2015-11-04 16:42:43 --> Database Driver Class Initialized
+ERROR - 2015-11-04 16:42:43 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-04 16:42:43 --> Helper loaded: form_helper
+DEBUG - 2015-11-04 16:42:43 --> Form Validation Class Initialized
+DEBUG - 2015-11-04 16:42:43 --> Helper loaded: number_helper
+DEBUG - 2015-11-04 16:42:43 --> Helper loaded: pager_helper
+DEBUG - 2015-11-04 16:42:43 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-04 16:42:43 --> Helper loaded: date_helper
+DEBUG - 2015-11-04 16:42:43 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-04 16:42:43 --> Model Class Initialized
+DEBUG - 2015-11-04 16:42:43 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-04 16:42:43 --> Model Class Initialized
+DEBUG - 2015-11-04 16:42:43 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-04 16:42:43 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-04 16:42:43 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-04 16:42:43 --> Helper loaded: language_helper
+DEBUG - 2015-11-04 16:42:43 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-04 16:42:43 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-04 16:42:43 --> File loaded: application/modules/invoices/models/mdl_invoice_amounts.php
+DEBUG - 2015-11-04 16:42:43 --> Model Class Initialized
+DEBUG - 2015-11-04 16:42:43 --> File loaded: application/modules/quotes/models/mdl_quote_amounts.php
+DEBUG - 2015-11-04 16:42:43 --> Model Class Initialized
+DEBUG - 2015-11-04 16:42:43 --> File loaded: application/modules/invoices/models/mdl_invoices.php
+DEBUG - 2015-11-04 16:42:43 --> Model Class Initialized
+DEBUG - 2015-11-04 16:42:43 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-04 16:42:43 --> Model Class Initialized
+DEBUG - 2015-11-04 16:42:43 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-04 16:42:43 --> File loaded: application/modules/dashboard/views/index.php
+DEBUG - 2015-11-04 16:42:43 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-04 16:42:43 --> Final output sent to browser
+DEBUG - 2015-11-04 16:42:43 --> Total execution time: 0.0270
+DEBUG - 2015-11-04 19:06:16 --> Config Class Initialized
+DEBUG - 2015-11-04 19:06:16 --> Hooks Class Initialized
+DEBUG - 2015-11-04 19:06:16 --> Utf8 Class Initialized
+DEBUG - 2015-11-04 19:06:16 --> UTF-8 Support Enabled
+DEBUG - 2015-11-04 19:06:16 --> URI Class Initialized
+DEBUG - 2015-11-04 19:06:16 --> Router Class Initialized
+DEBUG - 2015-11-04 19:06:16 --> Output Class Initialized
+DEBUG - 2015-11-04 19:06:16 --> Security Class Initialized
+DEBUG - 2015-11-04 19:06:16 --> Input Class Initialized
+DEBUG - 2015-11-04 19:06:16 --> XSS Filtering completed
+DEBUG - 2015-11-04 19:06:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-04 19:06:16 --> Language Class Initialized
+DEBUG - 2015-11-04 19:06:17 --> Language Class Initialized
+DEBUG - 2015-11-04 19:06:17 --> Config Class Initialized
+DEBUG - 2015-11-04 19:06:17 --> Loader Class Initialized
+DEBUG - 2015-11-04 19:06:17 --> Controller Class Initialized
+DEBUG - 2015-11-04 17:06:17 --> Ajax MX_Controller Initialized
+DEBUG - 2015-11-04 17:06:17 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-04 17:06:17 --> Session Class Initialized
+DEBUG - 2015-11-04 17:06:17 --> Helper loaded: string_helper
+DEBUG - 2015-11-04 17:06:17 --> Session routines successfully run
+DEBUG - 2015-11-04 17:06:17 --> Helper loaded: url_helper
+DEBUG - 2015-11-04 17:06:17 --> Database Driver Class Initialized
+ERROR - 2015-11-04 17:06:17 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-04 17:06:17 --> Helper loaded: form_helper
+DEBUG - 2015-11-04 17:06:17 --> Form Validation Class Initialized
+DEBUG - 2015-11-04 17:06:17 --> Helper loaded: number_helper
+DEBUG - 2015-11-04 17:06:17 --> Helper loaded: pager_helper
+DEBUG - 2015-11-04 17:06:17 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-04 17:06:17 --> Helper loaded: date_helper
+DEBUG - 2015-11-04 17:06:17 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-04 17:06:17 --> Model Class Initialized
+DEBUG - 2015-11-04 17:06:17 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-04 17:06:17 --> Model Class Initialized
+DEBUG - 2015-11-04 17:06:17 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-04 17:06:17 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-04 17:06:17 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-04 17:06:17 --> Helper loaded: language_helper
+DEBUG - 2015-11-04 17:06:17 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-04 17:06:17 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-04 17:06:17 --> File loaded: application/modules/products/models/mdl_products.php
+DEBUG - 2015-11-04 17:06:17 --> Model Class Initialized
+DEBUG - 2015-11-04 17:06:17 --> File loaded: application/modules/families/models/mdl_families.php
+DEBUG - 2015-11-04 17:06:17 --> Model Class Initialized
+DEBUG - 2015-11-04 17:06:17 --> File loaded: application/modules/products/views/modal_product_lookups.php
+DEBUG - 2015-11-04 17:06:17 --> Final output sent to browser
+DEBUG - 2015-11-04 17:06:17 --> Total execution time: 0.0795
+DEBUG - 2015-11-04 19:06:19 --> Config Class Initialized
+DEBUG - 2015-11-04 19:06:19 --> Hooks Class Initialized
+DEBUG - 2015-11-04 19:06:19 --> Utf8 Class Initialized
+DEBUG - 2015-11-04 19:06:19 --> UTF-8 Support Enabled
+DEBUG - 2015-11-04 19:06:19 --> URI Class Initialized
+DEBUG - 2015-11-04 19:06:19 --> Router Class Initialized
+DEBUG - 2015-11-04 19:06:19 --> Output Class Initialized
+DEBUG - 2015-11-04 19:06:19 --> Security Class Initialized
+DEBUG - 2015-11-04 19:06:19 --> Input Class Initialized
+DEBUG - 2015-11-04 19:06:19 --> XSS Filtering completed
+DEBUG - 2015-11-04 19:06:19 --> XSS Filtering completed
+DEBUG - 2015-11-04 19:06:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-04 19:06:19 --> Language Class Initialized
+DEBUG - 2015-11-04 19:06:19 --> Language Class Initialized
+DEBUG - 2015-11-04 19:06:19 --> Config Class Initialized
+DEBUG - 2015-11-04 19:06:19 --> Loader Class Initialized
+DEBUG - 2015-11-04 19:06:19 --> Controller Class Initialized
+DEBUG - 2015-11-04 17:06:19 --> Ajax MX_Controller Initialized
+DEBUG - 2015-11-04 17:06:19 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-04 17:06:19 --> Session Class Initialized
+DEBUG - 2015-11-04 17:06:19 --> Helper loaded: string_helper
+DEBUG - 2015-11-04 17:06:19 --> Session routines successfully run
+DEBUG - 2015-11-04 17:06:19 --> Helper loaded: url_helper
+DEBUG - 2015-11-04 17:06:19 --> Database Driver Class Initialized
+ERROR - 2015-11-04 17:06:19 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-04 17:06:19 --> Helper loaded: form_helper
+DEBUG - 2015-11-04 17:06:19 --> Form Validation Class Initialized
+DEBUG - 2015-11-04 17:06:19 --> Helper loaded: number_helper
+DEBUG - 2015-11-04 17:06:19 --> Helper loaded: pager_helper
+DEBUG - 2015-11-04 17:06:19 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-04 17:06:19 --> Helper loaded: date_helper
+DEBUG - 2015-11-04 17:06:19 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-04 17:06:19 --> Model Class Initialized
+DEBUG - 2015-11-04 17:06:19 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-04 17:06:19 --> Model Class Initialized
+DEBUG - 2015-11-04 17:06:19 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-04 17:06:19 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-04 17:06:19 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-04 17:06:19 --> Helper loaded: language_helper
+DEBUG - 2015-11-04 17:06:19 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-04 17:06:19 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-04 17:06:19 --> File loaded: application/modules/products/models/mdl_products.php
+DEBUG - 2015-11-04 17:06:19 --> Model Class Initialized
+DEBUG - 2015-11-04 17:06:19 --> Final output sent to browser
+DEBUG - 2015-11-04 17:06:19 --> Total execution time: 0.0365
+DEBUG - 2015-11-04 19:06:22 --> Config Class Initialized
+DEBUG - 2015-11-04 19:06:22 --> Hooks Class Initialized
+DEBUG - 2015-11-04 19:06:22 --> Utf8 Class Initialized
+DEBUG - 2015-11-04 19:06:22 --> UTF-8 Support Enabled
+DEBUG - 2015-11-04 19:06:22 --> URI Class Initialized
+DEBUG - 2015-11-04 19:06:22 --> Router Class Initialized
+DEBUG - 2015-11-04 19:06:22 --> Output Class Initialized
+DEBUG - 2015-11-04 19:06:22 --> Security Class Initialized
+DEBUG - 2015-11-04 19:06:22 --> Input Class Initialized
+DEBUG - 2015-11-04 19:06:22 --> XSS Filtering completed
+DEBUG - 2015-11-04 19:06:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-04 19:06:22 --> Language Class Initialized
+DEBUG - 2015-11-04 19:06:22 --> Language Class Initialized
+DEBUG - 2015-11-04 19:06:22 --> Config Class Initialized
+DEBUG - 2015-11-04 19:06:22 --> Loader Class Initialized
+DEBUG - 2015-11-04 19:06:22 --> Controller Class Initialized
+DEBUG - 2015-11-04 17:06:22 --> Ajax MX_Controller Initialized
+DEBUG - 2015-11-04 17:06:22 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-04 17:06:22 --> Session Class Initialized
+DEBUG - 2015-11-04 17:06:22 --> Helper loaded: string_helper
+DEBUG - 2015-11-04 17:06:22 --> Session routines successfully run
+DEBUG - 2015-11-04 17:06:22 --> Helper loaded: url_helper
+DEBUG - 2015-11-04 17:06:22 --> Database Driver Class Initialized
+ERROR - 2015-11-04 17:06:22 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-04 17:06:22 --> Helper loaded: form_helper
+DEBUG - 2015-11-04 17:06:22 --> Form Validation Class Initialized
+DEBUG - 2015-11-04 17:06:22 --> Helper loaded: number_helper
+DEBUG - 2015-11-04 17:06:22 --> Helper loaded: pager_helper
+DEBUG - 2015-11-04 17:06:22 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-04 17:06:22 --> Helper loaded: date_helper
+DEBUG - 2015-11-04 17:06:22 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-04 17:06:22 --> Model Class Initialized
+DEBUG - 2015-11-04 17:06:22 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-04 17:06:22 --> Model Class Initialized
+DEBUG - 2015-11-04 17:06:22 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-04 17:06:22 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-04 17:06:22 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-04 17:06:22 --> Helper loaded: language_helper
+DEBUG - 2015-11-04 17:06:22 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-04 17:06:22 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-04 17:06:22 --> File loaded: application/modules/products/models/mdl_products.php
+DEBUG - 2015-11-04 17:06:22 --> Model Class Initialized
+DEBUG - 2015-11-04 17:06:22 --> File loaded: application/modules/families/models/mdl_families.php
+DEBUG - 2015-11-04 17:06:22 --> Model Class Initialized
+DEBUG - 2015-11-04 17:06:22 --> File loaded: application/modules/products/views/modal_product_lookups.php
+DEBUG - 2015-11-04 17:06:22 --> Final output sent to browser
+DEBUG - 2015-11-04 17:06:22 --> Total execution time: 0.0127
+DEBUG - 2015-11-04 19:06:24 --> Config Class Initialized
+DEBUG - 2015-11-04 19:06:24 --> Hooks Class Initialized
+DEBUG - 2015-11-04 19:06:24 --> Utf8 Class Initialized
+DEBUG - 2015-11-04 19:06:24 --> UTF-8 Support Enabled
+DEBUG - 2015-11-04 19:06:24 --> URI Class Initialized
+DEBUG - 2015-11-04 19:06:24 --> Router Class Initialized
+DEBUG - 2015-11-04 19:06:24 --> Output Class Initialized
+DEBUG - 2015-11-04 19:06:24 --> Security Class Initialized
+DEBUG - 2015-11-04 19:06:24 --> Input Class Initialized
+DEBUG - 2015-11-04 19:06:24 --> XSS Filtering completed
+DEBUG - 2015-11-04 19:06:24 --> XSS Filtering completed
+DEBUG - 2015-11-04 19:06:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-04 19:06:24 --> Language Class Initialized
+DEBUG - 2015-11-04 19:06:24 --> Language Class Initialized
+DEBUG - 2015-11-04 19:06:24 --> Config Class Initialized
+DEBUG - 2015-11-04 19:06:24 --> Loader Class Initialized
+DEBUG - 2015-11-04 19:06:24 --> Controller Class Initialized
+DEBUG - 2015-11-04 17:06:24 --> Ajax MX_Controller Initialized
+DEBUG - 2015-11-04 17:06:24 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-04 17:06:24 --> Session Class Initialized
+DEBUG - 2015-11-04 17:06:24 --> Helper loaded: string_helper
+DEBUG - 2015-11-04 17:06:24 --> Session routines successfully run
+DEBUG - 2015-11-04 17:06:24 --> Helper loaded: url_helper
+DEBUG - 2015-11-04 17:06:24 --> Database Driver Class Initialized
+ERROR - 2015-11-04 17:06:24 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-04 17:06:24 --> Helper loaded: form_helper
+DEBUG - 2015-11-04 17:06:24 --> Form Validation Class Initialized
+DEBUG - 2015-11-04 17:06:24 --> Helper loaded: number_helper
+DEBUG - 2015-11-04 17:06:24 --> Helper loaded: pager_helper
+DEBUG - 2015-11-04 17:06:24 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-04 17:06:24 --> Helper loaded: date_helper
+DEBUG - 2015-11-04 17:06:24 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-04 17:06:24 --> Model Class Initialized
+DEBUG - 2015-11-04 17:06:24 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-04 17:06:24 --> Model Class Initialized
+DEBUG - 2015-11-04 17:06:24 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-04 17:06:24 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-04 17:06:24 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-04 17:06:24 --> Helper loaded: language_helper
+DEBUG - 2015-11-04 17:06:24 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-04 17:06:24 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-04 17:06:24 --> File loaded: application/modules/products/models/mdl_products.php
+DEBUG - 2015-11-04 17:06:24 --> Model Class Initialized
+DEBUG - 2015-11-04 17:06:24 --> Final output sent to browser
+DEBUG - 2015-11-04 17:06:24 --> Total execution time: 0.0133

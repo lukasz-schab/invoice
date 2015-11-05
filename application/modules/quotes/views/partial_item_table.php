@@ -16,72 +16,90 @@
         </thead>
 
         <tbody id="new_row" style="display: none;">
-        <tr>
-            <td rowspan="2" class="td-icon"><i class="fa fa-arrows cursor-move"></i></td>
-            <td class="td-text">
-                <input type="hidden" name="quote_id" value="<?php echo $quote_id; ?>">
-                <input type="hidden" name="item_id" value="">
+         <tr>
+                <td rowspan="2" class="td-icon"><i class="fa fa-arrows cursor-move"></i></td>
+                <td class="td-text">
+                    <input type="hidden" name="quote_id" value="<?php echo $quote_id; ?>">
+                    <input type="hidden" name="item_id" value="">
 
-                <div class="input-group">
-                    <span class="input-group-addon"><?php echo lang('item'); ?></span>
-                    <input type="text" name="item_name" class="input-sm form-control" value="">
-                </div>
-            </td>
-            <td class="td-amount td-quantity">
-                <div class="input-group">
-                    <span class="input-group-addon"><?php echo lang('quantity'); ?></span>
-                    <input type="text" name="item_quantity" class="input-sm form-control amount" value="">
-                </div>
-            </td>
-            <td class="td-amount">
-                <div class="input-group">
-                    <span class="input-group-addon"><?php echo lang('price'); ?></span>
-                    <input type="text" name="item_price" class="input-sm form-control amount" value="">
-                </div>
-            </td>
-            <td style="display: none;" class="td-amount ">
-                <div class="input-group">
-                    <span class="input-group-addon"><?php echo lang('item_discount'); ?></span>
-                    <input type="text" name="item_discount_amount" class="input-sm form-control amount"
-                           value="" data-toggle="tooltip" data-placement="bottom"
-                           title="<?php echo $this->mdl_settings->setting('currency_symbol') . ' ' . lang('per_item'); ?>">
-                </div>
-            </td>
-            <td class="td-amount">
-                <div class="input-group">
-                    <span class="input-group-addon"><?php echo lang('tax_rate'); ?></span>
-                    <select name="item_tax_rate_id" name="item_tax_rate_id"
-                            class="form-control input-sm">
-                        <option value="1"><?php echo "20%"; ?></option>
-                    </select>
-                </div>
-            </td>
-            <td class="td-icon text-right td-vert-middle"></td>
-        </tr>
-        <tr>
-            <td class="td-textarea">
-                <div class="input-group">
-                    <span class="input-group-addon"><?php echo lang('description'); ?></span>
-                    <textarea name="item_description" class="input-sm form-control"></textarea>
-                </div>
-            </td>
-            <td colspan="2" class="td-amount td-vert-middle">
-                <span><?php echo lang('subtotal'); ?></span><br/>
-                <span name="subtotal" class="amount"></span>
-            </td>
-            <td style="display: none;" class="td-amount td-vert-middle">
-                <span><?php echo lang('discount'); ?></span><br/>
-                <span name="item_discount_total" class="amount"></span>
-            </td>
-            <td class="td-amount td-vert-middle">
-                <span><?php echo lang('tax'); ?></span><br/>
-                <span name="item_tax_total" class="amount"></span>
-            </td>
-            <td class="td-amount td-vert-middle">
-                <span><?php echo lang('total'); ?></span><br/>
-                <span name="item_total" class="amount"></span>
-            </td>
-        </tr>
+                    <div class="input-group">
+                        <input type="text" name="item_name" class="input-sm form-control"
+                               value="">
+                    </div>
+                </td>
+
+                 <td >
+                    <div class="input-group">
+                        <span style="display: none" class="input-group-addon"><?php echo lang('description'); ?></span>
+                        <textarea  name="item_description"
+                                  class="input-sm form-control"></textarea>
+                    </div>
+                </td>
+
+                <td style="min-width: 20px;" class="td-amount td-quantity">
+                    <div class="input-group">
+                        <input type="text" name="item_quantity" class="input-sm form-control amount"
+                               value="">
+                    </div>
+                </td>
+
+                <td class="td-amount">
+                    <div class="input-group">
+                        <input type="text" name="item_price" class="input-sm form-control amount"
+                               value="">
+                    </div>
+                </td>
+                 <td class="td-amount">
+                    <div class="input-group">
+                        <input type="text" name="item_cost" class="input-sm form-control amount"
+                               value="">
+                    </div>
+                </td>
+                 <td style="text-align:center;" class="td-amount td-vert-middle">
+                    <span name="subtotal" class="amount">
+                    </span>
+                </td>
+                <td style="text-align:center;" class="td-amount td-vert-middle">
+                    <span name="item_price" class="amount">
+                    </span>
+                </td>
+                  <td style="text-align:center;" class="td-amount td-vert-middle">
+                    <span name="item_price" class="amount">
+                    </span>
+                </td>
+                <td style="display: none;" class="td-amount ">
+                    <div class="input-group">
+                        <span class="input-group-addon"><?php echo lang('item_discount'); ?></span>
+                        <input type="text" name="item_discount_amount" class="input-sm form-control amount"
+                               value=""
+                               data-toggle="tooltip" data-placement="bottom"
+                               title="">
+                    </div>
+                </td>
+                <td class="td-amount">
+                    <div class="input-group">
+                        <select name="item_tax_rate_id" name="item_tax_rate_id"
+                                class="form-control input-sm">
+                            <option value="1"><?php echo "20%"; ?></option>
+                        </select>
+                    </div>
+                </td>
+                <td style="display: none;" class="td-amount td-vert-middle">
+                    <span><?php echo lang('discount'); ?></span><br/>
+                    <span name="item_discount_total" class="amount">
+                    </span>
+                </td>
+                <td style="text-align: center;" class="td-amount td-vert-middle">
+                    <span name="item_tax_total" class="amount">
+                    </span>
+                </td>
+                <td class="td-amount td-vert-middle">
+                    <span style="display: none;"><?php echo lang('total'); ?></span><br/>
+                    <span name="item_total" class="amount">
+                    </span>
+                </td>
+               
+            </tr>
         </tbody>
         <tbody >
         
