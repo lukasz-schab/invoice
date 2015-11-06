@@ -10,6 +10,12 @@
             $('#new_row').clone().appendTo('#item_table').removeAttr('id').addClass('item').show();
         });
 
+        $(document).on('click','#save',function(){
+    		$( this ).parents('tr').addClass('save_this');
+  
+
+		});
+
        $('#item_table').change(function() {
      
 		var item_row = 1;

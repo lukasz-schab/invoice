@@ -28,6 +28,7 @@
                     $('#item_table tbody:last input[name=item_price]').val(items[key].product_price);
                     $('#item_table tbody:last input[name=item_quantity]').val('1');
                     $('#item_table tbody:last select[name=item_tax_rate_id]').val(items[key].tax_rate_id);
+                    $('#item_table tbody:last input[name=item_cost]').val(items[key].purchase_price);
 
                     $('#modal-choose-items').modal('hide');
                 }

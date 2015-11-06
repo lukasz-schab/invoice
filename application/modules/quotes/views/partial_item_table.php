@@ -22,7 +22,7 @@
                     <input type="hidden" name="quote_id" value="<?php echo $quote_id; ?>">
                     <input type="hidden" name="item_id" value="">
 
-                    <div class="input-group">
+                    <div  id='save' class="input-group"><span ><a href="#">Save Product</a></span>
                         <input type="text" name="item_name" class="input-sm form-control"
                                value="">
                     </div>
@@ -128,7 +128,7 @@
                     <input type="hidden" name="quote_id" value="<?php echo $quote_id; ?>">
                     <input type="hidden" name="item_id" value="<?php echo $item->item_id; ?>">
 
-                    <div class="input-group">
+                    <div class="input-group"> 
                         <input type="text" name="item_name" class="input-sm form-control"
                                value="<?php echo html_escape($item->item_name); ?>">
                     </div>
