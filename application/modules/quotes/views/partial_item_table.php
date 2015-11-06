@@ -22,7 +22,7 @@
                     <input type="hidden" name="quote_id" value="<?php echo $quote_id; ?>">
                     <input type="hidden" name="item_id" value="">
 
-                    <div  id='save' class="input-group"><span ><a href="#">Save Product</a></span>
+                    <div class="input-group"><span  id='save'  ><a  href="#">Save Product</a></span>
                         <input type="text" name="item_name" class="input-sm form-control"
                                value="">
                     </div>
