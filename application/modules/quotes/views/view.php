@@ -24,7 +24,8 @@
 			results[item_row] = [];
 				$( this ).find('input').each(function()
 					{
-						if (this.getAttribute('name') == 'item_quantity' || this.getAttribute('name') == 'item_price'){
+						if (this.getAttribute('name') == 'item_quantity' || this.getAttribute('name') == 'item_price' || 
+							this.getAttribute('name') == 'item_cost'){
 							if (this.value) 
 								{
 
@@ -59,6 +60,11 @@
 												 + (results[item_row]['item_quantity'] * results[item_row]['item_price'])/5;
 									this.innerHTML = "£" + item_total;
 								}		
+						if (this.getAttribute('name') == 'item_cost')
+								{
+									
+								}
+
 				}); //span loop	
 				item_row+=1;
 			}); //end ui-sortable-handle loop funct
