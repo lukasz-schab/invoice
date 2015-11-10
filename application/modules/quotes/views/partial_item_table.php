@@ -167,12 +167,12 @@
                     </span>
                 </td>
                 <td style="text-align:center;" class="td-amount td-vert-middle">
-                    <span name="item_price" class="amount">
+                    <span name="unit_profit" class="amount">
                         <?php echo format_currency($item->item_subtotal); ?>
                     </span>
                 </td>
                   <td style="text-align:center;" class="td-amount td-vert-middle">
-                    <span name="item_price" class="amount">
+                    <span name="line_profit" class="amount">
                         <?php echo format_currency($item->item_subtotal); ?>
                     </span>
                 </td>
@@ -294,6 +294,18 @@
                 <td><b><?php echo lang('total'); ?></b></td>
                 <td class="amount"><b><?php echo format_currency($quote->quote_total); ?></b></td>
             </tr>
+            <tr>
+                <td>Total Cost Price</td>
+                <td class="amount">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Nett Profit</td>
+                <td class="amount">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Profit %</td>
+                <td class="amount">&nbsp;</td>
+             </tr>           
         </table>
     </div>
 </div>

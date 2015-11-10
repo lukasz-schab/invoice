@@ -60,10 +60,25 @@
 												 + (results[item_row]['item_quantity'] * results[item_row]['item_price'])/5;
 									this.innerHTML = "£" + item_total;
 								}		
-						if (this.getAttribute('name') == 'item_cost')
+						if (this.getAttribute('name') == 'unit_profit' 
+							&& results[item_row]['item_price']
+							&& results[item_row]['item_cost'])
 								{
-									
+
+									unit_profit = results[item_row]['item_price'] - results[item_row]['item_cost'];
+									this.innerHTML = "£" + unit_profit;
 								}
+						if (this.getAttribute('name') == 'line_profit' 
+							&& results[item_row]['item_price']
+							&& results[item_row]['item_cost']
+							&& results[item_row]['item_quantity']
+							)
+								{
+
+									line_profit = (results[item_row]['item_price'] - results[item_row]['item_cost'])
+									* results[item_row]['item_quantity'];
+									this.innerHTML = "£" + line_profit;
+								}		
 
 				}); //span loop	
 				item_row+=1;
@@ -74,21 +89,28 @@
 		subtotal = 0;
 		total = 0;
 		tax = 0;
+		total_cost = 0;
+		profit = 0;
+		protif_p = 0;
 		calc = 1;
 
-		for (i=2; i<item_row; i++)
+		for (i=3; i<item_row; i++)
 			{
-				
-				if (!results[i]['item_quantity'] ||  !results[i]['item_price'])
+				//alert("Row # - " + (parseInt(i)-2) + " Quantity - " + results[i]['item_quantity'] + " Price - " +
+				//results[i]['item_price'] + " Item Cost - " + results[i]['item_cost'] );
+				if (!results[i]['item_quantity'] ||  !results[i]['item_price'] || !results[i]['item_cost'])
 				calc = false;
 			}
 
 		if (calc)
 			{
-				for (i=2; i<item_row; i++)
+				
+				for (i=3; i<item_row; i++)
 					{
 						subtotal = subtotal + results[i]['item_quantity'] * results[i]['item_price'];
 						tax = tax + (results[i]['item_quantity'] * results[i]['item_price'])/5;
+						total_cost = total_cost + parseFloat(results[i]['item_cost']);
+						//profit = profit + (results[i]['item_price'] - results[i]['item_cost']);
 						total = subtotal + tax;
 					}
 
@@ -98,10 +120,24 @@
 						{
 							if (this.innerHTML == "Subtotal") 
 									this.nextElementSibling.innerHTML = "£" + subtotal;
-							if (this.innerHTML == "Item Tax")
-									this.nextElementSibling.innerHTML = "£" + tax;
+							if (this.innerHTML == "VAT")
+									this.nextElementSibling.innerHTML = "£" + Math.round(tax * 100) / 100;
 							if (this.innerHTML == "<b>Total</b>")
-									this.nextElementSibling.innerHTML = "£" + total;				
+									this.nextElementSibling.innerHTML = "£" + total;	
+							if (this.innerHTML == "Total Cost Price") 
+									this.nextElementSibling.innerHTML = "£" + total_cost;
+							if (this.innerHTML == "Nett Profit") 
+									{
+										profit = subtotal - total_cost;
+									 	this.nextElementSibling.innerHTML = "£" + profit;	
+
+									}
+							if (this.innerHTML == "Profit %") 
+								{
+									profit_p = (profit/subtotal)*100;
+									this.nextElementSibling.innerHTML =  Math.round(profit_p * 100) / 100 + " %";	
+								}
+
 						});
 	
 			} //end calc + modify
