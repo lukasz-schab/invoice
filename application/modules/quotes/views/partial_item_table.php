@@ -31,8 +31,8 @@
                  <td >
                     <div class="input-group">
                         <span style="display: none" class="input-group-addon"><?php echo lang('description'); ?></span>
-                        <textarea  name="item_description"
-                                  class="input-sm form-control"></textarea>
+                        <input type="text"  name="item_description"
+                                  class="input-sm form-control"/>
                     </div>
                 </td>
 
@@ -55,16 +55,16 @@
                                value="">
                     </div>
                 </td>
-                 <td style="text-align:center;" class="td-amount td-vert-middle">
+                 <td style="display:none; text-align:right;" class="td-amount td-vert-middle">
                     <span name="subtotal" class="amount">
                     </span>
                 </td>
-                <td style="text-align:center;" class="td-amount td-vert-middle">
-                    <span name="item_price" class="amount">
+                <td style="text-align:right;" class="td-amount td-vert-middle">
+                    <span name="unit_profit" class="amount">
                     </span>
                 </td>
-                  <td style="text-align:center;" class="td-amount td-vert-middle">
-                    <span name="item_price" class="amount">
+                  <td style="text-align:right;" class="td-amount td-vert-middle">
+                    <span name="line_profit" class="amount">
                     </span>
                 </td>
                 <td style="display: none;" class="td-amount ">
@@ -76,7 +76,7 @@
                                title="">
                     </div>
                 </td>
-                <td class="td-amount">
+                <td style="display: none;" class="td-amount">
                     <div class="input-group">
                         <select name="item_tax_rate_id" name="item_tax_rate_id"
                                 class="form-control input-sm">
@@ -89,13 +89,17 @@
                     <span name="item_discount_total" class="amount">
                     </span>
                 </td>
-                <td style="text-align: center;" class="td-amount td-vert-middle">
+                <td style="display: none; text-align: center;" class="td-amount td-vert-middle">
                     <span name="item_tax_total" class="amount">
                     </span>
                 </td>
-                <td class="td-amount td-vert-middle">
-                    <span style="display: none;"><?php echo lang('total'); ?></span><br/>
+                <td style="display: none;" class="td-amount td-vert-middle">
+                    <span ><?php echo lang('total'); ?></span><br/>
                     <span name="item_total" class="amount">
+                    </span>
+                </td>
+                <td style="text-align:right;" class="td-amount td-vert-middle">
+                    <span name="subtotal" class="amount">
                     </span>
                 </td>
                
@@ -103,24 +107,24 @@
         </tbody>
         <tbody >
         
-        <tr>
+        <tr style="text-align: right;">
             <td rowspan="2" class="td-icon"><i class="fa fa-arrows cursor-move"></i></td>
             <td class="td-text"><div class="input-group">Item Name</div></td>
-            <td class="td-amount td-quantity"><div style="text-align: left;" class="input-group">Description</div></td>
+            <td class="td-amount td-quantity"><div style="text-align: right;" class="input-group">Description</div></td>
             <td><div>Quantity</div></td>
-            <td class="td-input group"><div>Unit Price</div></td>
+            <td class="td-input group"><div>Sale Price</div></td>
             <td><div>Unit Cost</div>
-            <td><div>Subtotal</div>
+            <td style="display: none;"><div>Subtotal</div>
             <td><div>Unit Profit</div></td>
             <td><div>Line Profit</div></td>
             <td style="display: none;"><div>Tax Rate</div></td>
             <td style="display: none;"><div>Tax</div></td>
-            <td><div>Total</div></td>
+            <td><div>Subtotal</div></td>
             <td><div>&nbsp;</div></td>
         </tr>    
         </tbody>
         <?php foreach ($items as $item) { ?>
-            <tbody class="item">
+            <tbody class="item" style="text-align: right;">
            
             <tr>
                 <td rowspan="2" class="td-icon"><i class="fa fa-arrows cursor-move"></i></td>
@@ -137,8 +141,8 @@
                  <td >
                     <div class="input-group">
                         <span style="display: none" class="input-group-addon"><?php echo lang('description'); ?></span>
-                        <textarea  name="item_description"
-                                  class="input-sm form-control"><?php echo $item->item_description; ?></textarea>
+                        <input type="text"  name="item_description" value="<?php echo $item->item_description; ?>"
+                                  class="input-sm form-control"/>
                     </div>
                 </td>
 
@@ -161,17 +165,17 @@
                                value="<?php echo format_amount($item->item_cost); ?>">
                     </div>
                 </td>
-                 <td style="text-align:center;" class="td-amount td-vert-middle">
+                 <td style="display: none;" style="text-align:center;" class="td-amount td-vert-middle">
                     <span name="subtotal" class="amount">
                         <?php echo format_currency($item->item_subtotal); ?>
                     </span>
                 </td>
-                <td style="text-align:center;" class="td-amount td-vert-middle">
+                <td style="text-align:right;" class="td-amount td-vert-middle">
                     <span name="unit_profit" class="amount">
                         <?php #echo format_currency($item->item_subtotal); ?>
                     </span>
                 </td>
-                  <td style="text-align:center;" class="td-amount td-vert-middle">
+                  <td style="text-align:right;" class="td-amount td-vert-middle">
                     <span name="line_profit" class="amount">
                         <?php #echo format_currency($item->item_subtotal); ?>
                     </span>
@@ -199,15 +203,15 @@
                         <?php echo format_currency($item->item_discount); ?>
                     </span>
                 </td>
-                <td style="display: none;" style="text-align: center;" class="td-amount td-vert-middle">
+                <td style="display: none;text-align: center;" class="td-amount td-vert-middle">
                     <span name="item_tax_total" class="amount">
                         <?php echo format_currency($item->item_tax_total); ?>
                     </span>
                 </td>
                 <td class="td-amount td-vert-middle">
-                    <span style="display: none;"><?php echo lang('total'); ?></span><br/>
-                    <span name="item_total" class="amount">
-                        <?php echo format_currency($item->item_total); ?>
+                    <span style="display: none;"><?php #echo lang('total'); ?>Subtotal</span><br/>
+                    <span style="vertical-align: middle;" name="subtotal" class="amount">
+                        <?php echo format_currency($item->item_subtotal); ?>
                     </span>
                 </td>
                 <td class="td-icon text-right td-vert-middle">
@@ -241,7 +245,7 @@
     <div class="col-xs-12 col-md-6 col-md-offset-2 col-lg-4 col-lg-offset-4">
         <table class="table table-condensed text-right">
             <tr>
-                <td style="width: 40%;"><?php # echo lang('subtotal'); ?> Nett Total</td>
+                <td style="width: 40%;"><?php #echo lang('subtotal'); ?>Nett Total</td>
                 <td style="width: 60%;" class="amount"><?php echo format_currency($quote->quote_item_subtotal); ?></td>
             </tr>
             <tr>
@@ -291,20 +295,20 @@
                 </td>
             </tr>
             <tr>
-                <td><b><?php# echo lang('total'); ?>GROSS</b></td>
+                <td><b><?php #echo lang('total'); ?>GROSS</b></td>
                 <td class="amount"><b><?php echo format_currency($quote->quote_total); ?></b></td>
             </tr>
             <tr>
                 <td>Total Cost Price</td>
-                <td class="amount">&nbsp;</td>
+                <td class="amount"></td>
             </tr>
             <tr>
                 <td>Nett Profit</td>
-                <td class="amount">&nbsp;</td>
+                <td class="amount"></td>
             </tr>
             <tr>
                 <td>Profit %</td>
-                <td class="amount">&nbsp;</td>
+                 <td class="amount"></td>
              </tr>           
         </table>
     </div>

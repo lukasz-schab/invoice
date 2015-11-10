@@ -24,7 +24,7 @@
                         $('#new_row').clone().appendTo('#item_table').removeAttr('id').addClass('item').show();
                     }
                     $('#item_table tbody:last input[name=item_name]').val(items[key].product_name);
-                    $('#item_table tbody:last textarea[name=item_description]').val(items[key].product_description);
+                    $('#item_table tbody:last input[name=item_description]').val(items[key].product_description);
                     $('#item_table tbody:last input[name=item_price]').val(items[key].product_price);
                     $('#item_table tbody:last input[name=item_quantity]').val('1');
                     $('#item_table tbody:last select[name=item_tax_rate_id]').val(items[key].tax_rate_id);
@@ -87,7 +87,7 @@
                 <div class="col-xs-8">
                     <div class="form-inline">
                         <div class="form-group filter-form">
-                            <!-- ToDo
+                            
 					<select name="filter_family" id="filter_family" class="form-control">
 						<option value=""><?php echo lang('any_family'); ?></option>
 						<?php foreach ($families as $family) { ?>
@@ -97,7 +97,7 @@
                             } ?>><?php echo $family->family_name; ?></option>
 						<?php } ?>
 					</select>
-					-->
+					
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control" name="filter_product" id="filter_product"
