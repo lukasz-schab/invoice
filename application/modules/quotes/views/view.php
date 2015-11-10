@@ -118,11 +118,11 @@
 				
 				$('.table-condensed.text-right td').each(function()
 						{
-							if (this.innerHTML == "Subtotal") 
+							if (this.innerHTML == "Nett Total") 
 									this.nextElementSibling.innerHTML = "£" + subtotal;
 							if (this.innerHTML == "VAT")
 									this.nextElementSibling.innerHTML = "£" + Math.round(tax * 100) / 100;
-							if (this.innerHTML == "<b>Total</b>")
+							if (this.innerHTML == "<b>GROSS</b>")
 									this.nextElementSibling.innerHTML = "£" + total;	
 							if (this.innerHTML == "Total Cost Price") 
 									this.nextElementSibling.innerHTML = "£" + total_cost;
