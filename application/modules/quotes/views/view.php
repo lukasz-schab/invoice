@@ -10,11 +10,55 @@
             $('#new_row').clone().appendTo('#item_table').removeAttr('id').addClass('item').show();
         });
 
-        $(document).on('click','#save',function(){
-    		$( this ).parents('tr').addClass('save_this');
-  
+        $(document).on('click','#save',function()
+        	{
+	    		$( this ).parents('tr').addClass('save_this');
+	    		send = 1;
+	    		str = "?par"
+	    		$('.save_this').find('input').each(function()
+							{
 
-		});
+								if (this.getAttribute('name') == 'item_name'
+									||this.getAttribute('name') == 'item_sku' 
+									|| this.getAttribute('name') == 'item_price' 
+									|| this.getAttribute('name') == 'item_cost'
+									 )
+											{
+												if (!this.value)
+													  {
+													    $('#notification').text("The " +
+													    	this.getAttribute('name') + 
+													    	" can not be left empty");
+													    send = 0;
+													    return false;
+													  }
+												str = str + "&" + this.getAttribute('name') + "=" + this.value; 	  
+
+											}
+								if (this.getAttribute('name') == 'item_description')
+								{
+									str = str + "&description="	+ this.value; 		 
+								}
+						    });					
+	    		if (send)
+	    				{
+	    					$('#notification').load("<?php echo site_url('quotes/ajax/add_product'); ?>/" 
+	    						+ str, function(responseText, status) 
+	    							{
+				      					if (status === 'success') 
+				      						{
+						         				//$('#notification').text(responseText);
+						      				} 
+						      			else 
+						      				{
+						         				$('#notification').text('An error occurred while loading the page');
+						      				}
+				    				});
+	    				} //end if (send)
+
+   			}); //end of click save
+
+		
 
         
        

@@ -20,6 +20,30 @@ class Ajax extends Admin_Controller
 {
     public $ajax_controller = TRUE;
 
+    public function add_product()
+        {
+            $parameters = $this->input->get();
+            $db_array = array(
+                "product_name" => $parameters['item_name'],
+                "product_sku" => $parameters['item_sku'],
+                "product_price" => $parameters['item_price'],
+                "purchase_price" => $parameters['item_cost'],
+                    );
+            if(strlen($parameters['description']))
+                    {
+                         $db_array["product_description"] = $parameters['description'];
+                    }
+            #print_r($parameters);
+
+            $this->load->model('products/mdl_products');
+            $this->db->insert('ip_products', $db_array);
+
+            echo "The item has been added succesfully";
+           #print_r( $parameters);
+          #echo $response;  
+
+        }
+
     public function save()
     {
         $this->load->model('quotes/mdl_quote_items');

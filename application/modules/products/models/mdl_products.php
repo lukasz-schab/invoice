@@ -52,6 +52,7 @@ class Mdl_Products extends Response_Model
     public function validation_rules()
     {
         return array(
+
             'product_sku' => array(
                 'field' => 'product_sku',
                 'label' => lang('product_sku'),

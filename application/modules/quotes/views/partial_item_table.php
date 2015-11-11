@@ -1,3 +1,4 @@
+<span id="notification"></span>
 <div class="table-responsive">
     <table id="item_table" class="items table table-condensed table-bordered">
         <thead style="display: none">
@@ -27,7 +28,9 @@
                                value="">
                     </div>
                 </td>
-
+                <td class="td-text">
+                    <input type="text" name="item_sku" value=""/>
+                </td>
                  <td >
                     <div class="input-group">
                         <span style="display: none" class="input-group-addon"><?php echo lang('description'); ?></span>
@@ -110,6 +113,7 @@
         <tr style="text-align: right;">
             <td rowspan="2" class="td-icon"><i class="fa fa-arrows cursor-move"></i></td>
             <td class="td-text"><div class="input-group">Item Name</div></td>
+            <td class="td-text"><div class="input-group">SKU</div></td>
             <td class="td-amount td-quantity"><div style="text-align: right;" class="input-group">Description</div></td>
             <td><div>Quantity</div></td>
             <td class="td-input group"><div>Sale Price</div></td>
@@ -137,7 +141,9 @@
                                value="<?php echo html_escape($item->item_name); ?>">
                     </div>
                 </td>
-
+                 <td class="td-text">
+                    <input type="text" name="item_sku" value="<?php echo @html_escape($item->item_sku); ?>"/>
+                </td>
                  <td >
                     <div class="input-group">
                         <span style="display: none" class="input-group-addon"><?php echo lang('description'); ?></span>
