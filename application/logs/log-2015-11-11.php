@@ -2170,3 +2170,3256 @@ DEBUG - 2015-11-11 13:31:24 --> File loaded: application/modules/products/models
 DEBUG - 2015-11-11 13:31:24 --> Model Class Initialized
 DEBUG - 2015-11-11 13:31:24 --> Final output sent to browser
 DEBUG - 2015-11-11 13:31:24 --> Total execution time: 0.0297
+DEBUG - 2015-11-11 15:35:50 --> Config Class Initialized
+DEBUG - 2015-11-11 15:35:50 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:35:50 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:35:50 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:35:50 --> URI Class Initialized
+DEBUG - 2015-11-11 15:35:50 --> Router Class Initialized
+DEBUG - 2015-11-11 15:35:50 --> Output Class Initialized
+DEBUG - 2015-11-11 15:35:50 --> Security Class Initialized
+DEBUG - 2015-11-11 15:35:50 --> Input Class Initialized
+DEBUG - 2015-11-11 15:35:50 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:35:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:35:50 --> Language Class Initialized
+DEBUG - 2015-11-11 15:35:50 --> Language Class Initialized
+DEBUG - 2015-11-11 15:35:50 --> Config Class Initialized
+DEBUG - 2015-11-11 15:35:50 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:35:50 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:35:50 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:35:50 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:35:50 --> Session Class Initialized
+DEBUG - 2015-11-11 13:35:50 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:35:50 --> Session routines successfully run
+DEBUG - 2015-11-11 13:35:50 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:35:50 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:35:50 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:35:50 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:35:50 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:35:50 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:35:50 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:35:50 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:35:50 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:35:50 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:35:50 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:50 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:35:50 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:50 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:35:50 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:35:50 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:35:50 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:35:50 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:35:50 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:35:50 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:35:50 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:50 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:35:50 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:50 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:35:50 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:50 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:35:50 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:50 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:35:50 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:50 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:35:50 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:50 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:35:50 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:35:50 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:35:50 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:35:50 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:35:50 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:35:50 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:35:50 --> Final output sent to browser
+DEBUG - 2015-11-11 13:35:50 --> Total execution time: 0.0249
+DEBUG - 2015-11-11 15:35:51 --> Config Class Initialized
+DEBUG - 2015-11-11 15:35:51 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:35:51 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:35:51 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:35:51 --> URI Class Initialized
+DEBUG - 2015-11-11 15:35:51 --> Router Class Initialized
+DEBUG - 2015-11-11 15:35:51 --> Output Class Initialized
+DEBUG - 2015-11-11 15:35:51 --> Security Class Initialized
+DEBUG - 2015-11-11 15:35:51 --> Input Class Initialized
+DEBUG - 2015-11-11 15:35:51 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:35:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:35:51 --> Language Class Initialized
+DEBUG - 2015-11-11 15:35:51 --> Language Class Initialized
+DEBUG - 2015-11-11 15:35:51 --> Config Class Initialized
+DEBUG - 2015-11-11 15:35:51 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:35:51 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:35:51 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:35:51 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:35:51 --> Session Class Initialized
+DEBUG - 2015-11-11 13:35:51 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:35:51 --> Session routines successfully run
+DEBUG - 2015-11-11 13:35:51 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:35:51 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:35:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:35:51 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:35:51 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:35:51 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:35:51 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:35:51 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:35:51 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:35:51 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:35:51 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:51 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:35:51 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:51 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:35:51 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:35:51 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:35:51 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:35:51 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:35:51 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:35:51 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:35:51 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:51 --> Final output sent to browser
+DEBUG - 2015-11-11 13:35:51 --> Total execution time: 0.0175
+DEBUG - 2015-11-11 15:35:53 --> Config Class Initialized
+DEBUG - 2015-11-11 15:35:53 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:35:53 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:35:53 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:35:53 --> URI Class Initialized
+DEBUG - 2015-11-11 15:35:53 --> Router Class Initialized
+DEBUG - 2015-11-11 15:35:53 --> Output Class Initialized
+DEBUG - 2015-11-11 15:35:53 --> Security Class Initialized
+DEBUG - 2015-11-11 15:35:53 --> Input Class Initialized
+DEBUG - 2015-11-11 15:35:53 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:35:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:35:53 --> Language Class Initialized
+DEBUG - 2015-11-11 15:35:53 --> Language Class Initialized
+DEBUG - 2015-11-11 15:35:53 --> Config Class Initialized
+DEBUG - 2015-11-11 15:35:53 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:35:53 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:35:53 --> Ajax MX_Controller Initialized
+DEBUG - 2015-11-11 13:35:53 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:35:53 --> Session Class Initialized
+DEBUG - 2015-11-11 13:35:53 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:35:53 --> Session routines successfully run
+DEBUG - 2015-11-11 13:35:53 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:35:53 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:35:53 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:35:53 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:35:53 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:35:53 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:35:53 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:35:53 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:35:53 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:35:53 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:35:53 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:53 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:35:53 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:53 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:35:53 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:35:53 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:35:53 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:35:53 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:35:53 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:35:53 --> File loaded: application/modules/products/models/mdl_products.php
+DEBUG - 2015-11-11 13:35:53 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:53 --> File loaded: application/modules/families/models/mdl_families.php
+DEBUG - 2015-11-11 13:35:53 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:53 --> File loaded: application/modules/products/views/modal_product_lookups.php
+DEBUG - 2015-11-11 13:35:53 --> Final output sent to browser
+DEBUG - 2015-11-11 13:35:53 --> Total execution time: 0.0205
+DEBUG - 2015-11-11 15:35:55 --> Config Class Initialized
+DEBUG - 2015-11-11 15:35:55 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:35:55 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:35:55 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:35:55 --> URI Class Initialized
+DEBUG - 2015-11-11 15:35:55 --> Router Class Initialized
+DEBUG - 2015-11-11 15:35:55 --> Output Class Initialized
+DEBUG - 2015-11-11 15:35:55 --> Security Class Initialized
+DEBUG - 2015-11-11 15:35:55 --> Input Class Initialized
+DEBUG - 2015-11-11 15:35:55 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:35:55 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:35:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:35:55 --> Language Class Initialized
+DEBUG - 2015-11-11 15:35:55 --> Language Class Initialized
+DEBUG - 2015-11-11 15:35:55 --> Config Class Initialized
+DEBUG - 2015-11-11 15:35:55 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:35:55 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:35:55 --> Ajax MX_Controller Initialized
+DEBUG - 2015-11-11 13:35:55 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:35:55 --> Session Class Initialized
+DEBUG - 2015-11-11 13:35:55 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:35:55 --> Session routines successfully run
+DEBUG - 2015-11-11 13:35:55 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:35:55 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:35:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:35:55 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:35:55 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:35:55 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:35:55 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:35:55 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:35:55 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:35:55 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:35:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:55 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:35:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:55 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:35:55 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:35:55 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:35:55 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:35:55 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:35:55 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:35:55 --> File loaded: application/modules/products/models/mdl_products.php
+DEBUG - 2015-11-11 13:35:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:55 --> File loaded: application/modules/families/models/mdl_families.php
+DEBUG - 2015-11-11 13:35:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:55 --> File loaded: application/modules/products/views/modal_product_lookups.php
+DEBUG - 2015-11-11 13:35:55 --> Final output sent to browser
+DEBUG - 2015-11-11 13:35:55 --> Total execution time: 0.0118
+DEBUG - 2015-11-11 15:35:57 --> Config Class Initialized
+DEBUG - 2015-11-11 15:35:57 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:35:57 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:35:57 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:35:57 --> URI Class Initialized
+DEBUG - 2015-11-11 15:35:57 --> Router Class Initialized
+DEBUG - 2015-11-11 15:35:57 --> Output Class Initialized
+DEBUG - 2015-11-11 15:35:57 --> Security Class Initialized
+DEBUG - 2015-11-11 15:35:57 --> Input Class Initialized
+DEBUG - 2015-11-11 15:35:57 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:35:57 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:35:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:35:57 --> Language Class Initialized
+DEBUG - 2015-11-11 15:35:57 --> Language Class Initialized
+DEBUG - 2015-11-11 15:35:57 --> Config Class Initialized
+DEBUG - 2015-11-11 15:35:57 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:35:57 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:35:57 --> Ajax MX_Controller Initialized
+DEBUG - 2015-11-11 13:35:57 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:35:57 --> Session Class Initialized
+DEBUG - 2015-11-11 13:35:57 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:35:57 --> Session routines successfully run
+DEBUG - 2015-11-11 13:35:57 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:35:57 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:35:57 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:35:57 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:35:57 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:35:57 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:35:57 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:35:57 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:35:57 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:35:57 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:35:57 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:57 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:35:57 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:57 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:35:57 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:35:57 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:35:57 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:35:57 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:35:57 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:35:57 --> File loaded: application/modules/products/models/mdl_products.php
+DEBUG - 2015-11-11 13:35:57 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:57 --> File loaded: application/modules/families/models/mdl_families.php
+DEBUG - 2015-11-11 13:35:57 --> Model Class Initialized
+DEBUG - 2015-11-11 13:35:57 --> File loaded: application/modules/products/views/modal_product_lookups.php
+DEBUG - 2015-11-11 13:35:57 --> Final output sent to browser
+DEBUG - 2015-11-11 13:35:57 --> Total execution time: 0.0138
+DEBUG - 2015-11-11 15:36:04 --> Config Class Initialized
+DEBUG - 2015-11-11 15:36:04 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:36:04 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:36:04 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:36:04 --> URI Class Initialized
+DEBUG - 2015-11-11 15:36:04 --> Router Class Initialized
+DEBUG - 2015-11-11 15:36:04 --> Output Class Initialized
+DEBUG - 2015-11-11 15:36:04 --> Security Class Initialized
+DEBUG - 2015-11-11 15:36:04 --> Input Class Initialized
+DEBUG - 2015-11-11 15:36:04 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:36:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:36:04 --> Language Class Initialized
+DEBUG - 2015-11-11 15:36:04 --> Language Class Initialized
+DEBUG - 2015-11-11 15:36:04 --> Config Class Initialized
+DEBUG - 2015-11-11 15:36:04 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:36:04 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:36:04 --> Ajax MX_Controller Initialized
+DEBUG - 2015-11-11 13:36:04 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:36:04 --> Session Class Initialized
+DEBUG - 2015-11-11 13:36:04 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:36:04 --> Session routines successfully run
+DEBUG - 2015-11-11 13:36:04 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:36:04 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:36:04 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:36:04 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:36:04 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:36:04 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:36:04 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:36:04 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:36:04 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:36:04 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:36:04 --> Model Class Initialized
+DEBUG - 2015-11-11 13:36:04 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:36:04 --> Model Class Initialized
+DEBUG - 2015-11-11 13:36:04 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:36:04 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:36:04 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:36:04 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:36:04 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:36:04 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:36:04 --> File loaded: application/modules/products/models/mdl_products.php
+DEBUG - 2015-11-11 13:36:04 --> Model Class Initialized
+DEBUG - 2015-11-11 13:36:04 --> File loaded: application/modules/families/models/mdl_families.php
+DEBUG - 2015-11-11 13:36:04 --> Model Class Initialized
+DEBUG - 2015-11-11 13:36:04 --> File loaded: application/modules/products/views/modal_product_lookups.php
+DEBUG - 2015-11-11 13:36:04 --> Final output sent to browser
+DEBUG - 2015-11-11 13:36:04 --> Total execution time: 0.0231
+DEBUG - 2015-11-11 15:43:33 --> Config Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:43:33 --> URI Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Router Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Output Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Security Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Input Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:33 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:33 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:33 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:33 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:33 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:33 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:33 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:33 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:33 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:33 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:43:33 --> Language Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Language Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Config Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> Ajax MX_Controller Initialized
+DEBUG - 2015-11-11 13:43:33 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:43:33 --> Session Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:43:33 --> Session routines successfully run
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:43:33 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:43:33 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:43:33 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:43:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:43:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:43:33 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:43:33 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:43:33 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:43:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:43:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/item_lookups/models/mdl_item_lookups.php
+DEBUG - 2015-11-11 13:43:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> Encrypt Class Initialized
+ERROR - 2015-11-11 13:43:33 --> Could not find the language line "quote_number"
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/quotes/models/mdl_quote_amounts.php
+DEBUG - 2015-11-11 13:43:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:43:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> Final output sent to browser
+DEBUG - 2015-11-11 13:43:33 --> Total execution time: 0.0732
+DEBUG - 2015-11-11 15:43:33 --> Config Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:43:33 --> URI Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Router Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Output Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Security Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Input Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:43:33 --> Language Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Language Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Config Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:43:33 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:43:33 --> Session Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:43:33 --> Session routines successfully run
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:43:33 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:43:33 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:43:33 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:43:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:43:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:43:33 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:43:33 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:43:33 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:43:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:43:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:43:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:43:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:43:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:43:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:43:33 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:43:33 --> Final output sent to browser
+DEBUG - 2015-11-11 13:43:33 --> Total execution time: 0.0233
+DEBUG - 2015-11-11 15:43:33 --> Config Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:43:33 --> URI Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Router Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Output Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Security Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Input Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:43:33 --> Language Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Language Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Config Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:43:33 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:43:33 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:43:33 --> Session Class Initialized
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:43:33 --> Session routines successfully run
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:43:33 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:43:33 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:43:33 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:43:33 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:43:34 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:43:34 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:43:34 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:43:34 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:43:34 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:43:34 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:34 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:43:34 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:34 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:43:34 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:43:34 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:43:34 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:43:34 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:43:34 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:43:34 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:43:34 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:34 --> Final output sent to browser
+DEBUG - 2015-11-11 13:43:34 --> Total execution time: 0.0142
+DEBUG - 2015-11-11 15:43:36 --> Config Class Initialized
+DEBUG - 2015-11-11 15:43:36 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:43:36 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:43:36 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:43:36 --> URI Class Initialized
+DEBUG - 2015-11-11 15:43:36 --> Router Class Initialized
+DEBUG - 2015-11-11 15:43:36 --> Output Class Initialized
+DEBUG - 2015-11-11 15:43:36 --> Security Class Initialized
+DEBUG - 2015-11-11 15:43:36 --> Input Class Initialized
+DEBUG - 2015-11-11 15:43:36 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:43:36 --> Language Class Initialized
+DEBUG - 2015-11-11 15:43:36 --> Language Class Initialized
+DEBUG - 2015-11-11 15:43:36 --> Config Class Initialized
+DEBUG - 2015-11-11 15:43:36 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:43:36 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:43:36 --> Ajax MX_Controller Initialized
+DEBUG - 2015-11-11 13:43:36 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:43:36 --> Session Class Initialized
+DEBUG - 2015-11-11 13:43:36 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:43:36 --> Session routines successfully run
+DEBUG - 2015-11-11 13:43:36 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:43:36 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:43:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:43:36 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:43:36 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:43:36 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:43:36 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:43:36 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:43:36 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:43:36 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:43:36 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:36 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:43:36 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:36 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:43:36 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:43:36 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:43:36 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:43:36 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:43:36 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:43:36 --> File loaded: application/modules/products/models/mdl_products.php
+DEBUG - 2015-11-11 13:43:36 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:36 --> File loaded: application/modules/families/models/mdl_families.php
+DEBUG - 2015-11-11 13:43:36 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:36 --> File loaded: application/modules/products/views/modal_product_lookups.php
+DEBUG - 2015-11-11 13:43:36 --> Final output sent to browser
+DEBUG - 2015-11-11 13:43:36 --> Total execution time: 0.0138
+DEBUG - 2015-11-11 15:43:43 --> Config Class Initialized
+DEBUG - 2015-11-11 15:43:43 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:43:43 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:43:43 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:43:43 --> URI Class Initialized
+DEBUG - 2015-11-11 15:43:43 --> Router Class Initialized
+DEBUG - 2015-11-11 15:43:43 --> Output Class Initialized
+DEBUG - 2015-11-11 15:43:43 --> Security Class Initialized
+DEBUG - 2015-11-11 15:43:43 --> Input Class Initialized
+DEBUG - 2015-11-11 15:43:43 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:43 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:43:43 --> Language Class Initialized
+DEBUG - 2015-11-11 15:43:43 --> Language Class Initialized
+DEBUG - 2015-11-11 15:43:43 --> Config Class Initialized
+DEBUG - 2015-11-11 15:43:43 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:43:43 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:43:43 --> Ajax MX_Controller Initialized
+DEBUG - 2015-11-11 13:43:43 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:43:43 --> Session Class Initialized
+DEBUG - 2015-11-11 13:43:43 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:43:43 --> Session routines successfully run
+DEBUG - 2015-11-11 13:43:43 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:43:43 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:43:43 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:43:43 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:43:43 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:43:43 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:43:43 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:43:43 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:43:43 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:43:43 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:43:43 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:43 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:43:43 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:43 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:43:43 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:43:43 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:43:43 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:43:43 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:43:43 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:43:43 --> File loaded: application/modules/products/models/mdl_products.php
+DEBUG - 2015-11-11 13:43:43 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:43 --> File loaded: application/modules/families/models/mdl_families.php
+DEBUG - 2015-11-11 13:43:43 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:43 --> File loaded: application/modules/products/views/modal_product_lookups.php
+DEBUG - 2015-11-11 13:43:43 --> Final output sent to browser
+DEBUG - 2015-11-11 13:43:43 --> Total execution time: 0.0231
+DEBUG - 2015-11-11 15:43:45 --> Config Class Initialized
+DEBUG - 2015-11-11 15:43:45 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:43:45 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:43:45 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:43:45 --> URI Class Initialized
+DEBUG - 2015-11-11 15:43:45 --> Router Class Initialized
+DEBUG - 2015-11-11 15:43:45 --> Output Class Initialized
+DEBUG - 2015-11-11 15:43:45 --> Security Class Initialized
+DEBUG - 2015-11-11 15:43:45 --> Input Class Initialized
+DEBUG - 2015-11-11 15:43:45 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:45 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:43:45 --> Language Class Initialized
+DEBUG - 2015-11-11 15:43:45 --> Language Class Initialized
+DEBUG - 2015-11-11 15:43:45 --> Config Class Initialized
+DEBUG - 2015-11-11 15:43:45 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:43:45 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:43:45 --> Ajax MX_Controller Initialized
+DEBUG - 2015-11-11 13:43:45 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:43:45 --> Session Class Initialized
+DEBUG - 2015-11-11 13:43:45 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:43:45 --> Session routines successfully run
+DEBUG - 2015-11-11 13:43:45 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:43:45 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:43:45 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:43:45 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:43:45 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:43:45 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:43:45 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:43:45 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:43:45 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:43:45 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:43:45 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:45 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:43:45 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:45 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:43:45 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:43:45 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:43:45 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:43:45 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:43:45 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:43:45 --> File loaded: application/modules/products/models/mdl_products.php
+DEBUG - 2015-11-11 13:43:45 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:45 --> File loaded: application/modules/families/models/mdl_families.php
+DEBUG - 2015-11-11 13:43:45 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:45 --> File loaded: application/modules/products/views/modal_product_lookups.php
+DEBUG - 2015-11-11 13:43:45 --> Final output sent to browser
+DEBUG - 2015-11-11 13:43:45 --> Total execution time: 0.0152
+DEBUG - 2015-11-11 15:43:55 --> Config Class Initialized
+DEBUG - 2015-11-11 15:43:55 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:43:55 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:43:55 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:43:55 --> URI Class Initialized
+DEBUG - 2015-11-11 15:43:55 --> Router Class Initialized
+DEBUG - 2015-11-11 15:43:55 --> Output Class Initialized
+DEBUG - 2015-11-11 15:43:55 --> Security Class Initialized
+DEBUG - 2015-11-11 15:43:55 --> Input Class Initialized
+DEBUG - 2015-11-11 15:43:55 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:55 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:55 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:43:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:43:55 --> Language Class Initialized
+DEBUG - 2015-11-11 15:43:55 --> Language Class Initialized
+DEBUG - 2015-11-11 15:43:55 --> Config Class Initialized
+DEBUG - 2015-11-11 15:43:55 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:43:55 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:43:55 --> Ajax MX_Controller Initialized
+DEBUG - 2015-11-11 13:43:55 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:43:55 --> Session Class Initialized
+DEBUG - 2015-11-11 13:43:55 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:43:55 --> Session routines successfully run
+DEBUG - 2015-11-11 13:43:55 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:43:55 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:43:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:43:55 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:43:55 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:43:55 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:43:55 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:43:55 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:43:55 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:43:55 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:43:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:55 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:43:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:55 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:43:55 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:43:55 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:43:55 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:43:55 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:43:55 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:43:55 --> File loaded: application/modules/products/models/mdl_products.php
+DEBUG - 2015-11-11 13:43:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:55 --> File loaded: application/modules/families/models/mdl_families.php
+DEBUG - 2015-11-11 13:43:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:43:55 --> File loaded: application/modules/products/views/modal_product_lookups.php
+DEBUG - 2015-11-11 13:43:55 --> Final output sent to browser
+DEBUG - 2015-11-11 13:43:55 --> Total execution time: 0.0202
+DEBUG - 2015-11-11 15:46:33 --> Config Class Initialized
+DEBUG - 2015-11-11 15:46:33 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:46:33 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:46:33 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:46:33 --> URI Class Initialized
+DEBUG - 2015-11-11 15:46:33 --> Router Class Initialized
+DEBUG - 2015-11-11 15:46:33 --> Output Class Initialized
+DEBUG - 2015-11-11 15:46:33 --> Security Class Initialized
+DEBUG - 2015-11-11 15:46:33 --> Input Class Initialized
+DEBUG - 2015-11-11 15:46:33 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:46:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:46:33 --> Language Class Initialized
+DEBUG - 2015-11-11 15:46:33 --> Language Class Initialized
+DEBUG - 2015-11-11 15:46:33 --> Config Class Initialized
+DEBUG - 2015-11-11 15:46:33 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:46:33 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:46:33 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:46:33 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:46:33 --> Session Class Initialized
+DEBUG - 2015-11-11 13:46:33 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:46:33 --> Session routines successfully run
+DEBUG - 2015-11-11 13:46:33 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:46:33 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:46:33 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:46:33 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:46:33 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:46:33 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:46:33 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:46:33 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:46:33 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:46:33 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:46:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:33 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:46:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:33 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:46:33 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:46:33 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:46:33 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:46:33 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:46:33 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:46:33 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:46:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:33 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:46:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:33 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:46:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:33 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:46:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:33 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:46:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:33 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:46:33 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:33 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:46:33 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:46:33 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:46:34 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:46:34 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:46:34 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:46:34 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:46:34 --> Final output sent to browser
+DEBUG - 2015-11-11 13:46:34 --> Total execution time: 0.0205
+DEBUG - 2015-11-11 15:46:34 --> Config Class Initialized
+DEBUG - 2015-11-11 15:46:34 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:46:34 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:46:34 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:46:34 --> URI Class Initialized
+DEBUG - 2015-11-11 15:46:34 --> Router Class Initialized
+DEBUG - 2015-11-11 15:46:34 --> Output Class Initialized
+DEBUG - 2015-11-11 15:46:34 --> Security Class Initialized
+DEBUG - 2015-11-11 15:46:34 --> Input Class Initialized
+DEBUG - 2015-11-11 15:46:34 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:46:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:46:34 --> Language Class Initialized
+DEBUG - 2015-11-11 15:46:34 --> Language Class Initialized
+DEBUG - 2015-11-11 15:46:34 --> Config Class Initialized
+DEBUG - 2015-11-11 15:46:34 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:46:34 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:46:34 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:46:34 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:46:34 --> Session Class Initialized
+DEBUG - 2015-11-11 13:46:34 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:46:34 --> Session routines successfully run
+DEBUG - 2015-11-11 13:46:34 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:46:34 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:46:34 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:46:34 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:46:34 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:46:34 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:46:34 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:46:34 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:46:34 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:46:34 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:46:34 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:34 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:46:34 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:34 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:46:34 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:46:34 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:46:34 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:46:34 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:46:34 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:46:34 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:46:34 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:34 --> Final output sent to browser
+DEBUG - 2015-11-11 13:46:34 --> Total execution time: 0.0108
+DEBUG - 2015-11-11 15:46:40 --> Config Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:46:40 --> URI Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Router Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Output Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Security Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Input Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:46:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:46:40 --> Language Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Language Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Config Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:46:40 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:46:40 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:46:40 --> Session Class Initialized
+DEBUG - 2015-11-11 13:46:40 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:46:40 --> Session routines successfully run
+DEBUG - 2015-11-11 13:46:40 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:46:40 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:46:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:46:40 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:46:40 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:46:40 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:46:40 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:46:40 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:46:40 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:46:40 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:46:40 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:40 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:46:40 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:40 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:46:40 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:46:40 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:46:40 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:46:40 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:46:40 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:46:40 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:46:40 --> Model Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Config Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:46:40 --> URI Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Router Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Output Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Security Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Input Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:46:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:46:40 --> Language Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Language Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Config Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:46:40 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:46:40 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:46:40 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:46:40 --> Session Class Initialized
+DEBUG - 2015-11-11 13:46:40 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:46:40 --> Session routines successfully run
+DEBUG - 2015-11-11 13:46:40 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:46:40 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:46:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:46:40 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:46:40 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:46:40 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:46:40 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:46:40 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:46:40 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:46:40 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:46:40 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:40 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:46:40 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:40 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:46:40 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:46:40 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:46:40 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:46:40 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:46:40 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:46:40 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:46:40 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:40 --> Pagination Class Initialized
+DEBUG - 2015-11-11 13:46:40 --> File loaded: application/modules/quotes/views/partial_quote_table.php
+DEBUG - 2015-11-11 13:46:40 --> File loaded: application/modules/quotes/views/index.php
+DEBUG - 2015-11-11 13:46:40 --> File loaded: application/modules/filter/views/jquery_filter.php
+DEBUG - 2015-11-11 13:46:40 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:46:40 --> Final output sent to browser
+DEBUG - 2015-11-11 13:46:40 --> Total execution time: 0.0207
+DEBUG - 2015-11-11 15:46:42 --> Config Class Initialized
+DEBUG - 2015-11-11 15:46:42 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:46:42 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:46:42 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:46:42 --> URI Class Initialized
+DEBUG - 2015-11-11 15:46:42 --> Router Class Initialized
+DEBUG - 2015-11-11 15:46:42 --> Output Class Initialized
+DEBUG - 2015-11-11 15:46:42 --> Security Class Initialized
+DEBUG - 2015-11-11 15:46:42 --> Input Class Initialized
+DEBUG - 2015-11-11 15:46:42 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:46:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:46:42 --> Language Class Initialized
+DEBUG - 2015-11-11 15:46:42 --> Language Class Initialized
+DEBUG - 2015-11-11 15:46:42 --> Config Class Initialized
+DEBUG - 2015-11-11 15:46:42 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:46:42 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:46:42 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:46:42 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:46:42 --> Session Class Initialized
+DEBUG - 2015-11-11 13:46:42 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:46:42 --> Session routines successfully run
+DEBUG - 2015-11-11 13:46:42 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:46:42 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:46:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:46:42 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:46:42 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:46:42 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:46:42 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:46:42 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:46:42 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:46:42 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:46:42 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:42 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:46:42 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:42 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:46:42 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:46:42 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:46:42 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:46:42 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:46:42 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:46:42 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:46:42 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:42 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:46:42 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:42 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:46:42 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:42 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:46:42 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:42 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:46:42 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:42 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:46:42 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:42 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:46:42 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:46:42 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:46:42 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:46:42 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:46:42 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:46:42 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:46:42 --> Final output sent to browser
+DEBUG - 2015-11-11 13:46:42 --> Total execution time: 0.0362
+DEBUG - 2015-11-11 15:46:43 --> Config Class Initialized
+DEBUG - 2015-11-11 15:46:43 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:46:43 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:46:43 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:46:43 --> URI Class Initialized
+DEBUG - 2015-11-11 15:46:43 --> Router Class Initialized
+DEBUG - 2015-11-11 15:46:43 --> Output Class Initialized
+DEBUG - 2015-11-11 15:46:43 --> Security Class Initialized
+DEBUG - 2015-11-11 15:46:43 --> Input Class Initialized
+DEBUG - 2015-11-11 15:46:43 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:46:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:46:43 --> Language Class Initialized
+DEBUG - 2015-11-11 15:46:43 --> Language Class Initialized
+DEBUG - 2015-11-11 15:46:43 --> Config Class Initialized
+DEBUG - 2015-11-11 15:46:43 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:46:43 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:46:43 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:46:43 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:46:43 --> Session Class Initialized
+DEBUG - 2015-11-11 13:46:43 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:46:43 --> Session routines successfully run
+DEBUG - 2015-11-11 13:46:43 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:46:43 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:46:43 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:46:43 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:46:43 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:46:43 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:46:43 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:46:43 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:46:43 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:46:43 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:46:43 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:43 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:46:43 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:43 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:46:43 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:46:43 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:46:43 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:46:43 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:46:43 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:46:43 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:46:43 --> Model Class Initialized
+DEBUG - 2015-11-11 13:46:43 --> Final output sent to browser
+DEBUG - 2015-11-11 13:46:43 --> Total execution time: 0.0093
+DEBUG - 2015-11-11 15:47:23 --> Config Class Initialized
+DEBUG - 2015-11-11 15:47:23 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:47:23 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:47:23 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:47:23 --> URI Class Initialized
+DEBUG - 2015-11-11 15:47:23 --> Router Class Initialized
+DEBUG - 2015-11-11 15:47:23 --> Output Class Initialized
+DEBUG - 2015-11-11 15:47:23 --> Security Class Initialized
+DEBUG - 2015-11-11 15:47:23 --> Input Class Initialized
+DEBUG - 2015-11-11 15:47:23 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:47:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:47:23 --> Language Class Initialized
+DEBUG - 2015-11-11 15:47:23 --> Language Class Initialized
+DEBUG - 2015-11-11 15:47:23 --> Config Class Initialized
+DEBUG - 2015-11-11 15:47:23 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:47:23 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:47:23 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:47:23 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:47:23 --> Session Class Initialized
+DEBUG - 2015-11-11 13:47:23 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:47:23 --> Session routines successfully run
+DEBUG - 2015-11-11 13:47:23 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:47:23 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:47:23 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:47:23 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:47:23 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:47:23 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:47:23 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:47:23 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:47:23 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:47:23 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:47:23 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:23 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:47:23 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:23 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:47:23 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:47:23 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:47:23 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:47:23 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:47:23 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:47:23 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:47:23 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:23 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:47:23 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:23 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:47:23 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:23 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:47:23 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:23 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:47:23 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:23 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:47:23 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:23 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:47:23 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:47:23 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:47:23 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:47:23 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:47:23 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:47:23 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:47:23 --> Final output sent to browser
+DEBUG - 2015-11-11 13:47:23 --> Total execution time: 0.0201
+DEBUG - 2015-11-11 15:47:24 --> Config Class Initialized
+DEBUG - 2015-11-11 15:47:24 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:47:24 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:47:24 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:47:24 --> URI Class Initialized
+DEBUG - 2015-11-11 15:47:24 --> Router Class Initialized
+DEBUG - 2015-11-11 15:47:24 --> Output Class Initialized
+DEBUG - 2015-11-11 15:47:24 --> Security Class Initialized
+DEBUG - 2015-11-11 15:47:24 --> Input Class Initialized
+DEBUG - 2015-11-11 15:47:24 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:47:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:47:24 --> Language Class Initialized
+DEBUG - 2015-11-11 15:47:24 --> Language Class Initialized
+DEBUG - 2015-11-11 15:47:24 --> Config Class Initialized
+DEBUG - 2015-11-11 15:47:24 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:47:24 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:47:24 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:47:24 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:47:24 --> Session Class Initialized
+DEBUG - 2015-11-11 13:47:24 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:47:24 --> Session routines successfully run
+DEBUG - 2015-11-11 13:47:24 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:47:24 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:47:24 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:47:24 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:47:24 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:47:24 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:47:24 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:47:24 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:47:24 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:47:24 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:47:24 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:24 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:47:24 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:24 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:47:24 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:47:24 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:47:24 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:47:24 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:47:24 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:47:24 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:47:24 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:24 --> Final output sent to browser
+DEBUG - 2015-11-11 13:47:24 --> Total execution time: 0.0149
+DEBUG - 2015-11-11 15:47:47 --> Config Class Initialized
+DEBUG - 2015-11-11 15:47:47 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:47:47 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:47:47 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:47:47 --> URI Class Initialized
+DEBUG - 2015-11-11 15:47:47 --> Router Class Initialized
+DEBUG - 2015-11-11 15:47:47 --> Output Class Initialized
+DEBUG - 2015-11-11 15:47:47 --> Security Class Initialized
+DEBUG - 2015-11-11 15:47:47 --> Input Class Initialized
+DEBUG - 2015-11-11 15:47:47 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:47:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:47:47 --> Language Class Initialized
+DEBUG - 2015-11-11 15:47:47 --> Language Class Initialized
+DEBUG - 2015-11-11 15:47:47 --> Config Class Initialized
+DEBUG - 2015-11-11 15:47:47 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:47:47 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:47:47 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:47:47 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:47:47 --> Session Class Initialized
+DEBUG - 2015-11-11 13:47:47 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:47:47 --> Session routines successfully run
+DEBUG - 2015-11-11 13:47:47 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:47:47 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:47:47 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:47:47 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:47:47 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:47:47 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:47:47 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:47:47 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:47:47 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:47:47 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:47:47 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:47 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:47:47 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:47 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:47:47 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:47:47 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:47:47 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:47:47 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:47:47 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:47:47 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:47:47 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:47 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:47:47 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:47 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:47:47 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:47 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:47:47 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:47 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:47:47 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:47 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:47:47 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:47 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:47:47 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:47:47 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:47:47 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:47:47 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:47:47 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:47:47 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:47:47 --> Final output sent to browser
+DEBUG - 2015-11-11 13:47:47 --> Total execution time: 0.0178
+DEBUG - 2015-11-11 15:47:48 --> Config Class Initialized
+DEBUG - 2015-11-11 15:47:48 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:47:48 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:47:48 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:47:48 --> URI Class Initialized
+DEBUG - 2015-11-11 15:47:48 --> Router Class Initialized
+DEBUG - 2015-11-11 15:47:48 --> Output Class Initialized
+DEBUG - 2015-11-11 15:47:48 --> Security Class Initialized
+DEBUG - 2015-11-11 15:47:48 --> Input Class Initialized
+DEBUG - 2015-11-11 15:47:48 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:47:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:47:48 --> Language Class Initialized
+DEBUG - 2015-11-11 15:47:48 --> Language Class Initialized
+DEBUG - 2015-11-11 15:47:48 --> Config Class Initialized
+DEBUG - 2015-11-11 15:47:48 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:47:48 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:47:48 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:47:48 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:47:48 --> Session Class Initialized
+DEBUG - 2015-11-11 13:47:48 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:47:48 --> Session routines successfully run
+DEBUG - 2015-11-11 13:47:48 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:47:48 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:47:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:47:48 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:47:48 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:47:48 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:47:48 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:47:48 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:47:48 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:47:48 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:47:48 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:48 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:47:48 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:48 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:47:48 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:47:48 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:47:48 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:47:48 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:47:48 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:47:48 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:47:48 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:48 --> Final output sent to browser
+DEBUG - 2015-11-11 13:47:48 --> Total execution time: 0.0140
+DEBUG - 2015-11-11 15:47:53 --> Config Class Initialized
+DEBUG - 2015-11-11 15:47:53 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:47:53 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:47:53 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:47:53 --> URI Class Initialized
+DEBUG - 2015-11-11 15:47:53 --> Router Class Initialized
+DEBUG - 2015-11-11 15:47:53 --> Output Class Initialized
+DEBUG - 2015-11-11 15:47:53 --> Security Class Initialized
+DEBUG - 2015-11-11 15:47:53 --> Input Class Initialized
+DEBUG - 2015-11-11 15:47:53 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:47:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:47:53 --> Language Class Initialized
+DEBUG - 2015-11-11 15:47:53 --> Language Class Initialized
+DEBUG - 2015-11-11 15:47:53 --> Config Class Initialized
+DEBUG - 2015-11-11 15:47:53 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:47:53 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:47:53 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:47:53 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:47:53 --> Session Class Initialized
+DEBUG - 2015-11-11 13:47:53 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:47:53 --> Session routines successfully run
+DEBUG - 2015-11-11 13:47:53 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:47:53 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:47:53 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:47:53 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:47:53 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:47:53 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:47:53 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:47:53 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:47:53 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:47:53 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:47:53 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:53 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:47:53 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:53 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:47:53 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:47:53 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:47:53 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:47:53 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:47:53 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:47:53 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:47:53 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:53 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:47:53 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:53 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:47:53 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:53 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:47:53 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:53 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:47:53 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:53 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:47:53 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:53 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:47:53 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:47:53 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:47:53 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:47:53 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:47:53 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:47:53 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:47:53 --> Final output sent to browser
+DEBUG - 2015-11-11 13:47:53 --> Total execution time: 0.0204
+DEBUG - 2015-11-11 15:47:54 --> Config Class Initialized
+DEBUG - 2015-11-11 15:47:54 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:47:54 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:47:54 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:47:54 --> URI Class Initialized
+DEBUG - 2015-11-11 15:47:54 --> Router Class Initialized
+DEBUG - 2015-11-11 15:47:54 --> Output Class Initialized
+DEBUG - 2015-11-11 15:47:54 --> Security Class Initialized
+DEBUG - 2015-11-11 15:47:54 --> Input Class Initialized
+DEBUG - 2015-11-11 15:47:54 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:47:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:47:54 --> Language Class Initialized
+DEBUG - 2015-11-11 15:47:54 --> Language Class Initialized
+DEBUG - 2015-11-11 15:47:54 --> Config Class Initialized
+DEBUG - 2015-11-11 15:47:54 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:47:54 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:47:54 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:47:54 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:47:54 --> Session Class Initialized
+DEBUG - 2015-11-11 13:47:54 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:47:54 --> Session routines successfully run
+DEBUG - 2015-11-11 13:47:54 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:47:54 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:47:54 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:47:54 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:47:54 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:47:54 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:47:54 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:47:54 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:47:54 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:47:54 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:47:54 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:54 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:47:54 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:54 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:47:54 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:47:54 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:47:54 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:47:54 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:47:54 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:47:54 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:47:54 --> Model Class Initialized
+DEBUG - 2015-11-11 13:47:54 --> Final output sent to browser
+DEBUG - 2015-11-11 13:47:54 --> Total execution time: 0.0099
+DEBUG - 2015-11-11 15:48:15 --> Config Class Initialized
+DEBUG - 2015-11-11 15:48:15 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:48:15 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:48:15 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:48:15 --> URI Class Initialized
+DEBUG - 2015-11-11 15:48:15 --> Router Class Initialized
+DEBUG - 2015-11-11 15:48:15 --> Output Class Initialized
+DEBUG - 2015-11-11 15:48:15 --> Security Class Initialized
+DEBUG - 2015-11-11 15:48:15 --> Input Class Initialized
+DEBUG - 2015-11-11 15:48:15 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:48:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:48:15 --> Language Class Initialized
+DEBUG - 2015-11-11 15:48:15 --> Language Class Initialized
+DEBUG - 2015-11-11 15:48:15 --> Config Class Initialized
+DEBUG - 2015-11-11 15:48:15 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:48:15 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:48:15 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:48:15 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:48:15 --> Session Class Initialized
+DEBUG - 2015-11-11 13:48:15 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:48:15 --> Session routines successfully run
+DEBUG - 2015-11-11 13:48:15 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:48:15 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:48:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:48:15 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:48:15 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:48:15 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:48:15 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:48:15 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:48:15 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:48:15 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:48:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:15 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:48:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:15 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:48:15 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:48:15 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:48:15 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:48:15 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:48:15 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:48:15 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:48:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:15 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:48:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:15 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:48:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:15 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:48:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:15 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:48:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:15 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:48:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:15 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:48:15 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:48:15 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:48:15 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:48:15 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:48:15 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:48:15 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:48:15 --> Final output sent to browser
+DEBUG - 2015-11-11 13:48:15 --> Total execution time: 0.0182
+DEBUG - 2015-11-11 15:48:16 --> Config Class Initialized
+DEBUG - 2015-11-11 15:48:16 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:48:16 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:48:16 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:48:16 --> URI Class Initialized
+DEBUG - 2015-11-11 15:48:16 --> Router Class Initialized
+DEBUG - 2015-11-11 15:48:16 --> Output Class Initialized
+DEBUG - 2015-11-11 15:48:16 --> Security Class Initialized
+DEBUG - 2015-11-11 15:48:16 --> Input Class Initialized
+DEBUG - 2015-11-11 15:48:16 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:48:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:48:16 --> Language Class Initialized
+DEBUG - 2015-11-11 15:48:16 --> Language Class Initialized
+DEBUG - 2015-11-11 15:48:16 --> Config Class Initialized
+DEBUG - 2015-11-11 15:48:16 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:48:16 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:48:16 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:48:16 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:48:16 --> Session Class Initialized
+DEBUG - 2015-11-11 13:48:16 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:48:16 --> Session routines successfully run
+DEBUG - 2015-11-11 13:48:16 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:48:16 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:48:16 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:48:16 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:48:16 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:48:16 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:48:16 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:48:16 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:48:16 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:48:16 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:48:16 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:16 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:48:16 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:16 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:48:16 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:48:16 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:48:16 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:48:16 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:48:16 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:48:16 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:48:16 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:16 --> Final output sent to browser
+DEBUG - 2015-11-11 13:48:16 --> Total execution time: 0.0122
+DEBUG - 2015-11-11 15:48:26 --> Config Class Initialized
+DEBUG - 2015-11-11 15:48:26 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:48:26 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:48:26 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:48:26 --> URI Class Initialized
+DEBUG - 2015-11-11 15:48:26 --> Router Class Initialized
+DEBUG - 2015-11-11 15:48:26 --> Output Class Initialized
+DEBUG - 2015-11-11 15:48:26 --> Security Class Initialized
+DEBUG - 2015-11-11 15:48:26 --> Input Class Initialized
+DEBUG - 2015-11-11 15:48:26 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:48:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:48:26 --> Language Class Initialized
+DEBUG - 2015-11-11 15:48:26 --> Language Class Initialized
+DEBUG - 2015-11-11 15:48:26 --> Config Class Initialized
+DEBUG - 2015-11-11 15:48:26 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:48:26 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:48:26 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:48:26 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:48:26 --> Session Class Initialized
+DEBUG - 2015-11-11 13:48:26 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:48:26 --> Session routines successfully run
+DEBUG - 2015-11-11 13:48:26 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:48:26 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:48:26 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:48:26 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:48:26 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:48:26 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:48:26 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:48:26 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:48:26 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:48:26 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:48:26 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:26 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:48:26 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:26 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:48:26 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:48:26 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:48:26 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:48:26 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:48:26 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:48:26 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:48:26 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:26 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:48:26 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:26 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:48:26 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:26 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:48:26 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:26 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:48:26 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:26 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:48:26 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:26 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:48:26 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:48:26 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:48:26 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:48:26 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:48:26 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:48:26 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:48:26 --> Final output sent to browser
+DEBUG - 2015-11-11 13:48:26 --> Total execution time: 0.0192
+DEBUG - 2015-11-11 15:48:27 --> Config Class Initialized
+DEBUG - 2015-11-11 15:48:27 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:48:27 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:48:27 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:48:27 --> URI Class Initialized
+DEBUG - 2015-11-11 15:48:27 --> Router Class Initialized
+DEBUG - 2015-11-11 15:48:27 --> Output Class Initialized
+DEBUG - 2015-11-11 15:48:27 --> Security Class Initialized
+DEBUG - 2015-11-11 15:48:27 --> Input Class Initialized
+DEBUG - 2015-11-11 15:48:27 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:48:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:48:27 --> Language Class Initialized
+DEBUG - 2015-11-11 15:48:27 --> Language Class Initialized
+DEBUG - 2015-11-11 15:48:27 --> Config Class Initialized
+DEBUG - 2015-11-11 15:48:27 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:48:27 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:48:27 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:48:27 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:48:27 --> Session Class Initialized
+DEBUG - 2015-11-11 13:48:27 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:48:27 --> Session routines successfully run
+DEBUG - 2015-11-11 13:48:27 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:48:27 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:48:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:48:27 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:48:27 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:48:27 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:48:27 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:48:27 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:48:27 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:48:27 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:48:27 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:27 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:48:27 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:27 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:48:27 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:48:27 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:48:27 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:48:27 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:48:27 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:48:27 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:48:27 --> Model Class Initialized
+DEBUG - 2015-11-11 13:48:27 --> Final output sent to browser
+DEBUG - 2015-11-11 13:48:27 --> Total execution time: 0.0093
+DEBUG - 2015-11-11 15:52:50 --> Config Class Initialized
+DEBUG - 2015-11-11 15:52:50 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:52:50 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:52:50 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:52:50 --> URI Class Initialized
+DEBUG - 2015-11-11 15:52:50 --> Router Class Initialized
+DEBUG - 2015-11-11 15:52:50 --> Output Class Initialized
+DEBUG - 2015-11-11 15:52:50 --> Security Class Initialized
+DEBUG - 2015-11-11 15:52:50 --> Input Class Initialized
+DEBUG - 2015-11-11 15:52:50 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:52:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:52:50 --> Language Class Initialized
+DEBUG - 2015-11-11 15:52:50 --> Language Class Initialized
+DEBUG - 2015-11-11 15:52:50 --> Config Class Initialized
+DEBUG - 2015-11-11 15:52:50 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:52:50 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:52:50 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:52:50 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:52:50 --> Session Class Initialized
+DEBUG - 2015-11-11 13:52:50 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:52:50 --> Session routines successfully run
+DEBUG - 2015-11-11 13:52:50 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:52:50 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:52:50 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:52:50 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:52:50 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:52:50 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:52:50 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:52:50 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:52:50 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:52:50 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:52:50 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:50 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:52:50 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:50 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:52:50 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:52:50 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:52:50 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:52:50 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:52:50 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:52:50 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:52:50 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:50 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:52:50 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:50 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:52:50 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:50 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:52:50 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:50 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:52:50 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:50 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:52:50 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:50 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:52:50 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:52:50 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:52:50 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:52:50 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:52:50 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:52:50 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:52:50 --> Final output sent to browser
+DEBUG - 2015-11-11 13:52:50 --> Total execution time: 0.0194
+DEBUG - 2015-11-11 15:52:51 --> Config Class Initialized
+DEBUG - 2015-11-11 15:52:51 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:52:51 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:52:51 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:52:51 --> URI Class Initialized
+DEBUG - 2015-11-11 15:52:51 --> Router Class Initialized
+DEBUG - 2015-11-11 15:52:51 --> Output Class Initialized
+DEBUG - 2015-11-11 15:52:51 --> Security Class Initialized
+DEBUG - 2015-11-11 15:52:51 --> Input Class Initialized
+DEBUG - 2015-11-11 15:52:51 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:52:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:52:51 --> Language Class Initialized
+DEBUG - 2015-11-11 15:52:51 --> Language Class Initialized
+DEBUG - 2015-11-11 15:52:51 --> Config Class Initialized
+DEBUG - 2015-11-11 15:52:51 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:52:51 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:52:51 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:52:51 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:52:51 --> Session Class Initialized
+DEBUG - 2015-11-11 13:52:51 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:52:51 --> Session routines successfully run
+DEBUG - 2015-11-11 13:52:51 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:52:51 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:52:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:52:51 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:52:51 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:52:51 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:52:51 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:52:51 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:52:51 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:52:51 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:52:51 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:51 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:52:51 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:51 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:52:51 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:52:51 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:52:51 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:52:51 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:52:51 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:52:51 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:52:51 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:51 --> Final output sent to browser
+DEBUG - 2015-11-11 13:52:51 --> Total execution time: 0.0132
+DEBUG - 2015-11-11 15:52:59 --> Config Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:52:59 --> URI Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Router Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Output Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Security Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Input Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:52:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:52:59 --> Language Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Language Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Config Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:52:59 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:52:59 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:52:59 --> Session Class Initialized
+DEBUG - 2015-11-11 13:52:59 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:52:59 --> Session routines successfully run
+DEBUG - 2015-11-11 13:52:59 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:52:59 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:52:59 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:52:59 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:52:59 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:52:59 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:52:59 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:52:59 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:52:59 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:52:59 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:52:59 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:59 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:52:59 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:59 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:52:59 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:52:59 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:52:59 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:52:59 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:52:59 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:52:59 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:52:59 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:59 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:52:59 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:59 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:52:59 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:59 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:52:59 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:59 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:52:59 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:59 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:52:59 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:59 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:52:59 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:52:59 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:52:59 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:52:59 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:52:59 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:52:59 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:52:59 --> Final output sent to browser
+DEBUG - 2015-11-11 13:52:59 --> Total execution time: 0.0196
+DEBUG - 2015-11-11 15:52:59 --> Config Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:52:59 --> URI Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Router Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Output Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Security Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Input Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:52:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:52:59 --> Language Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Language Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Config Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:52:59 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:52:59 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:52:59 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:52:59 --> Session Class Initialized
+DEBUG - 2015-11-11 13:52:59 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:52:59 --> Session routines successfully run
+DEBUG - 2015-11-11 13:52:59 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:52:59 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:52:59 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:52:59 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:52:59 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:52:59 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:52:59 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:52:59 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:52:59 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:52:59 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:52:59 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:59 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:52:59 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:59 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:52:59 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:52:59 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:52:59 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:52:59 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:52:59 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:52:59 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:52:59 --> Model Class Initialized
+DEBUG - 2015-11-11 13:52:59 --> Final output sent to browser
+DEBUG - 2015-11-11 13:52:59 --> Total execution time: 0.0147
+DEBUG - 2015-11-11 15:53:09 --> Config Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:53:09 --> URI Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Router Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Output Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Security Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Input Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:53:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:53:09 --> Language Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Language Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Config Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:53:09 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:53:09 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:53:09 --> Session Class Initialized
+DEBUG - 2015-11-11 13:53:09 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:53:09 --> Session routines successfully run
+DEBUG - 2015-11-11 13:53:09 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:53:09 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:53:09 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:53:09 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:53:09 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:53:09 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:53:09 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:53:09 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:53:09 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:53:09 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:53:09 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:09 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:53:09 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:09 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:53:09 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:53:09 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:53:09 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:53:09 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:53:09 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:53:09 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:53:09 --> Model Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Config Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:53:09 --> URI Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Router Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Output Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Security Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Input Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:53:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:53:09 --> Language Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Language Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Config Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:53:09 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:53:09 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:53:09 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:53:09 --> Session Class Initialized
+DEBUG - 2015-11-11 13:53:09 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:53:09 --> Session routines successfully run
+DEBUG - 2015-11-11 13:53:09 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:53:09 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:53:09 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:53:09 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:53:09 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:53:09 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:53:09 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:53:09 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:53:09 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:53:09 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:53:09 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:09 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:53:09 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:09 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:53:09 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:53:09 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:53:09 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:53:09 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:53:09 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:53:09 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:53:09 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:09 --> Pagination Class Initialized
+DEBUG - 2015-11-11 13:53:09 --> File loaded: application/modules/quotes/views/partial_quote_table.php
+DEBUG - 2015-11-11 13:53:09 --> File loaded: application/modules/quotes/views/index.php
+DEBUG - 2015-11-11 13:53:09 --> File loaded: application/modules/filter/views/jquery_filter.php
+DEBUG - 2015-11-11 13:53:09 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:53:09 --> Final output sent to browser
+DEBUG - 2015-11-11 13:53:09 --> Total execution time: 0.0153
+DEBUG - 2015-11-11 15:53:15 --> Config Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:53:15 --> URI Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Router Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Output Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Security Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Input Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:53:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:53:15 --> Language Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Language Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Config Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:53:15 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:53:15 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:53:15 --> Session Class Initialized
+DEBUG - 2015-11-11 13:53:15 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:53:15 --> Session routines successfully run
+DEBUG - 2015-11-11 13:53:15 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:53:15 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:53:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:53:15 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:53:15 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:53:15 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:53:15 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:53:15 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:53:15 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:53:15 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:53:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:15 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:53:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:15 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:53:15 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:53:15 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:53:15 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:53:15 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:53:15 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:53:15 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:53:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:15 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:53:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:15 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:53:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:15 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:53:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:15 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:53:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:15 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:53:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:15 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:53:15 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:53:15 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:53:15 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:53:15 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:53:15 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:53:15 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:53:15 --> Final output sent to browser
+DEBUG - 2015-11-11 13:53:15 --> Total execution time: 0.0235
+DEBUG - 2015-11-11 15:53:15 --> Config Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:53:15 --> URI Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Router Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Output Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Security Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Input Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:53:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:53:15 --> Language Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Language Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Config Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:53:15 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:53:15 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:53:15 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:53:15 --> Session Class Initialized
+DEBUG - 2015-11-11 13:53:15 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:53:15 --> Session routines successfully run
+DEBUG - 2015-11-11 13:53:15 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:53:15 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:53:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:53:15 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:53:15 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:53:15 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:53:15 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:53:15 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:53:15 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:53:15 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:53:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:15 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:53:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:15 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:53:15 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:53:15 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:53:15 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:53:15 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:53:15 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:53:15 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:53:15 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:15 --> Final output sent to browser
+DEBUG - 2015-11-11 13:53:15 --> Total execution time: 0.0111
+DEBUG - 2015-11-11 15:53:18 --> Config Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:53:18 --> URI Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Router Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Output Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Security Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Input Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:53:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:53:18 --> Language Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Language Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Config Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:53:18 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:53:18 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:53:18 --> Session Class Initialized
+DEBUG - 2015-11-11 13:53:18 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:53:18 --> Session routines successfully run
+DEBUG - 2015-11-11 13:53:18 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:53:18 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:53:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:53:18 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:53:18 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:53:18 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:53:18 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:53:18 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:53:18 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:53:18 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:53:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:18 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:53:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:18 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:53:18 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:53:18 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:53:18 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:53:18 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:53:18 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:53:18 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:53:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:18 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:53:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:18 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:53:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:18 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:53:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:18 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:53:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:18 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:53:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:18 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:53:18 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:53:18 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:53:18 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:53:18 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:53:18 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:53:18 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:53:18 --> Final output sent to browser
+DEBUG - 2015-11-11 13:53:18 --> Total execution time: 0.0178
+DEBUG - 2015-11-11 15:53:18 --> Config Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:53:18 --> URI Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Router Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Output Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Security Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Input Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:53:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:53:18 --> Language Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Language Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Config Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:53:18 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:53:18 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:53:18 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:53:18 --> Session Class Initialized
+DEBUG - 2015-11-11 13:53:18 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:53:18 --> Session routines successfully run
+DEBUG - 2015-11-11 13:53:18 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:53:18 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:53:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:53:18 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:53:18 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:53:18 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:53:18 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:53:18 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:53:18 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:53:18 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:53:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:18 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:53:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:18 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:53:18 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:53:18 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:53:18 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:53:18 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:53:18 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:53:18 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:53:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:53:18 --> Final output sent to browser
+DEBUG - 2015-11-11 13:53:18 --> Total execution time: 0.0098
+DEBUG - 2015-11-11 15:54:18 --> Config Class Initialized
+DEBUG - 2015-11-11 15:54:18 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:54:18 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:54:18 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:54:18 --> URI Class Initialized
+DEBUG - 2015-11-11 15:54:18 --> Router Class Initialized
+DEBUG - 2015-11-11 15:54:18 --> Output Class Initialized
+DEBUG - 2015-11-11 15:54:18 --> Security Class Initialized
+DEBUG - 2015-11-11 15:54:18 --> Input Class Initialized
+DEBUG - 2015-11-11 15:54:18 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:54:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:54:18 --> Language Class Initialized
+DEBUG - 2015-11-11 15:54:18 --> Language Class Initialized
+DEBUG - 2015-11-11 15:54:18 --> Config Class Initialized
+DEBUG - 2015-11-11 15:54:18 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:54:18 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:54:18 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:54:18 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:54:18 --> Session Class Initialized
+DEBUG - 2015-11-11 13:54:18 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:54:18 --> Session routines successfully run
+DEBUG - 2015-11-11 13:54:18 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:54:18 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:54:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:54:18 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:54:18 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:54:18 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:54:18 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:54:18 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:54:18 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:54:18 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:54:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:18 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:54:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:18 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:54:18 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:54:18 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:54:18 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:54:18 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:54:18 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:54:18 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:54:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:18 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:54:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:18 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:54:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:18 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:54:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:18 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:54:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:18 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:54:18 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:18 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:54:18 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:54:18 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:54:18 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:54:18 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:54:18 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:54:18 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:54:18 --> Final output sent to browser
+DEBUG - 2015-11-11 13:54:18 --> Total execution time: 0.0223
+DEBUG - 2015-11-11 15:54:19 --> Config Class Initialized
+DEBUG - 2015-11-11 15:54:19 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:54:19 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:54:19 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:54:19 --> URI Class Initialized
+DEBUG - 2015-11-11 15:54:19 --> Router Class Initialized
+DEBUG - 2015-11-11 15:54:19 --> Output Class Initialized
+DEBUG - 2015-11-11 15:54:19 --> Security Class Initialized
+DEBUG - 2015-11-11 15:54:19 --> Input Class Initialized
+DEBUG - 2015-11-11 15:54:19 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:54:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:54:19 --> Language Class Initialized
+DEBUG - 2015-11-11 15:54:19 --> Language Class Initialized
+DEBUG - 2015-11-11 15:54:19 --> Config Class Initialized
+DEBUG - 2015-11-11 15:54:19 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:54:19 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:54:19 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:54:19 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:54:19 --> Session Class Initialized
+DEBUG - 2015-11-11 13:54:19 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:54:19 --> Session routines successfully run
+DEBUG - 2015-11-11 13:54:19 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:54:19 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:54:19 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:54:19 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:54:19 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:54:19 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:54:19 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:54:19 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:54:19 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:54:19 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:54:19 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:19 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:54:19 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:19 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:54:19 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:54:19 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:54:19 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:54:19 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:54:19 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:54:19 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:54:19 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:19 --> Final output sent to browser
+DEBUG - 2015-11-11 13:54:19 --> Total execution time: 0.0091
+DEBUG - 2015-11-11 15:54:26 --> Config Class Initialized
+DEBUG - 2015-11-11 15:54:26 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:54:26 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:54:26 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:54:26 --> URI Class Initialized
+DEBUG - 2015-11-11 15:54:26 --> Router Class Initialized
+DEBUG - 2015-11-11 15:54:26 --> Output Class Initialized
+DEBUG - 2015-11-11 15:54:26 --> Security Class Initialized
+DEBUG - 2015-11-11 15:54:26 --> Input Class Initialized
+DEBUG - 2015-11-11 15:54:26 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:54:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:54:26 --> Language Class Initialized
+DEBUG - 2015-11-11 15:54:26 --> Language Class Initialized
+DEBUG - 2015-11-11 15:54:26 --> Config Class Initialized
+DEBUG - 2015-11-11 15:54:26 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:54:26 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:54:26 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:54:26 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:54:26 --> Session Class Initialized
+DEBUG - 2015-11-11 13:54:26 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:54:26 --> Session routines successfully run
+DEBUG - 2015-11-11 13:54:26 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:54:26 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:54:26 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:54:26 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:54:26 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:54:26 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:54:26 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:54:26 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:54:26 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:54:26 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:54:26 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:26 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:54:26 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:26 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:54:26 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:54:26 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:54:26 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:54:26 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:54:26 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:54:26 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:54:26 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:26 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:54:26 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:26 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:54:26 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:26 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:54:26 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:26 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:54:26 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:26 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:54:26 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:26 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:54:26 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:54:26 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:54:26 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:54:26 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:54:26 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:54:26 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:54:27 --> Final output sent to browser
+DEBUG - 2015-11-11 13:54:27 --> Total execution time: 0.0186
+DEBUG - 2015-11-11 15:54:27 --> Config Class Initialized
+DEBUG - 2015-11-11 15:54:27 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:54:27 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:54:27 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:54:27 --> URI Class Initialized
+DEBUG - 2015-11-11 15:54:27 --> Router Class Initialized
+DEBUG - 2015-11-11 15:54:27 --> Output Class Initialized
+DEBUG - 2015-11-11 15:54:27 --> Security Class Initialized
+DEBUG - 2015-11-11 15:54:27 --> Input Class Initialized
+DEBUG - 2015-11-11 15:54:27 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:54:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:54:27 --> Language Class Initialized
+DEBUG - 2015-11-11 15:54:27 --> Language Class Initialized
+DEBUG - 2015-11-11 15:54:27 --> Config Class Initialized
+DEBUG - 2015-11-11 15:54:27 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:54:27 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:54:27 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:54:27 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:54:27 --> Session Class Initialized
+DEBUG - 2015-11-11 13:54:27 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:54:27 --> Session routines successfully run
+DEBUG - 2015-11-11 13:54:27 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:54:27 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:54:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:54:27 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:54:27 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:54:27 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:54:27 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:54:27 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:54:27 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:54:27 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:54:27 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:27 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:54:27 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:27 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:54:27 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:54:27 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:54:27 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:54:27 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:54:27 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:54:27 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:54:27 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:27 --> Final output sent to browser
+DEBUG - 2015-11-11 13:54:27 --> Total execution time: 0.0117
+DEBUG - 2015-11-11 15:54:55 --> Config Class Initialized
+DEBUG - 2015-11-11 15:54:55 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:54:55 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:54:55 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:54:55 --> URI Class Initialized
+DEBUG - 2015-11-11 15:54:55 --> Router Class Initialized
+DEBUG - 2015-11-11 15:54:55 --> Output Class Initialized
+DEBUG - 2015-11-11 15:54:55 --> Security Class Initialized
+DEBUG - 2015-11-11 15:54:55 --> Input Class Initialized
+DEBUG - 2015-11-11 15:54:55 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:54:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:54:55 --> Language Class Initialized
+DEBUG - 2015-11-11 15:54:55 --> Language Class Initialized
+DEBUG - 2015-11-11 15:54:55 --> Config Class Initialized
+DEBUG - 2015-11-11 15:54:55 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:54:55 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:54:55 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:54:55 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:54:55 --> Session Class Initialized
+DEBUG - 2015-11-11 13:54:55 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:54:55 --> Session routines successfully run
+DEBUG - 2015-11-11 13:54:55 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:54:55 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:54:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:54:55 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:54:55 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:54:55 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:54:55 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:54:55 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:54:55 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:54:55 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:54:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:55 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:54:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:55 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:54:55 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:54:55 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:54:55 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:54:55 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:54:55 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:54:55 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:54:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:55 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:54:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:55 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:54:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:55 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:54:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:55 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:54:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:55 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:54:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:55 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:54:55 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:54:55 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:54:55 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:54:55 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:54:55 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:54:55 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:54:55 --> Final output sent to browser
+DEBUG - 2015-11-11 13:54:55 --> Total execution time: 0.0176
+DEBUG - 2015-11-11 15:54:56 --> Config Class Initialized
+DEBUG - 2015-11-11 15:54:56 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:54:56 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:54:56 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:54:56 --> URI Class Initialized
+DEBUG - 2015-11-11 15:54:56 --> Router Class Initialized
+DEBUG - 2015-11-11 15:54:56 --> Output Class Initialized
+DEBUG - 2015-11-11 15:54:56 --> Security Class Initialized
+DEBUG - 2015-11-11 15:54:56 --> Input Class Initialized
+DEBUG - 2015-11-11 15:54:56 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:54:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:54:56 --> Language Class Initialized
+DEBUG - 2015-11-11 15:54:56 --> Language Class Initialized
+DEBUG - 2015-11-11 15:54:56 --> Config Class Initialized
+DEBUG - 2015-11-11 15:54:56 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:54:56 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:54:56 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:54:56 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:54:56 --> Session Class Initialized
+DEBUG - 2015-11-11 13:54:56 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:54:56 --> Session routines successfully run
+DEBUG - 2015-11-11 13:54:56 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:54:56 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:54:56 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:54:56 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:54:56 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:54:56 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:54:56 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:54:56 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:54:56 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:54:56 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:54:56 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:56 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:54:56 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:56 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:54:56 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:54:56 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:54:56 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:54:56 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:54:56 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:54:56 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:54:56 --> Model Class Initialized
+DEBUG - 2015-11-11 13:54:56 --> Final output sent to browser
+DEBUG - 2015-11-11 13:54:56 --> Total execution time: 0.0134
+DEBUG - 2015-11-11 15:55:54 --> Config Class Initialized
+DEBUG - 2015-11-11 15:55:54 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:55:54 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:55:54 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:55:54 --> URI Class Initialized
+DEBUG - 2015-11-11 15:55:54 --> Router Class Initialized
+DEBUG - 2015-11-11 15:55:54 --> Output Class Initialized
+DEBUG - 2015-11-11 15:55:54 --> Security Class Initialized
+DEBUG - 2015-11-11 15:55:54 --> Input Class Initialized
+DEBUG - 2015-11-11 15:55:54 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:55:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:55:54 --> Language Class Initialized
+DEBUG - 2015-11-11 15:55:54 --> Language Class Initialized
+DEBUG - 2015-11-11 15:55:54 --> Config Class Initialized
+DEBUG - 2015-11-11 15:55:54 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:55:54 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:55:54 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:55:54 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:55:54 --> Session Class Initialized
+DEBUG - 2015-11-11 13:55:54 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:55:54 --> Session routines successfully run
+DEBUG - 2015-11-11 13:55:54 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:55:54 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:55:54 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:55:54 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:55:54 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:55:54 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:55:54 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:55:54 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:55:54 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:55:54 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:55:54 --> Model Class Initialized
+DEBUG - 2015-11-11 13:55:54 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:55:54 --> Model Class Initialized
+DEBUG - 2015-11-11 13:55:54 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:55:54 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:55:54 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:55:54 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:55:54 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:55:54 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:55:54 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:55:54 --> Model Class Initialized
+DEBUG - 2015-11-11 13:55:54 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:55:54 --> Model Class Initialized
+DEBUG - 2015-11-11 13:55:54 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:55:54 --> Model Class Initialized
+DEBUG - 2015-11-11 13:55:54 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:55:54 --> Model Class Initialized
+DEBUG - 2015-11-11 13:55:54 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:55:54 --> Model Class Initialized
+DEBUG - 2015-11-11 13:55:54 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:55:54 --> Model Class Initialized
+DEBUG - 2015-11-11 13:55:54 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:55:54 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:55:54 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:55:54 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:55:54 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:55:54 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:55:54 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:55:54 --> Final output sent to browser
+DEBUG - 2015-11-11 13:55:54 --> Total execution time: 0.0179
+DEBUG - 2015-11-11 15:55:55 --> Config Class Initialized
+DEBUG - 2015-11-11 15:55:55 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:55:55 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:55:55 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:55:55 --> URI Class Initialized
+DEBUG - 2015-11-11 15:55:55 --> Router Class Initialized
+DEBUG - 2015-11-11 15:55:55 --> Output Class Initialized
+DEBUG - 2015-11-11 15:55:55 --> Security Class Initialized
+DEBUG - 2015-11-11 15:55:55 --> Input Class Initialized
+DEBUG - 2015-11-11 15:55:55 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:55:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:55:55 --> Language Class Initialized
+DEBUG - 2015-11-11 15:55:55 --> Language Class Initialized
+DEBUG - 2015-11-11 15:55:55 --> Config Class Initialized
+DEBUG - 2015-11-11 15:55:55 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:55:55 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:55:55 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:55:55 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:55:55 --> Session Class Initialized
+DEBUG - 2015-11-11 13:55:55 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:55:55 --> Session routines successfully run
+DEBUG - 2015-11-11 13:55:55 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:55:55 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:55:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:55:55 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:55:55 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:55:55 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:55:55 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:55:55 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:55:55 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:55:55 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:55:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:55:55 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:55:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:55:55 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:55:55 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:55:55 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:55:55 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:55:55 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:55:55 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:55:55 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:55:55 --> Model Class Initialized
+DEBUG - 2015-11-11 13:55:55 --> Final output sent to browser
+DEBUG - 2015-11-11 13:55:55 --> Total execution time: 0.0160
+DEBUG - 2015-11-11 15:56:36 --> Config Class Initialized
+DEBUG - 2015-11-11 15:56:36 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:56:36 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:56:36 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:56:36 --> URI Class Initialized
+DEBUG - 2015-11-11 15:56:36 --> Router Class Initialized
+DEBUG - 2015-11-11 15:56:36 --> Output Class Initialized
+DEBUG - 2015-11-11 15:56:36 --> Security Class Initialized
+DEBUG - 2015-11-11 15:56:36 --> Input Class Initialized
+DEBUG - 2015-11-11 15:56:36 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:56:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:56:36 --> Language Class Initialized
+DEBUG - 2015-11-11 15:56:36 --> Language Class Initialized
+DEBUG - 2015-11-11 15:56:36 --> Config Class Initialized
+DEBUG - 2015-11-11 15:56:36 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:56:36 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:56:36 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:56:36 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:56:36 --> Session Class Initialized
+DEBUG - 2015-11-11 13:56:36 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:56:36 --> Session routines successfully run
+DEBUG - 2015-11-11 13:56:36 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:56:36 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:56:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:56:36 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:56:36 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:56:36 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:56:36 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:56:36 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:56:36 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:56:36 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:56:36 --> Model Class Initialized
+DEBUG - 2015-11-11 13:56:36 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:56:36 --> Model Class Initialized
+DEBUG - 2015-11-11 13:56:36 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:56:36 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:56:36 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:56:36 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:56:36 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:56:36 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:56:36 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:56:36 --> Model Class Initialized
+DEBUG - 2015-11-11 13:56:36 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:56:36 --> Model Class Initialized
+DEBUG - 2015-11-11 13:56:36 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:56:36 --> Model Class Initialized
+DEBUG - 2015-11-11 13:56:36 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:56:36 --> Model Class Initialized
+DEBUG - 2015-11-11 13:56:36 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:56:36 --> Model Class Initialized
+DEBUG - 2015-11-11 13:56:36 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:56:36 --> Model Class Initialized
+DEBUG - 2015-11-11 13:56:36 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:56:36 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:56:36 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:56:36 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:56:36 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:56:36 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:56:36 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:56:36 --> Final output sent to browser
+DEBUG - 2015-11-11 13:56:36 --> Total execution time: 0.0178
+DEBUG - 2015-11-11 15:56:37 --> Config Class Initialized
+DEBUG - 2015-11-11 15:56:37 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:56:37 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:56:37 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:56:37 --> URI Class Initialized
+DEBUG - 2015-11-11 15:56:37 --> Router Class Initialized
+DEBUG - 2015-11-11 15:56:37 --> Output Class Initialized
+DEBUG - 2015-11-11 15:56:37 --> Security Class Initialized
+DEBUG - 2015-11-11 15:56:37 --> Input Class Initialized
+DEBUG - 2015-11-11 15:56:37 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:56:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:56:37 --> Language Class Initialized
+DEBUG - 2015-11-11 15:56:37 --> Language Class Initialized
+DEBUG - 2015-11-11 15:56:37 --> Config Class Initialized
+DEBUG - 2015-11-11 15:56:37 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:56:37 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:56:37 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:56:37 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:56:37 --> Session Class Initialized
+DEBUG - 2015-11-11 13:56:37 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:56:37 --> Session routines successfully run
+DEBUG - 2015-11-11 13:56:37 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:56:37 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:56:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:56:37 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:56:37 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:56:37 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:56:37 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:56:37 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:56:37 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:56:37 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:56:37 --> Model Class Initialized
+DEBUG - 2015-11-11 13:56:37 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:56:37 --> Model Class Initialized
+DEBUG - 2015-11-11 13:56:37 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:56:37 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:56:37 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:56:37 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:56:37 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:56:37 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:56:37 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:56:37 --> Model Class Initialized
+DEBUG - 2015-11-11 13:56:37 --> Final output sent to browser
+DEBUG - 2015-11-11 13:56:37 --> Total execution time: 0.0192
+DEBUG - 2015-11-11 15:59:52 --> Config Class Initialized
+DEBUG - 2015-11-11 15:59:52 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:59:52 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:59:52 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:59:52 --> URI Class Initialized
+DEBUG - 2015-11-11 15:59:52 --> Router Class Initialized
+DEBUG - 2015-11-11 15:59:52 --> Output Class Initialized
+DEBUG - 2015-11-11 15:59:52 --> Security Class Initialized
+DEBUG - 2015-11-11 15:59:52 --> Input Class Initialized
+DEBUG - 2015-11-11 15:59:52 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:59:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:59:52 --> Language Class Initialized
+DEBUG - 2015-11-11 15:59:52 --> Language Class Initialized
+DEBUG - 2015-11-11 15:59:52 --> Config Class Initialized
+DEBUG - 2015-11-11 15:59:52 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:59:52 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:59:52 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 13:59:52 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:59:52 --> Session Class Initialized
+DEBUG - 2015-11-11 13:59:52 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:59:52 --> Session routines successfully run
+DEBUG - 2015-11-11 13:59:52 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:59:52 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:59:52 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:59:52 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:59:52 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:59:52 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:59:52 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:59:52 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:59:52 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:59:52 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:59:52 --> Model Class Initialized
+DEBUG - 2015-11-11 13:59:52 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:59:52 --> Model Class Initialized
+DEBUG - 2015-11-11 13:59:52 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:59:52 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:59:52 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:59:52 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:59:52 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:59:52 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:59:52 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 13:59:52 --> Model Class Initialized
+DEBUG - 2015-11-11 13:59:52 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 13:59:52 --> Model Class Initialized
+DEBUG - 2015-11-11 13:59:52 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 13:59:52 --> Model Class Initialized
+DEBUG - 2015-11-11 13:59:52 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 13:59:52 --> Model Class Initialized
+DEBUG - 2015-11-11 13:59:52 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 13:59:52 --> Model Class Initialized
+DEBUG - 2015-11-11 13:59:52 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 13:59:52 --> Model Class Initialized
+DEBUG - 2015-11-11 13:59:52 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 13:59:52 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 13:59:52 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 13:59:52 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 13:59:52 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 13:59:52 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 13:59:52 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 13:59:52 --> Final output sent to browser
+DEBUG - 2015-11-11 13:59:52 --> Total execution time: 0.0257
+DEBUG - 2015-11-11 15:59:53 --> Config Class Initialized
+DEBUG - 2015-11-11 15:59:53 --> Hooks Class Initialized
+DEBUG - 2015-11-11 15:59:53 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 15:59:53 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 15:59:53 --> URI Class Initialized
+DEBUG - 2015-11-11 15:59:53 --> Router Class Initialized
+DEBUG - 2015-11-11 15:59:53 --> Output Class Initialized
+DEBUG - 2015-11-11 15:59:53 --> Security Class Initialized
+DEBUG - 2015-11-11 15:59:53 --> Input Class Initialized
+DEBUG - 2015-11-11 15:59:53 --> XSS Filtering completed
+DEBUG - 2015-11-11 15:59:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 15:59:53 --> Language Class Initialized
+DEBUG - 2015-11-11 15:59:53 --> Language Class Initialized
+DEBUG - 2015-11-11 15:59:53 --> Config Class Initialized
+DEBUG - 2015-11-11 15:59:53 --> Loader Class Initialized
+DEBUG - 2015-11-11 15:59:53 --> Controller Class Initialized
+DEBUG - 2015-11-11 13:59:53 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 13:59:53 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 13:59:53 --> Session Class Initialized
+DEBUG - 2015-11-11 13:59:53 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 13:59:53 --> Session routines successfully run
+DEBUG - 2015-11-11 13:59:53 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 13:59:53 --> Database Driver Class Initialized
+ERROR - 2015-11-11 13:59:53 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 13:59:53 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 13:59:53 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 13:59:53 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 13:59:53 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 13:59:53 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 13:59:53 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 13:59:53 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 13:59:53 --> Model Class Initialized
+DEBUG - 2015-11-11 13:59:53 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 13:59:53 --> Model Class Initialized
+DEBUG - 2015-11-11 13:59:53 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 13:59:53 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 13:59:53 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 13:59:53 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 13:59:53 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 13:59:53 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 13:59:53 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 13:59:53 --> Model Class Initialized
+DEBUG - 2015-11-11 13:59:53 --> Final output sent to browser
+DEBUG - 2015-11-11 13:59:53 --> Total execution time: 0.0105
+DEBUG - 2015-11-11 16:01:51 --> Config Class Initialized
+DEBUG - 2015-11-11 16:01:51 --> Hooks Class Initialized
+DEBUG - 2015-11-11 16:01:51 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 16:01:51 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 16:01:51 --> URI Class Initialized
+DEBUG - 2015-11-11 16:01:51 --> Router Class Initialized
+DEBUG - 2015-11-11 16:01:51 --> Output Class Initialized
+DEBUG - 2015-11-11 16:01:51 --> Security Class Initialized
+DEBUG - 2015-11-11 16:01:51 --> Input Class Initialized
+DEBUG - 2015-11-11 16:01:51 --> XSS Filtering completed
+DEBUG - 2015-11-11 16:01:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 16:01:51 --> Language Class Initialized
+DEBUG - 2015-11-11 16:01:51 --> Language Class Initialized
+DEBUG - 2015-11-11 16:01:51 --> Config Class Initialized
+DEBUG - 2015-11-11 16:01:51 --> Loader Class Initialized
+DEBUG - 2015-11-11 16:01:51 --> Controller Class Initialized
+DEBUG - 2015-11-11 14:01:51 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 14:01:51 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 14:01:51 --> Session Class Initialized
+DEBUG - 2015-11-11 14:01:51 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 14:01:51 --> Session routines successfully run
+DEBUG - 2015-11-11 14:01:51 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 14:01:51 --> Database Driver Class Initialized
+ERROR - 2015-11-11 14:01:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 14:01:51 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 14:01:51 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 14:01:51 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 14:01:51 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 14:01:51 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 14:01:51 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 14:01:51 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 14:01:51 --> Model Class Initialized
+DEBUG - 2015-11-11 14:01:51 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 14:01:51 --> Model Class Initialized
+DEBUG - 2015-11-11 14:01:51 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 14:01:51 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 14:01:51 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 14:01:51 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 14:01:51 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 14:01:51 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 14:01:51 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 14:01:51 --> Model Class Initialized
+DEBUG - 2015-11-11 14:01:51 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 14:01:51 --> Model Class Initialized
+DEBUG - 2015-11-11 14:01:51 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 14:01:51 --> Model Class Initialized
+DEBUG - 2015-11-11 14:01:51 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 14:01:51 --> Model Class Initialized
+DEBUG - 2015-11-11 14:01:51 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 14:01:51 --> Model Class Initialized
+DEBUG - 2015-11-11 14:01:51 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 14:01:51 --> Model Class Initialized
+DEBUG - 2015-11-11 14:01:51 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 14:01:51 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 14:01:51 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 14:01:51 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 14:01:51 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 14:01:51 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 14:01:51 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 14:01:51 --> Final output sent to browser
+DEBUG - 2015-11-11 14:01:51 --> Total execution time: 0.0171
+DEBUG - 2015-11-11 16:01:52 --> Config Class Initialized
+DEBUG - 2015-11-11 16:01:52 --> Hooks Class Initialized
+DEBUG - 2015-11-11 16:01:52 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 16:01:52 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 16:01:52 --> URI Class Initialized
+DEBUG - 2015-11-11 16:01:52 --> Router Class Initialized
+DEBUG - 2015-11-11 16:01:52 --> Output Class Initialized
+DEBUG - 2015-11-11 16:01:52 --> Security Class Initialized
+DEBUG - 2015-11-11 16:01:52 --> Input Class Initialized
+DEBUG - 2015-11-11 16:01:52 --> XSS Filtering completed
+DEBUG - 2015-11-11 16:01:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 16:01:52 --> Language Class Initialized
+DEBUG - 2015-11-11 16:01:52 --> Language Class Initialized
+DEBUG - 2015-11-11 16:01:52 --> Config Class Initialized
+DEBUG - 2015-11-11 16:01:52 --> Loader Class Initialized
+DEBUG - 2015-11-11 16:01:52 --> Controller Class Initialized
+DEBUG - 2015-11-11 14:01:52 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 14:01:52 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 14:01:52 --> Session Class Initialized
+DEBUG - 2015-11-11 14:01:52 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 14:01:52 --> Session routines successfully run
+DEBUG - 2015-11-11 14:01:52 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 14:01:52 --> Database Driver Class Initialized
+ERROR - 2015-11-11 14:01:52 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 14:01:52 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 14:01:52 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 14:01:52 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 14:01:52 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 14:01:52 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 14:01:52 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 14:01:52 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 14:01:52 --> Model Class Initialized
+DEBUG - 2015-11-11 14:01:52 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 14:01:52 --> Model Class Initialized
+DEBUG - 2015-11-11 14:01:52 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 14:01:52 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 14:01:52 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 14:01:52 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 14:01:52 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 14:01:52 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 14:01:52 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 14:01:52 --> Model Class Initialized
+DEBUG - 2015-11-11 14:01:52 --> Final output sent to browser
+DEBUG - 2015-11-11 14:01:52 --> Total execution time: 0.0101
+DEBUG - 2015-11-11 16:02:47 --> Config Class Initialized
+DEBUG - 2015-11-11 16:02:47 --> Hooks Class Initialized
+DEBUG - 2015-11-11 16:02:47 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 16:02:47 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 16:02:47 --> URI Class Initialized
+DEBUG - 2015-11-11 16:02:47 --> Router Class Initialized
+DEBUG - 2015-11-11 16:02:47 --> Output Class Initialized
+DEBUG - 2015-11-11 16:02:47 --> Security Class Initialized
+DEBUG - 2015-11-11 16:02:47 --> Input Class Initialized
+DEBUG - 2015-11-11 16:02:47 --> XSS Filtering completed
+DEBUG - 2015-11-11 16:02:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 16:02:47 --> Language Class Initialized
+DEBUG - 2015-11-11 16:02:47 --> Language Class Initialized
+DEBUG - 2015-11-11 16:02:47 --> Config Class Initialized
+DEBUG - 2015-11-11 16:02:47 --> Loader Class Initialized
+DEBUG - 2015-11-11 16:02:47 --> Controller Class Initialized
+DEBUG - 2015-11-11 14:02:47 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 14:02:47 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 14:02:47 --> Session Class Initialized
+DEBUG - 2015-11-11 14:02:47 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 14:02:47 --> Session routines successfully run
+DEBUG - 2015-11-11 14:02:47 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 14:02:47 --> Database Driver Class Initialized
+ERROR - 2015-11-11 14:02:47 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 14:02:47 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 14:02:47 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 14:02:47 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 14:02:47 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 14:02:47 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 14:02:47 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 14:02:47 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 14:02:47 --> Model Class Initialized
+DEBUG - 2015-11-11 14:02:47 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 14:02:47 --> Model Class Initialized
+DEBUG - 2015-11-11 14:02:47 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 14:02:47 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 14:02:47 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 14:02:47 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 14:02:47 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 14:02:47 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 14:02:47 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 14:02:47 --> Model Class Initialized
+DEBUG - 2015-11-11 14:02:47 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 14:02:47 --> Model Class Initialized
+DEBUG - 2015-11-11 14:02:47 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 14:02:47 --> Model Class Initialized
+DEBUG - 2015-11-11 14:02:47 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 14:02:47 --> Model Class Initialized
+DEBUG - 2015-11-11 14:02:47 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 14:02:47 --> Model Class Initialized
+DEBUG - 2015-11-11 14:02:47 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 14:02:47 --> Model Class Initialized
+DEBUG - 2015-11-11 14:02:47 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 14:02:47 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 14:02:47 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 14:02:47 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 14:02:47 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 14:02:47 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 14:02:47 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 14:02:47 --> Final output sent to browser
+DEBUG - 2015-11-11 14:02:47 --> Total execution time: 0.0229
+DEBUG - 2015-11-11 16:02:48 --> Config Class Initialized
+DEBUG - 2015-11-11 16:02:48 --> Hooks Class Initialized
+DEBUG - 2015-11-11 16:02:48 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 16:02:48 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 16:02:48 --> URI Class Initialized
+DEBUG - 2015-11-11 16:02:48 --> Router Class Initialized
+DEBUG - 2015-11-11 16:02:48 --> Output Class Initialized
+DEBUG - 2015-11-11 16:02:48 --> Security Class Initialized
+DEBUG - 2015-11-11 16:02:48 --> Input Class Initialized
+DEBUG - 2015-11-11 16:02:48 --> XSS Filtering completed
+DEBUG - 2015-11-11 16:02:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 16:02:48 --> Language Class Initialized
+DEBUG - 2015-11-11 16:02:48 --> Language Class Initialized
+DEBUG - 2015-11-11 16:02:48 --> Config Class Initialized
+DEBUG - 2015-11-11 16:02:48 --> Loader Class Initialized
+DEBUG - 2015-11-11 16:02:48 --> Controller Class Initialized
+DEBUG - 2015-11-11 14:02:48 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 14:02:48 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 14:02:48 --> Session Class Initialized
+DEBUG - 2015-11-11 14:02:48 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 14:02:48 --> Session routines successfully run
+DEBUG - 2015-11-11 14:02:48 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 14:02:48 --> Database Driver Class Initialized
+ERROR - 2015-11-11 14:02:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 14:02:48 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 14:02:48 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 14:02:48 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 14:02:48 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 14:02:48 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 14:02:48 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 14:02:48 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 14:02:48 --> Model Class Initialized
+DEBUG - 2015-11-11 14:02:48 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 14:02:48 --> Model Class Initialized
+DEBUG - 2015-11-11 14:02:48 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 14:02:48 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 14:02:48 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 14:02:48 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 14:02:48 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 14:02:48 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 14:02:48 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 14:02:48 --> Model Class Initialized
+DEBUG - 2015-11-11 14:02:48 --> Final output sent to browser
+DEBUG - 2015-11-11 14:02:48 --> Total execution time: 0.0142
+DEBUG - 2015-11-11 16:03:36 --> Config Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Hooks Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 16:03:36 --> URI Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Router Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Output Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Security Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Input Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> XSS Filtering completed
+DEBUG - 2015-11-11 16:03:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 16:03:36 --> Language Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Language Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Config Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Loader Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Controller Class Initialized
+DEBUG - 2015-11-11 14:03:36 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 14:03:36 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 14:03:36 --> Session Class Initialized
+DEBUG - 2015-11-11 14:03:36 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 14:03:36 --> Session routines successfully run
+DEBUG - 2015-11-11 14:03:36 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 14:03:36 --> Database Driver Class Initialized
+ERROR - 2015-11-11 14:03:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 14:03:36 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 14:03:36 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 14:03:36 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 14:03:36 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 14:03:36 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 14:03:36 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 14:03:36 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 14:03:36 --> Model Class Initialized
+DEBUG - 2015-11-11 14:03:36 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 14:03:36 --> Model Class Initialized
+DEBUG - 2015-11-11 14:03:36 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 14:03:36 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 14:03:36 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 14:03:36 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 14:03:36 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 14:03:36 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 14:03:36 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 14:03:36 --> Model Class Initialized
+DEBUG - 2015-11-11 14:03:36 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 14:03:36 --> Model Class Initialized
+DEBUG - 2015-11-11 14:03:36 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 14:03:36 --> Model Class Initialized
+DEBUG - 2015-11-11 14:03:36 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 14:03:36 --> Model Class Initialized
+DEBUG - 2015-11-11 14:03:36 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 14:03:36 --> Model Class Initialized
+DEBUG - 2015-11-11 14:03:36 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 14:03:36 --> Model Class Initialized
+DEBUG - 2015-11-11 14:03:36 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 14:03:36 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 14:03:36 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 14:03:36 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 14:03:36 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 14:03:36 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 14:03:36 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 14:03:36 --> Final output sent to browser
+DEBUG - 2015-11-11 14:03:36 --> Total execution time: 0.0213
+DEBUG - 2015-11-11 16:03:36 --> Config Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Hooks Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 16:03:36 --> URI Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Router Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Output Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Security Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Input Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> XSS Filtering completed
+DEBUG - 2015-11-11 16:03:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 16:03:36 --> Language Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Language Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Config Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Loader Class Initialized
+DEBUG - 2015-11-11 16:03:36 --> Controller Class Initialized
+DEBUG - 2015-11-11 14:03:36 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 14:03:36 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 14:03:36 --> Session Class Initialized
+DEBUG - 2015-11-11 14:03:36 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 14:03:36 --> Session routines successfully run
+DEBUG - 2015-11-11 14:03:36 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 14:03:36 --> Database Driver Class Initialized
+ERROR - 2015-11-11 14:03:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 14:03:36 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 14:03:36 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 14:03:36 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 14:03:36 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 14:03:36 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 14:03:36 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 14:03:36 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 14:03:36 --> Model Class Initialized
+DEBUG - 2015-11-11 14:03:36 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 14:03:36 --> Model Class Initialized
+DEBUG - 2015-11-11 14:03:36 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 14:03:36 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 14:03:36 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 14:03:36 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 14:03:36 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 14:03:36 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 14:03:36 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 14:03:36 --> Model Class Initialized
+DEBUG - 2015-11-11 14:03:36 --> Final output sent to browser
+DEBUG - 2015-11-11 14:03:36 --> Total execution time: 0.0095
+DEBUG - 2015-11-11 16:04:24 --> Config Class Initialized
+DEBUG - 2015-11-11 16:04:24 --> Hooks Class Initialized
+DEBUG - 2015-11-11 16:04:24 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 16:04:24 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 16:04:24 --> URI Class Initialized
+DEBUG - 2015-11-11 16:04:24 --> Router Class Initialized
+DEBUG - 2015-11-11 16:04:24 --> Output Class Initialized
+DEBUG - 2015-11-11 16:04:24 --> Security Class Initialized
+DEBUG - 2015-11-11 16:04:24 --> Input Class Initialized
+DEBUG - 2015-11-11 16:04:24 --> XSS Filtering completed
+DEBUG - 2015-11-11 16:04:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 16:04:24 --> Language Class Initialized
+DEBUG - 2015-11-11 16:04:24 --> Language Class Initialized
+DEBUG - 2015-11-11 16:04:24 --> Config Class Initialized
+DEBUG - 2015-11-11 16:04:24 --> Loader Class Initialized
+DEBUG - 2015-11-11 16:04:24 --> Controller Class Initialized
+DEBUG - 2015-11-11 14:04:24 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 14:04:24 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 14:04:24 --> Session Class Initialized
+DEBUG - 2015-11-11 14:04:24 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 14:04:24 --> Session routines successfully run
+DEBUG - 2015-11-11 14:04:24 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 14:04:24 --> Database Driver Class Initialized
+ERROR - 2015-11-11 14:04:24 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 14:04:24 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 14:04:24 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 14:04:24 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 14:04:24 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 14:04:24 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 14:04:24 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 14:04:24 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 14:04:24 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:24 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 14:04:24 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:24 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 14:04:24 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 14:04:24 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 14:04:24 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 14:04:24 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 14:04:24 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 14:04:24 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 14:04:24 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:24 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 14:04:24 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:24 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 14:04:24 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:24 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 14:04:24 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:24 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 14:04:24 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:24 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 14:04:24 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:24 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 14:04:24 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 14:04:24 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 14:04:24 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 14:04:24 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 14:04:24 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 14:04:24 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 14:04:24 --> Final output sent to browser
+DEBUG - 2015-11-11 14:04:24 --> Total execution time: 0.0174
+DEBUG - 2015-11-11 16:04:25 --> Config Class Initialized
+DEBUG - 2015-11-11 16:04:25 --> Hooks Class Initialized
+DEBUG - 2015-11-11 16:04:25 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 16:04:25 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 16:04:25 --> URI Class Initialized
+DEBUG - 2015-11-11 16:04:25 --> Router Class Initialized
+DEBUG - 2015-11-11 16:04:25 --> Output Class Initialized
+DEBUG - 2015-11-11 16:04:25 --> Security Class Initialized
+DEBUG - 2015-11-11 16:04:25 --> Input Class Initialized
+DEBUG - 2015-11-11 16:04:25 --> XSS Filtering completed
+DEBUG - 2015-11-11 16:04:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 16:04:25 --> Language Class Initialized
+DEBUG - 2015-11-11 16:04:25 --> Language Class Initialized
+DEBUG - 2015-11-11 16:04:25 --> Config Class Initialized
+DEBUG - 2015-11-11 16:04:25 --> Loader Class Initialized
+DEBUG - 2015-11-11 16:04:25 --> Controller Class Initialized
+DEBUG - 2015-11-11 14:04:25 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 14:04:25 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 14:04:25 --> Session Class Initialized
+DEBUG - 2015-11-11 14:04:25 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 14:04:25 --> Session routines successfully run
+DEBUG - 2015-11-11 14:04:25 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 14:04:25 --> Database Driver Class Initialized
+ERROR - 2015-11-11 14:04:25 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 14:04:25 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 14:04:25 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 14:04:25 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 14:04:25 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 14:04:25 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 14:04:25 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 14:04:25 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 14:04:25 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:25 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 14:04:25 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:25 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 14:04:25 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 14:04:25 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 14:04:25 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 14:04:25 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 14:04:25 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 14:04:25 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 14:04:25 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:25 --> Final output sent to browser
+DEBUG - 2015-11-11 14:04:25 --> Total execution time: 0.0117
+DEBUG - 2015-11-11 16:04:40 --> Config Class Initialized
+DEBUG - 2015-11-11 16:04:40 --> Hooks Class Initialized
+DEBUG - 2015-11-11 16:04:40 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 16:04:40 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 16:04:40 --> URI Class Initialized
+DEBUG - 2015-11-11 16:04:40 --> Router Class Initialized
+DEBUG - 2015-11-11 16:04:40 --> Output Class Initialized
+DEBUG - 2015-11-11 16:04:40 --> Security Class Initialized
+DEBUG - 2015-11-11 16:04:40 --> Input Class Initialized
+DEBUG - 2015-11-11 16:04:40 --> XSS Filtering completed
+DEBUG - 2015-11-11 16:04:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 16:04:40 --> Language Class Initialized
+DEBUG - 2015-11-11 16:04:40 --> Language Class Initialized
+DEBUG - 2015-11-11 16:04:40 --> Config Class Initialized
+DEBUG - 2015-11-11 16:04:40 --> Loader Class Initialized
+DEBUG - 2015-11-11 16:04:40 --> Controller Class Initialized
+DEBUG - 2015-11-11 14:04:40 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 14:04:40 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 14:04:40 --> Session Class Initialized
+DEBUG - 2015-11-11 14:04:40 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 14:04:40 --> Session routines successfully run
+DEBUG - 2015-11-11 14:04:40 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 14:04:40 --> Database Driver Class Initialized
+ERROR - 2015-11-11 14:04:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 14:04:40 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 14:04:40 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 14:04:40 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 14:04:40 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 14:04:40 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 14:04:40 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 14:04:40 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 14:04:40 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:40 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 14:04:40 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:40 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 14:04:40 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 14:04:40 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 14:04:40 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 14:04:40 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 14:04:40 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 14:04:40 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 14:04:40 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:40 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 14:04:40 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:40 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 14:04:40 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:40 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 14:04:40 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:40 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 14:04:40 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:40 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 14:04:40 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:40 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 14:04:40 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 14:04:40 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 14:04:40 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 14:04:40 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 14:04:40 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 14:04:40 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 14:04:40 --> Final output sent to browser
+DEBUG - 2015-11-11 14:04:40 --> Total execution time: 0.0273
+DEBUG - 2015-11-11 16:04:41 --> Config Class Initialized
+DEBUG - 2015-11-11 16:04:41 --> Hooks Class Initialized
+DEBUG - 2015-11-11 16:04:41 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 16:04:41 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 16:04:41 --> URI Class Initialized
+DEBUG - 2015-11-11 16:04:41 --> Router Class Initialized
+DEBUG - 2015-11-11 16:04:41 --> Output Class Initialized
+DEBUG - 2015-11-11 16:04:41 --> Security Class Initialized
+DEBUG - 2015-11-11 16:04:41 --> Input Class Initialized
+DEBUG - 2015-11-11 16:04:41 --> XSS Filtering completed
+DEBUG - 2015-11-11 16:04:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 16:04:41 --> Language Class Initialized
+DEBUG - 2015-11-11 16:04:41 --> Language Class Initialized
+DEBUG - 2015-11-11 16:04:41 --> Config Class Initialized
+DEBUG - 2015-11-11 16:04:41 --> Loader Class Initialized
+DEBUG - 2015-11-11 16:04:41 --> Controller Class Initialized
+DEBUG - 2015-11-11 14:04:41 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 14:04:41 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 14:04:41 --> Session Class Initialized
+DEBUG - 2015-11-11 14:04:41 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 14:04:41 --> Session routines successfully run
+DEBUG - 2015-11-11 14:04:41 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 14:04:41 --> Database Driver Class Initialized
+ERROR - 2015-11-11 14:04:41 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 14:04:41 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 14:04:41 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 14:04:41 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 14:04:41 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 14:04:41 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 14:04:41 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 14:04:41 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 14:04:41 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:41 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 14:04:41 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:41 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 14:04:41 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 14:04:41 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 14:04:41 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 14:04:41 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 14:04:41 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 14:04:41 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 14:04:41 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:41 --> Final output sent to browser
+DEBUG - 2015-11-11 14:04:41 --> Total execution time: 0.0112
+DEBUG - 2015-11-11 16:04:44 --> Config Class Initialized
+DEBUG - 2015-11-11 16:04:44 --> Hooks Class Initialized
+DEBUG - 2015-11-11 16:04:44 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 16:04:44 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 16:04:44 --> URI Class Initialized
+DEBUG - 2015-11-11 16:04:44 --> Router Class Initialized
+DEBUG - 2015-11-11 16:04:44 --> Output Class Initialized
+DEBUG - 2015-11-11 16:04:44 --> Security Class Initialized
+DEBUG - 2015-11-11 16:04:44 --> Input Class Initialized
+DEBUG - 2015-11-11 16:04:44 --> XSS Filtering completed
+DEBUG - 2015-11-11 16:04:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 16:04:44 --> Language Class Initialized
+DEBUG - 2015-11-11 16:04:44 --> Language Class Initialized
+DEBUG - 2015-11-11 16:04:44 --> Config Class Initialized
+DEBUG - 2015-11-11 16:04:44 --> Loader Class Initialized
+DEBUG - 2015-11-11 16:04:44 --> Controller Class Initialized
+DEBUG - 2015-11-11 14:04:44 --> Quotes MX_Controller Initialized
+DEBUG - 2015-11-11 14:04:44 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 14:04:44 --> Session Class Initialized
+DEBUG - 2015-11-11 14:04:44 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 14:04:44 --> Session routines successfully run
+DEBUG - 2015-11-11 14:04:44 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 14:04:44 --> Database Driver Class Initialized
+ERROR - 2015-11-11 14:04:44 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 14:04:44 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 14:04:44 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 14:04:44 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 14:04:44 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 14:04:44 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 14:04:44 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 14:04:44 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 14:04:44 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:44 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 14:04:44 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:44 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 14:04:44 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 14:04:44 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 14:04:44 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 14:04:44 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 14:04:44 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 14:04:44 --> File loaded: application/modules/quotes/models/mdl_quotes.php
+DEBUG - 2015-11-11 14:04:44 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:44 --> File loaded: application/modules/quotes/models/mdl_quote_items.php
+DEBUG - 2015-11-11 14:04:44 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:44 --> File loaded: application/modules/tax_rates/models/mdl_tax_rates.php
+DEBUG - 2015-11-11 14:04:44 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:44 --> File loaded: application/modules/quotes/models/mdl_quote_tax_rates.php
+DEBUG - 2015-11-11 14:04:44 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:44 --> File loaded: application/modules/custom_fields/models/mdl_custom_fields.php
+DEBUG - 2015-11-11 14:04:44 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:44 --> File loaded: application/modules/custom_fields/models/mdl_quote_custom.php
+DEBUG - 2015-11-11 14:04:44 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:44 --> Encrypt Class Initialized
+DEBUG - 2015-11-11 14:04:44 --> File loaded: application/modules/quotes/views/modal_delete_quote.php
+DEBUG - 2015-11-11 14:04:44 --> File loaded: application/modules/quotes/views/modal_add_quote_tax.php
+DEBUG - 2015-11-11 14:04:44 --> File loaded: application/modules/layout/views/alerts.php
+DEBUG - 2015-11-11 14:04:44 --> File loaded: application/modules/quotes/views/partial_item_table.php
+DEBUG - 2015-11-11 14:04:44 --> File loaded: application/modules/quotes/views/view.php
+DEBUG - 2015-11-11 14:04:44 --> File loaded: application/modules/layout/views/layout.php
+DEBUG - 2015-11-11 14:04:44 --> Final output sent to browser
+DEBUG - 2015-11-11 14:04:44 --> Total execution time: 0.0210
+DEBUG - 2015-11-11 16:04:45 --> Config Class Initialized
+DEBUG - 2015-11-11 16:04:45 --> Hooks Class Initialized
+DEBUG - 2015-11-11 16:04:45 --> Utf8 Class Initialized
+DEBUG - 2015-11-11 16:04:45 --> UTF-8 Support Enabled
+DEBUG - 2015-11-11 16:04:45 --> URI Class Initialized
+DEBUG - 2015-11-11 16:04:45 --> Router Class Initialized
+DEBUG - 2015-11-11 16:04:45 --> Output Class Initialized
+DEBUG - 2015-11-11 16:04:45 --> Security Class Initialized
+DEBUG - 2015-11-11 16:04:45 --> Input Class Initialized
+DEBUG - 2015-11-11 16:04:45 --> XSS Filtering completed
+DEBUG - 2015-11-11 16:04:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-11-11 16:04:45 --> Language Class Initialized
+DEBUG - 2015-11-11 16:04:45 --> Language Class Initialized
+DEBUG - 2015-11-11 16:04:45 --> Config Class Initialized
+DEBUG - 2015-11-11 16:04:45 --> Loader Class Initialized
+DEBUG - 2015-11-11 16:04:45 --> Controller Class Initialized
+DEBUG - 2015-11-11 14:04:45 --> Upload MX_Controller Initialized
+DEBUG - 2015-11-11 14:04:45 --> Config file loaded: application/config/invoice_plane.php
+DEBUG - 2015-11-11 14:04:45 --> Session Class Initialized
+DEBUG - 2015-11-11 14:04:45 --> Helper loaded: string_helper
+DEBUG - 2015-11-11 14:04:45 --> Session routines successfully run
+DEBUG - 2015-11-11 14:04:45 --> Helper loaded: url_helper
+DEBUG - 2015-11-11 14:04:45 --> Database Driver Class Initialized
+ERROR - 2015-11-11 14:04:45 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/invoice/system/database/drivers/mysql/mysql_driver.php 92
+DEBUG - 2015-11-11 14:04:45 --> Helper loaded: form_helper
+DEBUG - 2015-11-11 14:04:45 --> Form Validation Class Initialized
+DEBUG - 2015-11-11 14:04:45 --> Helper loaded: number_helper
+DEBUG - 2015-11-11 14:04:45 --> Helper loaded: pager_helper
+DEBUG - 2015-11-11 14:04:45 --> Helper loaded: invoice_helper
+DEBUG - 2015-11-11 14:04:45 --> Helper loaded: date_helper
+DEBUG - 2015-11-11 14:04:45 --> Helper loaded: redirect_helper
+DEBUG - 2015-11-11 14:04:45 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:45 --> File loaded: application/modules/settings/models/mdl_settings.php
+DEBUG - 2015-11-11 14:04:45 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:45 --> Language file loaded: language/english/ip_lang.php
+DEBUG - 2015-11-11 14:04:45 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-11-11 14:04:45 --> Language file loaded: language/english/custom_lang.php
+DEBUG - 2015-11-11 14:04:45 --> Helper loaded: language_helper
+DEBUG - 2015-11-11 14:04:45 --> File loaded: application/controllers/../modules/layout/controllers/layout.php
+DEBUG - 2015-11-11 14:04:45 --> Layout MX_Controller Initialized
+DEBUG - 2015-11-11 14:04:45 --> File loaded: application/modules/upload/models/mdl_uploads.php
+DEBUG - 2015-11-11 14:04:45 --> Model Class Initialized
+DEBUG - 2015-11-11 14:04:45 --> Final output sent to browser
+DEBUG - 2015-11-11 14:04:45 --> Total execution time: 0.0130
