@@ -14,4 +14,11 @@
 
 $lang = array(
 
+"draft" => "Draft",
+"sent" => "Sent",
+"viewed" => "Won",
+"approved" => "Complete",
+"rejected" => "Lost",
+"canceled" => "Holding"
+
 );
