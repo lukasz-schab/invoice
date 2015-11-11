@@ -46,7 +46,7 @@ class Ajax extends Admin_Controller
             'products' => $products,
             'families' => $families,
             'filter_product' => $filter_product,
-            //'filter_family'  => $filter_family,
+            'filter_family'  => $filter_family,
         );
 
         $this->layout->load_view('products/modal_product_lookups', $data);

@@ -77,7 +77,7 @@
 
 									line_profit = (results[item_row]['item_price'] - results[item_row]['item_cost'])
 									* results[item_row]['item_quantity'];
-									this.innerHTML = "£" + (Math.round(line_profit * 100) / 100).tiFixed(2);
+									this.innerHTML = "£" + (Math.round(line_profit * 100) / 100).toFixed(2);
 								}		
 
 				}); //span loop	

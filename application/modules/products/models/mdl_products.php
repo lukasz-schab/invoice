@@ -44,6 +44,11 @@ class Mdl_Products extends Response_Model
         $this->db->or_like('product_description', $match);
     }
 
+    public function by_family($match)
+    {
+        $this->db->like('ip_products.family_id', $match);
+    }
+
     public function validation_rules()
     {
         return array(
