@@ -32,6 +32,143 @@
                     $('#item_table tbody:last').find('#save').remove();
                     $('#modal-choose-items').modal('hide');
                 }
+
+                $(function()
+            {
+
+                var item_row = 1;
+                var results = Array();
+
+                $('#item_table').find('.ui-sortable-handle').each(function() {
+                    results[item_row] = [];
+                        $( this ).find('input').each(function()
+                            {
+                                if (this.getAttribute('name') == 'item_quantity' || this.getAttribute('name') == 'item_price' || 
+                                    this.getAttribute('name') == 'item_cost'){
+                                    if (this.value) 
+                                        {                                   
+                                            results[item_row][this.getAttribute('name')] = this.value;
+                                            
+                                        }//if value is non-null 
+                                    } //if attr name quantity or price
+                            }); //input loop
+
+                        $( this ).find('span').each(function(){
+                                if (this.getAttribute('name') == 'subtotal' 
+                                    && results[item_row]['item_quantity'] 
+                                    && results[item_row]['item_price'])
+                                        {
+                                            subtotal = results[item_row]['item_quantity'] * results[item_row]['item_price'];
+                                            this.innerHTML = "£" + (Math.round(subtotal * 100) / 100).toFixed(2);
+                                        }
+                                        
+                                if (this.getAttribute('name') == 'item_tax_total' 
+                                    && results[item_row]['item_quantity'] 
+                                    && results[item_row]['item_price'])
+                                        {
+                                            tax = (results[item_row]['item_quantity'] * results[item_row]['item_price'])/5;
+                                            this.innerHTML = "£" + tax;
+                                        }   
+
+                                if (this.getAttribute('name') == 'item_total' 
+                                    && results[item_row]['item_quantity'] 
+                                    && results[item_row]['item_price'])
+                                        {
+                                            item_total = results[item_row]['item_quantity'] * results[item_row]['item_price'] 
+                                                         + (results[item_row]['item_quantity'] * results[item_row]['item_price'])/5;
+                                            this.innerHTML = "£" + (Math.round(item_total * 100) /100).toFixed(2);
+                                        }       
+                                if (this.getAttribute('name') == 'unit_profit' 
+                                    && results[item_row]['item_price']
+                                    && results[item_row]['item_cost'])
+                                        {
+
+                                            unit_profit = results[item_row]['item_price'] - results[item_row]['item_cost'];
+                                            this.innerHTML = "£" + (Math.round(unit_profit * 100) / 100).toFixed(2);
+                                        }
+                                if (this.getAttribute('name') == 'line_profit' 
+                                    && results[item_row]['item_price']
+                                    && results[item_row]['item_cost']
+                                    && results[item_row]['item_quantity']
+                                    )
+                                        {
+
+                                            line_profit = (results[item_row]['item_price'] - results[item_row]['item_cost'])
+                                            * results[item_row]['item_quantity'];
+                                            this.innerHTML = "£" + (Math.round(line_profit * 100) / 100).toFixed(2);
+                                        }       
+
+                        }); //span loop 
+                        item_row+=1;
+                    }); //end ui-sortable-handle loop funct
+                
+
+                //Starting the total results
+                subtotal = 0;
+                total = 0;
+                tax = 0;
+                total_cost = 0;
+                profit = 0;
+                protif_p = 0;
+                calc = 1;
+
+                for (i=3; i<item_row; i++)
+                    {
+                        //alert("Row # - " + (parseInt(i)-2) + " Quantity - " + results[i]['item_quantity'] + " Price - " +
+                        //results[i]['item_price'] + " Item Cost - " + results[i]['item_cost'] );
+                        if (!results[i]['item_quantity'] ||  !results[i]['item_price'] || !results[i]['item_cost'])
+                        calc = false;
+                    }
+
+                if (calc)
+                    {
+                        
+                        for (i=3; i<item_row; i++)
+                            {
+                                subtotal = subtotal + results[i]['item_quantity'] * results[i]['item_price'];
+                                tax = tax + (results[i]['item_quantity'] * results[i]['item_price'])/5;
+                                total_cost = total_cost + parseFloat(results[i]['item_cost'])*parseFloat(results[i]['item_quantity']);
+                                //profit = profit + (results[i]['item_price'] - results[i]['item_cost']);
+                                total = subtotal + tax;
+                            }
+
+                        //$('.table-condensed').css('background','yellow'); 
+                        
+                        $('.table-condensed.text-right td').each(function()
+                                {
+                                    if (this.innerHTML == "Nett Total") 
+                                            this.nextElementSibling.innerHTML = "£" + (Math.round(subtotal * 100) / 100).toFixed(2);
+                                    if (this.innerHTML == "VAT")
+                                            this.nextElementSibling.innerHTML = "£" + (Math.round(tax * 100) / 100).toFixed(2);
+                                    if (this.innerHTML == "<b>GROSS</b>")
+                                            this.nextElementSibling.innerHTML = "£" + (Math.round(total * 100) / 100).toFixed(2);   
+                                    if (this.innerHTML == "Total Cost Price") 
+                                            this.nextElementSibling.innerHTML = "£" + (Math.round(total_cost * 100) / 100).toFixed(2);
+                                    if (this.innerHTML == "Nett Profit") 
+                                            {
+                                                profit = subtotal - total_cost;
+                                                this.nextElementSibling.innerHTML = "£" + (Math.round(profit * 100) / 100).toFixed(2);  
+
+                                            }
+                                    if (this.innerHTML == "Profit %") 
+                                        {
+                                            //profit_p = (profit/subtotal)*100;
+                                            this.nextElementSibling.innerHTML  = (Math.round(100 * profit / total_cost 
+                                                * 100) / 100).toFixed(2) + " %";    
+                                        }
+
+                                });
+            
+                    } //end calc + modify
+
+                //end of total results
+
+            });//end of function calc :j
+
+
+
+
+
             });
         });
 

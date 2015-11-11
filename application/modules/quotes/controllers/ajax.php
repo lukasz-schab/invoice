@@ -15,7 +15,6 @@ if (!defined('BASEPATH'))
  * @link		https://invoiceplane.com
  * 
  */
-#echo "FLFF";
 class Ajax extends Admin_Controller
 {
     public $ajax_controller = TRUE;
@@ -33,14 +32,12 @@ class Ajax extends Admin_Controller
                     {
                          $db_array["product_description"] = $parameters['description'];
                     }
-            #print_r($parameters);
 
             $this->load->model('products/mdl_products');
             $this->db->insert('ip_products', $db_array);
 
             echo "The item has been added succesfully";
-           #print_r( $parameters);
-          #echo $response;  
+         
 
         }
 
