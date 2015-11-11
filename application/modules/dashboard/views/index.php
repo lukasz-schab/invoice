@@ -64,7 +64,7 @@
             </div>
 
         </div>
-        <div class="col-xs-12 col-md-6">
+        <div style="display: none;" class="col-xs-12 col-md-6">
 
             <div id="panel-invoice-overview" class="panel panel-default overview">
 
@@ -173,7 +173,7 @@
             </div>
 
         </div>
-        <div class="col-xs-12 col-md-6">
+        <div style="display: none;" class="col-xs-12 col-md-6">
 
             <div id="panel-recent-invoices" class="panel panel-default">
 
