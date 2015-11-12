@@ -54,12 +54,13 @@ class Quotes extends Admin_Controller
                 $this->mdl_quotes->is_canceled();
                 break;
         }
-
+        $this->load->model('quotes/mdl_quote_amounts');
         $this->mdl_quotes->paginate(site_url('quotes/status/' . $status), $page);
         $quotes = $this->mdl_quotes->result();
-
+        #print_r( $this->mdl_quote_amounts->get_status_totals('all-time'));
         $this->layout->set(
             array(
+                'quote_status_totals' => $this->mdl_quote_amounts->get_status_totals(),
                 'quotes' => $quotes,
                 'status' => $status,
                 'filter_display' => TRUE,

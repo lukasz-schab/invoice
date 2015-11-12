@@ -1,7 +1,7 @@
 <div id="headerbar">
 
     <h1><?php echo lang('quotes'); ?></h1>
-
+    
     <div class="pull-right">
         <button type="button" class="btn btn-default btn-sm submenu-toggle hidden-lg"
                 data-toggle="collapse" data-target="#ip-submenu-collapse">
@@ -11,7 +11,25 @@
             <i class="fa fa-plus"></i> <?php echo lang('new'); ?>
         </a>
     </div>
+ <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+ Totals - <?php 
 
+$total_per_status = 0;
+foreach ($quote_status_totals as $total) 
+    {
+        $total_per_status = $total_per_status + $total['sum_total'];
+        if ($total['class'] == $status)
+                {
+                    $total_per_status = $total['sum_total'];
+                    break;
+                }
+       
+    }
+echo $total_per_status;    
+ ?>
+
+ </h1>
     <div class="pull-right visible-lg">
         <?php echo pager(site_url('quotes/status/' . $this->uri->segment(3)), 'mdl_quotes'); ?>
     </div>
