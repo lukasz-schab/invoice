@@ -24,6 +24,7 @@
                         $('#new_row').clone().appendTo('#item_table').removeAttr('id').addClass('item').show();
                     }
                     $('#item_table tbody:last input[name=item_name]').val(items[key].product_name);
+                    $('#item_table tbody:last input[name=item_sku]').val(items[key].product_sku);
                     $('#item_table tbody:last input[name=item_description]').val(items[key].product_description);
                     $('#item_table tbody:last input[name=item_price]').val(items[key].product_price);
                     $('#item_table tbody:last input[name=item_quantity]').val('1');

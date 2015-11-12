@@ -19,6 +19,6 @@ $lang = array(
 "viewed" => "Won",
 "approved" => "Complete",
 "rejected" => "Lost",
-"canceled" => "Holding"
-
+"canceled" => "Holding",
+"all_time" => "All Time"
 );

@@ -92,8 +92,11 @@ class Ajax extends Admin_Controller
             } else {
                 $quote_discount_percent = $this->input->post('quote_discount_percent');
             }
-
+            
             $db_array = array(
+                'quote_total_cost' => $this->input->post('quote_total_cost'),
+                'quote_nett_profit' => $this->input->post('quote_nett_profit'),
+                'quote_total_profit' => $this->input->post('quote_total_profit'),
                 'quote_number' => $this->input->post('quote_number'),
                 'quote_date_created' => date_to_mysql($this->input->post('quote_date_created')),
                 'quote_date_expires' => date_to_mysql($this->input->post('quote_date_expires')),

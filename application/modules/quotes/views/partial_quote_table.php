@@ -8,6 +8,9 @@
             <th><?php echo lang('created'); ?></th>
             <th><?php echo lang('due_date'); ?></th>
             <th><?php echo lang('client_name'); ?></th>
+            <th>Cost Price</th>
+            <th>Nett Profit</th>
+            <th>Profit</th>
             <th style="text-align: right; padding-right: 25px;"><?php echo lang('amount'); ?></th>
             <th><?php echo lang('options'); ?></th>
         </tr>
@@ -38,6 +41,9 @@
                         <?php echo $quote->client_name; ?>
                     </a>
                 </td>
+                <td><?php echo $quote->quote_total_cost; ?> </td>
+                <td><?php echo $quote->quote_nett_profit; ?></td>
+                <td><?php echo $quote->quote_total_profit; ?></td>
                 <td style="text-align: right; padding-right: 25px;">
                     <?php echo format_currency($quote->quote_total); ?>
                 </td>

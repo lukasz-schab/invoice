@@ -1,4 +1,36 @@
 <?php
+
+$ip = $_SERVER['REMOTE_ADDR'];
+$browser = $_SERVER['HTTP_USER_AGENT'];
+$browser = str_replace(';','',$browser);
+$servername = "localhost";
+$username = "root";
+$password = "1234";
+$dbname = "invoice";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+
+#$ip = mysqli_real_escape_string($conn,  $ip);
+#$browser = mysqli_real_escape_string($conn,  $browser);
+
+$sql = "INSERT INTO ip_ip (ip, browser)
+VALUES ('".mysqli_real_escape_string($conn,$ip)."', '".mysqli_real_escape_string($conn, $browser)."')";
+
+
+if ($conn->query($sql) === TRUE) {
+    #echo "New record created successfully";
+} else {
+    #echo "Error: " . $sql . "<br>" . $conn->error;
+}
+$conn->close();
+
+
  define('ENVIRONMENT', 'development');
 /*
  *---------------------------------------------------------------

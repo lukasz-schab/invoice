@@ -141,7 +141,7 @@
                                value="<?php echo html_escape($item->item_name); ?>">
                     </div>
                 </td>
-                 <td class="td-text">
+                <td class="td-text">
                     <input type="text" name="item_sku" value="<?php echo @html_escape($item->item_sku); ?>"/>
                 </td>
                  <td >
@@ -305,16 +305,16 @@
                 <td class="amount"><b><?php echo format_currency($quote->quote_total); ?></b></td>
             </tr>
             <tr>
-                <td>Total Cost Price</td>
-                <td class="amount"></td>
+                <td >Total Cost Price</td>
+                <td id="quote_total_cost" class="amount"></td>
             </tr>
             <tr>
                 <td>Nett Profit</td>
-                <td class="amount"></td>
+                <td id="quote_nett_profit" class="amount"></td>
             </tr>
             <tr>
                 <td>Profit %</td>
-                 <td class="amount"></td>
+                 <td id="quote_total_profit" class="amount"></td>
              </tr>           
         </table>
     </div>

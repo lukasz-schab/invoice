@@ -108,6 +108,11 @@ class Mdl_Quotes extends Response_Model
     public function validation_rules()
     {
         return array(
+            'quote_total_cost' => array(
+                'field' => 'quote_total_cost',
+                'label' => 'quote_total_cost',
+                'rules' => ''
+            ),
             'client_name' => array(
                 'field' => 'client_name',
                 'label' => lang('client'),
@@ -138,6 +143,11 @@ class Mdl_Quotes extends Response_Model
     public function validation_rules_save_quote()
     {
         return array(
+            'quote_total_cost' => array(
+                'field' => 'quote_total_cost',
+                'label' => 'quote_total_cost',
+                'rules' => ''
+            ),
             'quote_number' => array(
                 'field' => 'quote_number',
                 'label' => lang('quote_number'),
@@ -162,6 +172,7 @@ class Mdl_Quotes extends Response_Model
 
     public function create($db_array = NULL)
     {
+        
         $quote_id = parent::save(NULL, $db_array);
 
         // Create an quote amount record

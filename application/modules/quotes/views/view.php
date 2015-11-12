@@ -47,6 +47,8 @@
 	    							{
 				      					if (status === 'success') 
 				      						{
+				      							$('.save_this').removeClass("save_this");
+				      							$('#item_table tbody:last').find('#save').remove();
 						         				//$('#notification').text(responseText);
 						      				} 
 						      			else 
@@ -354,8 +356,13 @@
                 item_order++;
                 items.push(row);
             });
-        
+
+
+            
             $.post("<?php echo site_url('quotes/ajax/save'); ?>", {
+            		quote_total_cost: $('#quote_total_cost').text(),
+            		quote_nett_profit: $('#quote_nett_profit').text(),
+            		quote_total_profit: $('#quote_total_profit').text(),
                     quote_id: <?php echo $quote_id; ?>,
                     quote_number: $('#quote_number').val(),
                     quote_date_created: $('#quote_date_created').val(),

@@ -198,6 +198,8 @@
                             <?php if ($this->mdl_settings->setting('quote_overview_period') == 'this-year') { ?>selected="selected"<?php } ?>><?php echo lang('this_year'); ?></option>
                     <option value="last-year"
                             <?php if ($this->mdl_settings->setting('quote_overview_period') == 'last-year') { ?>selected="selected"<?php } ?>><?php echo lang('last_year'); ?></option>
+                             <option value="all-time"
+                            <?php if ($this->mdl_settings->setting('quote_overview_period') == 'all-time') { ?>selected="selected"<?php } ?>><?php echo lang('all_time') ?></option>
                 </select>
             </div>
         </div>

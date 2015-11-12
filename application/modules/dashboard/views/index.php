@@ -46,6 +46,7 @@
                 </div>
 
                 <table class="table table-bordered table-condensed no-margin">
+                <?php #print_r($quote_status_totals); ?>
                     <?php foreach ($quote_status_totals as $total) { ?>
                         <tr>
                             <td>
