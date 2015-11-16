@@ -13,7 +13,7 @@
     </div>
  <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  
- Totals - <?php 
+ Total Quotation Amount - <?php 
 
 $total_per_status = 0;
 foreach ($quote_status_totals as $total) 
@@ -26,7 +26,22 @@ foreach ($quote_status_totals as $total)
                 }
        
     }
-echo $total_per_status;    
+echo "£".$total_per_status;
+
+$total_nett_profit = 0;
+foreach ($quotes as $quote)
+{
+    preg_match_all('!\d+!', $quote->quote_nett_profit, $matches);
+    
+   # print_r($matches);
+    #echo $matches[0][0];
+    #echo $matches[0][1];
+    @$nr = $matches[0][0].".".$matches[0][1];
+
+    #echo $quote->quote_nett_profit;
+    $total_nett_profit  = $total_nett_profit + $nr;
+}   
+echo "&nbsp; &nbsp; &nbsp; &nbsp; Total Nett Profit - £$total_nett_profit";  
  ?>
 
  </h1>

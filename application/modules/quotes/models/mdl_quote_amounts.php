@@ -113,7 +113,7 @@ class Mdl_Quote_Amounts extends CI_Model
             $quote_amount = $this->db->where('quote_id', $quote_id)->get('ip_quote_amounts')->row();
 
             // Recalculate the quote total
-            $quote_total = $quote_amount->quote_item_subtotal + $quote_amount->quote_item_tax_total + $quote_amount->quote_tax_total;
+            $quote_total = $quote_amount->quote_item_subtotal + $quote_amount->quote_item_tax_total; #+ $quote_amount->quote_tax_total;
 
             $quote_total = $this->calculate_discount($quote_id, $quote_total);
 
