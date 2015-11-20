@@ -48,7 +48,8 @@
                                     this.getAttribute('name') == 'item_cost'){
                                     if (this.value) 
                                         {                                   
-                                            results[item_row][this.getAttribute('name')] = this.value;
+                                            new_val = this.value.replace(/\,/g,'');
+                                            results[item_row][this.getAttribute('name')] = new_val; //this.value;
                                             
                                         }//if value is non-null 
                                     } //if attr name quantity or price
