@@ -26,13 +26,14 @@
 											{
 												if (!this.value)
 													  {
+
 													    $('#notification').text("The " +
 													    	this.getAttribute('name') + 
 													    	" can not be left empty");
 													    send = 0;
 													    return false;
 													  }
-												str = str + "&" + this.getAttribute('name') + "=" + this.value; 	  
+												str = str + "&" + this.getAttribute('name') + "=" + encodeURI(this.value); 	  
 
 											}
 								if (this.getAttribute('name') == 'item_description')
