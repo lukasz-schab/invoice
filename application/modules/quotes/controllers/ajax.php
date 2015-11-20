@@ -271,7 +271,7 @@ class Ajax extends Admin_Controller
             'quote_id' => $this->input->post('quote_id'),
             'quote' => $this->mdl_quotes->where('ip_quotes.quote_id', $this->input->post('quote_id'))->get()->row()
         );
-
+        
         $this->layout->load_view('quotes/modal_copy_quote', $data);
     }
 
