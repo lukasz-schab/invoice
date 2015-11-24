@@ -38,7 +38,7 @@
 											}
 								if (this.getAttribute('name') == 'item_description')
 								{
-									str = str + "&description="	+ this.value; 		 
+									str = str + "&description="	+ encodeURI(this.value); 		 
 								}
 						    });					
 	    		if (send)
